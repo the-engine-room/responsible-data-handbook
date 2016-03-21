@@ -17,3 +17,8 @@ github_username:  the-engine-room
 # Build settings
 markdown: kramdown
 
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
