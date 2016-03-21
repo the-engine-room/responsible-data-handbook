@@ -6,13 +6,13 @@ num: 5
 asset-link: 05-understanding-data
 ---
 
-##Target audience: 
+##<span id="target-audience">Target audience</span>:
 Those who will be working directly with the data, perhaps those with a data science or computer science background, to help them think through the ethical issues that should be considered. 
 
-##When might this chapter be useful? 
+##<span id="useful">When might this chapter be useful?</span>:
 Once the data has been collected, as cleaning, preparing and verifying data is discussed in this section. 
 
-##Content summary:
+##<span id="content-summary">Content summary</span>:
 
 ### verifying and cleaning data
 
@@ -32,7 +32,7 @@ All data, no matter how it is collected, will contain a certain amount of **bias
 
 Specific points that are useful to consider for spotting potential bias are explored here, such as thinking about the **sample** of people from whom data was collected, or cultural biases within the way the collection process was structured. It's good to be on the look out here for any **outliers** within your dataset that might skew your result - that is, datapoints that might represent human or machine errors. Getting expert opinions from those with deeper topical or cultural expertise of where you're working is a good way to verify your findings before moving on, too.
 
-##Useful resources:
+##<span id="useful-resources">Useful resources</span>:
 The Verification Handbook http://verificationhandbook.com 
 The Citizen Evidence Lab http://citizenevidence.org/
 "A gentle introduction to cleaning data" http://schoolofdata.org/handbook/courses/data-cleaning/ 

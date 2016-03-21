@@ -1,38 +1,24 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+    <div class="row">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+      <div class="col-md-6">
+          <img src="{{ "/assets/img/creativecommons_logo.png" | prepend: site.baseurl }}" />
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+          <p>Licensed under Creative Commons Attribution-ShareAlike 4.0 International License. (CC-BY-SA 4.0)</p>
+
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+      <div class="col-md-6">
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+          <img src="{{ "/assets/img/engineroom.png" | prepend: site.baseurl }}" />
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+        <div class="datadesc">
+          <p>Responsible Data Reflection Stories, 2016. This publication is part series found at <a href="https://responsibledata.io" target="_blank">https://responsibledata.io</a>, produced by the engine room Responsible Data Program, 2016.</p>
+
+
+        </div>
+
     </div>
-
-  </div>
 
 </footer>

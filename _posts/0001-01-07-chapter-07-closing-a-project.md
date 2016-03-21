@@ -6,13 +6,13 @@ num: 7
 asset-link: 07-closing-a-project
 ---
 
-##Target audience: 
+##<span id="target-audience">Target audience</span>:
 Project managers who are coming towards the end of a project 
 
-##When might this chapter be useful?
+##<span id="useful">When might this chapter be useful?</span>:
 When you're approaching the end of the project, but still have a little time left on it for some final decisions around archiving and preservation of content. 
 
-##Content summary:
+##<span id="content-summary">Content summary</span>:
 
 This chapter addresses an oft-forgotten part of the project: the end of it. Too often, the data that is produced during a project is left to one side during the rush of ending a project, but in this section we suggest that deciding what to do with the data after it has served its purpose is an integral part of the project design process. 
 
@@ -22,7 +22,7 @@ If the data in question is very large, substantial data infrastructure may well 
 
 Though it might be easy to forget, what happens to the data at the end of a project can make a huge difference to how the project is referenced, how its legacy lives on (to inform other projects, or not) - and, most crucially, to how the people referenced in the data are treated.
 
-##Useful Resources:
+##<span id="useful-resources">Useful resources</span>:
 Archivists' Guide to Archiving Video (WITNESS) http://archiveguide.witness.org/ and a video on this topic http://blog.witness.org/2014/10/video-series-archiving-and-preservation-activists/
 New Tactics online discussion on archiving for human rights advocacy, justice and memory https://www.newtactics.org/conversation/archiving-human-rights-advocacy-justice-and-memory
 The Open Society Archives http://www.osaarchivum.org/

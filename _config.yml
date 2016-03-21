@@ -9,8 +9,11 @@
 title: Responsible Data Handbook 
 email: contact@responsibledata.io
 description: A primer on why Responsible Data is a relevant concern for international development work. 
+
+
 baseurl: "/responsible-data-handbook" # the subpath of your site, e.g. /blog
 url: "http://the-engine-room.github.io" # the base hostname & protocol for your site
+
 twitter_username: engnroom
 github_username:  the-engine-room
 
@@ -18,7 +21,12 @@ github_username:  the-engine-room
 markdown: kramdown
 kramdown: 
   parse_block_html: true
+
+#Permalink dictates url slugs, changing styles of slugs in _posts folder to not use "date" constructoin
 permalink: /:categories/:title.html
+
+
+#exclude from _site dir created by `jekyll build`
 exclude:
   - .gitignore
   - README.md

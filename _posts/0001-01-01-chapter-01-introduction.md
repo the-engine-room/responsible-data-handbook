@@ -6,13 +6,13 @@ num: 1
 asset-link: 01-introduction
 ---
 
-##Target audience:
+##<span id="target-audience">Target audience</span>:
 A primer on why **responsible data** is a relevant concern for international development work. 
 
-##When might this chapter be useful?
+##<span id="useful">When might this chapter be useful?</span>:
 If you’re wondering what materials this book offers or if you’re looking for advocacy material as to why your colleagues or managers should be interested in responsible data.
 
-##Content summary:
+##<span id="content-summary">Content summary</span>:
 
 ### Am I Working with Data? 
 
@@ -36,7 +36,7 @@ To put this in perspective, the chapter touches quickly upon a few of the harms 
 
 Often, these advocacy strategies can be met with misconceptions around what responsibility means in this sense, and the very real harm that can be done with misuse of data. A few of the most common misconceptions are addressed here, such as misunderstandings around what **anonymisation** actually means in practice; around what data constitutes **sensitive** data; and different understandings of what **privacy** really means.
 
-##Useful resources:
+##<span id="useful-resources">Useful resources</span>:
 The "Am I working with data" flowchart is a fun way to help almost anybody realise that "working with data" is not only for the more technical among us, but can also include words, photos, books - all sorts of things that almost all of us interact with on a daily basis. 
 
 [Donor code of conduct](http://www.ssireview.org/blog/entry/a_new_donor_code_of_conduct)

@@ -4,16 +4,15 @@ title:  Sharing Data
 categories: chapters
 num: 6
 asset-link: 06-sharing-data
-
 ---
 
-##Target audience:
+##<span id="target-audience">Target audience</span>:
 Those who are managing how the data will be dealt with once it has been analysed, making decisions on how it will be shared or published, the licenses that will be used, and how it might eventually get presented. 
 
-##When might this chapter be useful? 
+##<span id="useful">When might this chapter be useful?</span>:
 When you're considering what to do with the raw data you have collected, or the data that you have analysed; is it appropriate to be made public, or shared with a smaller group of allies? 
 
-##Content summary:
+##<span id="content-summary">Content summary</span>:
 
 The benefits and limitations of sharing or publishing data are discussed in detail here. Being 'open by default' might be useful in some situations, but when working with sensitive data, it's better to err on the side of prudence before making absolutely sure that no sensitive or potentially harmful data is being released into the open.
 
@@ -40,7 +39,7 @@ No data is neutral, and normally when you present data you want to convey a spec
 
 This section offers a very brief overview of "do's" and "don'ts" when it comes to presenting your data, though diving into the details around ethically and responsibly visualising data lies way beyond the scope of this book. For more on this topic, we suggest referring to the accompanying suggested resources. 
 
-##Useful resources:
+##<span id="useful-resources">Useful resources</span>:
 'License Chooser' which will help you pick the right license for you: https://creativecommons.org/choose/
 Frequently Asked Questions about the Open Data Commons licenses: http://opendatacommons.org/faq/licenses/#General
 More information on Open Data Licensing: http://opendefinition.org/guide/data/
