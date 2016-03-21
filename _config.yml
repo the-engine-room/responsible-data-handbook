@@ -18,7 +18,7 @@ github_username:  the-engine-room
 markdown: kramdown
 kramdown: 
   parse_block_html: true
-
+permalink: /:categories/:title.html
 exclude:
   - .gitignore
   - README.md

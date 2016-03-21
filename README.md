@@ -1,23 +1,22 @@
-###The Engine Room
+#The Engine Room
 
-##Responsible Data
+##Responsible Data Handbook
 
-This is the source code for the Engine Room's Responsible Data Handbook contents. It is developed using Jekyll and GH-pages. 
+This is the source code for the [Engine Room's](https://www.theengineroom.org/) Responsible Data Handbook. It is developed using Jekyll and GH-pages. At the close of development, the handbook will live within the [Responsible Data](https://responsibledata.io) infrastructure. 
 
 ##Development
 
 Build the site as follows: 
 
 On OSx: 
-
 1. [install rvm](https://rvm.io/rvm/install)
 2. `git clone https://github.com/the-engine-room/responsible-data-handbook.git`
 3. `cd responsible-data-handbook`
 4. `rvm use 2.1.2`
 5.  Install dependencies with [bundle](https://rvm.io/integration/bundler): `bundle install`
 6.  `jekyll build --safe` to recompile and obtain resulting _site build for production
-7. `jekyll serve -w` to run locally with site regenerated on file updates; site will be live at `localhost:4000/responsible-data-handbook/` 
-    - `/responsible-data-handbook/` is the baseurl as defined in `_config.yml`
+7. `jekyll serve --w` to run locally with site regenerated on file updates; site will be live at `localhost:4000/responsible-data-handbook/` 
+    - `/responsible-data-handbook/` is the `baseurl` as defined in `_config.yml`
 
 *note that the _site/ build  is in .gitignore; see gh-pages below*
 
