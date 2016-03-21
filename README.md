@@ -11,9 +11,10 @@ Build the site as follows:
 On OSx: 
 
 1. [install rvm](https://rvm.io/rvm/install)
-2. `git clone https://github.com/the-engine-room/responsible-data-handbook.git`3. `cd responsible-data-handbook`
+2. `git clone https://github.com/the-engine-room/responsible-data-handbook.git`
+3. `cd responsible-data-handbook`
 4. `rvm use 2.1.2`
-5.  `[bundle](https://rvm.io/integration/bundler) install`
+5.  Install dependencies with [bundle](https://rvm.io/integration/bundler): `bundle install`
 6.  `jekyll build --safe` to recompile and obtain resulting _site build for production
 7. `jekyll serve -w` to run locally with site regenerated on file updates
 
