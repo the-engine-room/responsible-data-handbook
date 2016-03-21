@@ -10,7 +10,7 @@ title: Responsible Data Handbook
 email: contact@responsibledata.io
 description: A primer on why Responsible Data is a relevant concern for international development work. 
 baseurl: "/responsible-data-handbook" # the subpath of your site, e.g. /blog
-url: "https://the-engine-room.github.io" # the base hostname & protocol for your site
+url: "http://the-engine-room.github.io" # the base hostname & protocol for your site
 twitter_username: engnroom
 github_username:  the-engine-room
 
