@@ -3,7 +3,12 @@ layout: post
 title:  Introduction
 categories: chapters
 num: 1
-asset-link: 01-introduction
+asset-link: introduction-01
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 ---
 
 ##<span id="target-audience">Target audience</span>:

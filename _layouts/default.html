@@ -9,9 +9,27 @@
   <div class="container">
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="row">
+
+
+      {% if page.layout == "post" %}
+          <div class="col-md-3">
+            {% include sidemenu.html %}
+          </div>
+
+          <div class="col-md-9">
+              {{ content }}
+          </div>
+
+      {% else %}
+
+            {{ content }}
+      
+      {% endif %}
+
+  
       </div>
+    
     </div>
 
     {% include footer.html %}

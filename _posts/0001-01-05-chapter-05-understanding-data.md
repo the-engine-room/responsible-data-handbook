@@ -3,7 +3,12 @@ layout: post
 title:  Undestanding Data
 categories: chapters
 num: 5
-asset-link: 05-understanding-data
+asset-link: understanding-data-05
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 ---
 
 ##<span id="target-audience">Target audience</span>:

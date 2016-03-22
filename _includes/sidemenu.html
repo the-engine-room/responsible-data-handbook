@@ -1,0 +1,45 @@
+<div id="sidemenu">
+
+
+	<div class="title">
+		<img src="{{ "/assets/img/title-2.png" | prepend: site.baseurl }}" />
+	</div>
+
+
+	<div class="index">
+		<a href="{{ "/" | prepend: site.baseurl }}"><h5>Back to INDEX</h5></a>
+
+	</div>
+
+	<div class="download">
+		<a href="{{ "/assets/pdf/" | prepend: site.baseurl | append: page.asset-link }}.pdf"><h6>
+			Download Chapter
+		</h6></a>
+	</div>
+
+	<div class="contentnav">
+		<ul>
+
+		{% assign nav = page.nav %}
+
+			{% for n in nav %}
+
+
+				<li><a href="#{{ n | split: " "| join: "-" | downcase }}">{{ n }}</a></li>
+
+			{% endfor %}
+
+		</ul>
+
+		<div class="curls">
+			<img src="{{ "/assets/img/curls-2.png" | prepend: site.baseurl }}" />
+		</div>
+
+	</div>
+
+
+
+
+
+
+</div>

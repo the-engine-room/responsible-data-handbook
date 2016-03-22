@@ -4,7 +4,12 @@ title: Designing a Project
 subtitle: Designing Responsible Projects
 categories: chapters
 num: 2
-asset-link: 02-designing-a-project
+asset-link: designing-a-project-02
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 
 ---
 

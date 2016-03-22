@@ -3,7 +3,12 @@ layout: post
 title:  Getting Data
 categories: chapters
 num: 4
-asset-link: 04-getting-data
+asset-link: getting-data-04
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 ---
 
 ##<span id="target-audience">Target audience</span>:

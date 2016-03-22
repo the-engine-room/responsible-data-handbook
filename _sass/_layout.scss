@@ -146,6 +146,50 @@
     #heading .cerchez-slider .slider .item .caption span.text { font-size: 1.5em; }
 }
 
+/**
+    * Side menu
+*/
+
+#sidemenu{
+    .title img{
+        width: 220px;
+    }
+
+    .index{
+        margin: 20px 40px 20px 0;
+        padding: 30px;
+        border: 1px solid;
+    }
+
+    .download{
+        margin: 20px 40px 20px 0;
+        padding: 30px;
+        border: 1px solid;
+    }
+    
+    .contentnav{
+        ul{
+            width: 60%;
+            float: left;
+            padding: 0;
+            margin: 0;
+            li{
+                list-style-type: none;
+                padding-left: 0;
+            }
+        }
+
+        .curls{
+            position: absolute;
+            left: 200px;
+            z-index: 1000;
+            margin:0;
+        }
+
+        height: 600px;
+    }
+
+}
 
 /**
  * Site footer

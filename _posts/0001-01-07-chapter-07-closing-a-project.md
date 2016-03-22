@@ -3,7 +3,12 @@ layout: post
 title:  Closing a Project
 categories: chapters
 num: 7
-asset-link: 07-closing-a-project
+asset-link: closing-a-project-07
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 ---
 
 ##<span id="target-audience">Target audience</span>:

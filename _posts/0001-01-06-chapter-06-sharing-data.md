@@ -3,7 +3,12 @@ layout: post
 title:  Sharing Data
 categories: chapters
 num: 6
-asset-link: 06-sharing-data
+asset-link: sharing-data-06
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 ---
 
 ##<span id="target-audience">Target audience</span>:

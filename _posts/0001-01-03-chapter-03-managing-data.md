@@ -3,7 +3,12 @@ layout: post
 title:  Managing Data
 categories: chapters
 num: 3
-asset-link: 03-managing-data
+asset-link: managing-data-03
+nav: 
+    - Target audience
+    - When might this chapter be useful? 
+    - Content summary
+    - Useful resources
 ---
 
 ##<span id="target-audience">Target audience</span>:
