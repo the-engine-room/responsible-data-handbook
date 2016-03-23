@@ -15,7 +15,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 Those who are managing how the data will be dealt with once it has been analysed, making decisions on how it will be shared or published, the licenses that will be used, and how it might eventually get presented. 
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 When you're considering what to do with the raw data you have collected, or the data that you have analysed; is it appropriate to be made public, or shared with a smaller group of allies? 
 
 ##<span id="content-summary">Content summary</span>:

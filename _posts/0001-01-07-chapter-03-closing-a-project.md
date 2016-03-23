@@ -15,7 +15,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 Project managers who are coming towards the end of a project 
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 When you're approaching the end of the project, but still have a little time left on it for some final decisions around archiving and preservation of content. 
 
 ##<span id="content-summary">Content summary</span>:

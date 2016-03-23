@@ -15,7 +15,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 Project planners who are getting down to the data details; thinking through what kinds of data the project will need and how to get that data. Issues associated with using datasets from other people are addressed here, as well as things to consider when collecting new data, respecting **data minimisation** principles. Finally, a comprehensive section on **consent** might be of use for those who are wondering what **meaningful consent** actually looks like.
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 When you’re getting down into the details of collecting data for your project. 
 
 ##<span id="content-summary">Content summary</span>:

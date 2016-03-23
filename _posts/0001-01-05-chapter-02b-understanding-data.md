@@ -15,7 +15,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 Those who will be working directly with the data, perhaps those with a data science or computer science background, to help them think through the ethical issues that should be considered. 
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 Once the data has been collected, as cleaning, preparing and verifying data is discussed in this section. 
 
 ##<span id="content-summary">Content summary</span>:

@@ -15,7 +15,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 Those who are making decisions, or advising others, on how to go about managing data; from the very basics of deciding where and how to store it, to who has access to it, how it is managed on an ongoing basis, and broad legal considerations to bear in mind. 
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 In advance of actually collecting any data, the chapter contains information that might be useful to consider when setting up the 'data infrastructure'.
 
 ##<span id="content-summary">Content summary</span>:

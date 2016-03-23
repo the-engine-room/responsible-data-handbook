@@ -1,5 +1,3 @@
-@import "bootstrap";
-
 /**
  * Reset some basic elements
  */
@@ -206,3 +204,21 @@ pre {
         }
     }
 }
+
+/** Fonts on persistent elements **/
+h2, .contentnav a,h5, .filter-group li, h6{
+    font-family: $bold-font-family;
+}
+
+h1, .index h5, .download h6, .post-header h3{
+    font-family: $title-font-family;
+}
+
+.wrapperhead li a{
+    font-family: $menu-font-family;
+}
+
+p strong{
+    font-family: $fancy-font-family;
+}
+

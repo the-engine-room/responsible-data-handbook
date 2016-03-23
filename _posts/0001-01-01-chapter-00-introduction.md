@@ -15,7 +15,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 A primer on why **responsible data** is a relevant concern for international development work. 
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 If you’re wondering what materials this book offers or if you’re looking for advocacy material as to why your colleagues or managers should be interested in responsible data.
 
 ##<span id="content-summary">Content summary</span>:

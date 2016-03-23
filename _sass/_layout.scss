@@ -89,7 +89,6 @@
 
 #header li a{
     text-transform: uppercase;
-    font-family: "Montserrat" ;
 }
 
 @media (min-width: 768px) {
@@ -158,13 +157,35 @@
     .index{
         margin: 20px 40px 20px 0;
         padding: 30px;
-        border: 1px solid;
+        border: 1px solid $red-color;
+
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+
+        }
+        h5{
+            color: $red-color;
+
+        }
     }
 
     .download{
         margin: 20px 40px 20px 0;
         padding: 30px;
-        border: 1px solid;
+        border: 1px solid $red-color;
+        h6{
+            color: $red-color;
+            text-transform: uppercase;
+        }
+
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+
+        }
     }
 
     .contentnav{
@@ -176,6 +197,10 @@
             li{
                 list-style-type: none;
                 padding-left: 0;
+                a{
+                    font-variant: small-caps;
+                    color: $black-color;
+                }
             }
         }
 
@@ -234,10 +259,6 @@
     }
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
 
 .post-link {
     display: block;
@@ -251,15 +272,25 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    h3{
+        color: $red-color;
+        text-transform: uppercase;
+        font-size: 40px;
+        text-align: center;
+    }
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 80px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $red-color;
+    text-align: center;
+    text-transform: uppercase;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 40px;
     }
 }
 
@@ -268,6 +299,8 @@
 
     h2 {
         font-size: 32px;
+        color: $red-color;
+        font-variant: small-caps;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -287,6 +320,19 @@
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+
+    p strong{
+        color: $red-color;
+    }
+
+    p a{
+        color: $red-color;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: none;
         }
     }
 }
@@ -328,6 +374,13 @@ img.chapterthumb, .thumb img{
 
 
 .fullbook{
+    p strong{
+        color: $red-color;
+    }
+    
+    h5{
+        color: $red-color;
+    }
     .link{
         float: left;
         height: 220px;
@@ -357,7 +410,15 @@ img.chapterthumb, .thumb img{
             display: inline-block;
             list-style-type: none;
             cursor: pointer;
+
+            &:hover{
+                color: $red-color;
+            }
         }
+    }
+
+    .active{
+        color: $red-color;
     }
 }
 
@@ -374,5 +435,18 @@ img.chapterthumb, .thumb img{
             max-height: 400px;
             padding: 10px 0;
         }
+
+        a{
+            text-transform: uppercase;
+            color: $black-color;
+
+            &:hover{
+                color: $red-color;
+                text-decoration: none;
+            }
+
+        }
+
+
     }
 }
