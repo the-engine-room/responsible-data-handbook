@@ -5,10 +5,19 @@ layout: default
 <div class="home">
 
     <div class="homehead row">
-      <img class="title" src="{{ "/assets/img/title-1.png" | prepend: site.baseurl }}" />
+      <div class="col-md-3"></div>
+
+      <div class="col-md-6">
+        <img class="title" src="{{ "/assets/img/title-1.png" | prepend: site.baseurl }}" />
+      </div>
+
+      <div class="col-md-3"></div>
+
     </div>
 
     <div class="fullbook row">
+        <div class="col-md-1"></div>
+
         <div class="col-md-4">
           <img class="link" src="{{ "/assets/img/bold-line.png" | prepend: site.baseurl }}" />
           
@@ -28,10 +37,12 @@ layout: default
       
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-6">
           {% capture index-text %}{% include about.md %}{% endcapture %}
                 <p>{{ index-text | markdownify }}</p>
         </div>
+
+        <div class="col-md-1"></div>
     
     </div>
 

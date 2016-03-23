@@ -295,7 +295,12 @@
  * Browse Chapters at bottom of posts
 **/
 
-
+h5.browse{
+    margin: 0 10px 20px 10px;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid $red-color;
+}
 
 a.browselink:hover{
     text-decoration: none;
@@ -309,6 +314,15 @@ img.chapterthumb, .thumb img{
 /**
 * Index 
 **/
+
+
+/* title */
+
+.homehead{
+    .title{
+        margin: 10px 0 50px 0;
+    }
+}
 
 /* Full download */
 
@@ -334,8 +348,14 @@ img.chapterthumb, .thumb img{
 }
 
 .filter-group{
+
     ul{
+        margin: 30px 0 0 0;
+        padding: 20px 0;
+        border-bottom: 3px solid $black-color;
         li{
+            display: inline-block;
+            list-style-type: none;
             cursor: pointer;
         }
     }
@@ -343,16 +363,16 @@ img.chapterthumb, .thumb img{
 
 .grid{
 
-    width: 85%;
-    margin: 0 auto;
+
     .grid-item{
         width: 30%;
-        height: 400px; 
-        padding: 30px;
+        height: 450px; 
+        padding: 5px 10px 30px 10px;
+        margin: 0 10px;
 
         img{
-            max-height: 350px;
-            padding: 10px;
+            max-height: 400px;
+            padding: 10px 0;
         }
     }
 }
