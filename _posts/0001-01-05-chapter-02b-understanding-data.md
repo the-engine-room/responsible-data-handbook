@@ -39,8 +39,12 @@ All data, no matter how it is collected, will contain a certain amount of **bias
 Specific points that are useful to consider for spotting potential bias are explored here, such as thinking about the **sample** of people from whom data was collected, or cultural biases within the way the collection process was structured. It's good to be on the look out here for any **outliers** within your dataset that might skew your result - that is, datapoints that might represent human or machine errors. Getting expert opinions from those with deeper topical or cultural expertise of where you're working is a good way to verify your findings before moving on, too.
 
 ##<span id="useful-resources">Useful resources</span>:
-The Verification Handbook http://verificationhandbook.com 
-The Citizen Evidence Lab http://citizenevidence.org/
-"A gentle introduction to cleaning data" http://schoolofdata.org/handbook/courses/data-cleaning/ 
-"A gentle introduction to exploring and understanding your data" http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/
-The IATI Registry http://www.iatiregistry.org
+* [The Verification Handbook](http://verificationhandbook.com)
+
+* [The Citizen Evidence Lab](http://citizenevidence.org/)
+
+* "A [gentle introduction](http://schoolofdata.org/handbook/courses/data-cleaning/ ) to cleaning data" from the School of Data. 
+
+* "A [gentle introduction](http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/) to exploring and understanding your data" from the School of Data. 
+  
+* [The IATI Registry](http://www.iatiregistry.org)

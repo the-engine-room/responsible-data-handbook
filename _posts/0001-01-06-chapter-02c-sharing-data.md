@@ -46,12 +46,20 @@ No data is neutral, and normally when you present data you want to convey a spec
 This section offers a very brief overview of "do's" and "don'ts" when it comes to presenting your data, though diving into the details around ethically and responsibly visualising data lies way beyond the scope of this book. For more on this topic, we suggest referring to the accompanying suggested resources. 
 
 ##<span id="useful-resources">Useful resources</span>:
-'License Chooser' which will help you pick the right license for you: https://creativecommons.org/choose/
-Frequently Asked Questions about the Open Data Commons licenses: http://opendatacommons.org/faq/licenses/#General
-More information on Open Data Licensing: http://opendefinition.org/guide/data/
-More information about IATI:  http://www.aidtransparency.net/about
-The UK Anonymisation Network provides consultation and training for NGOs.
-Anonymization guide produced by the UK Information Commissioner's Office http://ico.org.uk/~/media/documents/library/Data_Protection/Practical_application/an onymisation-codev2.pdf
-Mushon Zer Aviv's short essay "How to lie with data visualisation": https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis
-TacticalTech's Visualising Information for Advocacy guide: http://visualisingadvocacy.org
-School of Data’s Visualizing Data course: http://schoolofdata.org/
+
+* ['License Chooser'](https://creativecommons.org/choose/) which will help you pick the right license for you from Creative Commons. 
+
+* [Frequently Asked Questions](http://opendatacommons.org/faq/licenses/#General) about the Open Data Commons licenses. 
+
+*  More information on [Open Data Licensing](http://opendefinition.org/guide/data/)
+
+* More information about [IATI](http://www.aidtransparency.net/about)
+
+* The UK Anonymisation Network provides consultation and training for NGOs.
+[Anonymization guide](http://ico.org.uk/~/media/documents/library/Data_Protection/Practical_application/an onymisation-codev2.pdf) produced by the UK Information Commissioner's Office.
+
+* Mushon Zer Aviv's short essay ["How to lie with data visualisation"](https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis)
+
+* TacticalTech's [Visualising Information for Advocacy](http://visualisingadvocacy.org) guide 
+ 
+* School of Data’s [Visualizing Data](http://schoolofdata.org/) course

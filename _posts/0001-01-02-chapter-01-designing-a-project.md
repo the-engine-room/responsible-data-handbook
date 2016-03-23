@@ -17,7 +17,7 @@ nav:
 ##<span id="target-audience">Target audience</span>:
 Project managers, or those involved in project design. The second section, "Budgeting" is useful for those who are responsible for drawing up budgets, or for donors who are responsible for looking over and approving project budgets. It contains a number of important responsible data issues that should be addressed in a comprehensive project budget. 
 
-##<span id="useful">When might this chapter be useful?</span>:
+##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
 Towards the beginning of a project; it contains tips and tools to help you embed responsible data practices into the project from the very beginning. 
 
 ##<span id="content-summary">Content summary</span>:
@@ -32,5 +32,6 @@ Often, budget constraints are one of the major reasons that responsible data is 
 
 
 ##<span id="useful-resources">Useful resources</span>:
-Holistic Security: [Tactical Tech's guide](https://tacticaltech.org/holistic-security).
+
+* Holistic Security: [Tactical Tech's guide](https://tacticaltech.org/holistic-security).
 

@@ -41,10 +41,23 @@ Despite all this, it is important not to over do the checks and security measure
 In the final section within this chapter, **Legal Considerations** are discussed. Given the general nature of the book, much of this is discussed on a very broad level, to provide the reader with a guide of where to look and what to look for when thinking about the legal aspects of data storage. Whether it's data protection laws, encryption technology laws, or jurisdictional issues, (or more!) this section may well be especially relevant to the non-lawyers among us who are looking for a broad overview of what they should have in mind.
 
 ##<span id="useful-resources">Useful resources</span>:
-The Frontline SMS Users' Guide to Data Integrity http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf
-Deflect https://deflect.ca/
-Cloudflare https://www.cloudflare.com
-For a listing of secure tools, see https://www.prismbreak.org
-On choosing a hosting provider, see https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting
-On setting up a secure hosting provider, see https://learn.equalit.ie/wiki/Secure_hosting_guide
-NGO Law Monitor - http://www.icnl.org/research/monitor/ Maps of Data Protection Laws - http://www.forrestertools.com/heatmap/ &http://www.dlapiperdataprotection.com/#handbook/world-map-section Choosing an Open Source Licence for Code - http://choosealicense.comCreative Commons - https://creativecommons.org
+
+* [The Frontline SMS Users' Guide to Data Integrity](http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf)
+
+* [Deflect](https://deflect.ca/)
+
+* [Cloudflare](https://www.cloudflare.com)
+
+* For a listing of secure tools, see this [resource](https://www.prismbreak.org)
+
+* On choosing a hosting provider, see this [resource](https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting)
+
+* On setting up a secure hosting provider, see this [resource](https://learn.equalit.ie/wiki/Secure_hosting_guide)
+
+* [NGO Law Monitor](http://www.icnl.org/research/monitor/)
+
+*  For Maps of Data Protection Laws see [this resource](http://www.forrestertools.com/heatmap/) and [this resource](http://www.dlapiperdataprotection.com/#handbook/world-map-section)
+
+*  [Choosing an Open Source Licence for Code](http://choosealicense.com)
+
+*  [Creative Commons](https://creativecommons.org)

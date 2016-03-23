@@ -156,9 +156,9 @@
 
     .index{
         margin: 20px 40px 20px 0;
-        padding: 30px;
+        padding: 20px 5px;
         border: 1px solid $red-color;
-
+        text-align: center;
         a{
             &:hover{
                 text-decoration: none;
@@ -167,17 +167,26 @@
         }
         h5{
             color: $red-color;
-
+            margin: 0;
+            font-size: 25px;
         }
+        /*@include media-query($on-laptop) {
+            width: 40%;
+            float: left;
+        }*/
     }
 
     .download{
         margin: 20px 40px 20px 0;
-        padding: 30px;
+        padding: 10px 5px;
         border: 1px solid $red-color;
+        text-align: center;
+
         h6{
             color: $red-color;
             text-transform: uppercase;
+            margin: 0;
+            font-size: 20px;
         }
 
         a{
@@ -186,33 +195,52 @@
             }
 
         }
+        /*@include media-query($on-laptop) {
+            width: 40%;
+            float: left;
+            h6{
+                font-size: 25px;
+            }
+        }*/
     }
 
     .contentnav{
+        float: left;
+        max-width: 60%;
         ul{
-            width: 60%;
             float: left;
             padding: 0;
-            margin: 0;
+            margin: 40px 0 0 0;
+
+
+            
             li{
                 list-style-type: none;
-                padding-left: 0;
+                padding: 5px 0 5px 0;
+                font-size: 20px;
                 a{
                     font-variant: small-caps;
                     color: $black-color;
+                    font-weight: bolder;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
                 }
             }
         }
-
-        .curls{
-            position: absolute;
-            left: 200px;
-            z-index: 1000;
-            margin:0;
-        }
-
-        height: 600px;
+        
+        
     }
+
+    .curls{
+            float: right;
+            margin:0;
+            img{
+                max-width: 87px;
+            }
+        }   
+
 
 }
 
@@ -327,7 +355,7 @@
         color: $red-color;
     }
 
-    p a{
+    p a, li a{
         color: $red-color;
         text-decoration: none;
 
@@ -377,7 +405,7 @@ img.chapterthumb, .thumb img{
     p strong{
         color: $red-color;
     }
-    
+
     h5{
         color: $red-color;
     }

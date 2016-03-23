@@ -45,19 +45,19 @@ Often, these advocacy strategies can be met with misconceptions around what resp
 ##<span id="useful-resources">Useful resources</span>:
 The "Am I working with data" flowchart is a fun way to help almost anybody realise that "working with data" is not only for the more technical among us, but can also include words, photos, books - all sorts of things that almost all of us interact with on a daily basis. 
 
-[Donor code of conduct](http://www.ssireview.org/blog/entry/a_new_donor_code_of_conduct)
+* [Donor code of conduct](http://www.ssireview.org/blog/entry/a_new_donor_code_of_conduct)
 
-[UN data collection](http://www.unglobalpulse.org/privacy-and-data-protection)
+* [UN data collection](http://www.unglobalpulse.org/privacy-and-data-protection)
 
-[Professional standards for protection work carried out by humanitarian and human rights actors in armed conflict and other situations of violence](http://www.icrc.org/eng/resources/documents/publication/p0999.html)
+* [Professional standards for protection work carried out by humanitarian and human rights actors in armed conflict and other situations of violence](http://www.icrc.org/eng/resources/documents/publication/p0999.html)
 
-[Fair Information Practice Principles](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf)
+* [Fair Information Practice Principles](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf)
 
-[International Principles on the Application of Human Rights to Communications Surveillance](https://en.necessaryandproportionate.org/)
+* [International Principles on the Application of Human Rights to Communications Surveillance](https://en.necessaryandproportionate.org/)
 
-[OECD Privacy Principles](http://oecdprivacy.org/)
+* [OECD Privacy Principles](http://oecdprivacy.org/)
 
-[UNFPA guidelines on data issues in Humanitarian Crisis
+* [UNFPA guidelines on data issues in Humanitarian Crisis
 situations](https://www.unfpa.org/public/home/publications/pid/6253)
 
 

@@ -65,10 +65,17 @@ Developing a strong consent policy within a project or an organisation can help 
 Finally, a word of caution is offered; is consent broken? A brief overview of this argument, and some ways to help create meaningful consent, are included here.
 
 ##<span id="useful-resources">Useful resources</span>:
-Data QualYtI: Do you trust your data? (an article Hjusein Tjurkmen, Mariyana Hristova, Musala Soft) http://istabg.org/data-qualyti-do-you-trust-your-data
-See more at: http://schoolofdata.org/handbook/courses/finding-data/#sthash.8o6YozUJ.dpuf
-Organizations that may be able to help you further on issues you may encounter:
-Geeks without Bounds - http://gwob.org Datakind - http://www.datakind.org
-A checklist for evaluating policies on consent is available athttps://docs.google.com/a/theengineroom.org/document/d/1PJxBAP1rFkjq9p7NuYcN_G5iomfCML-qiMTn5SPPHxE/edit.
-Solove, Daniel J., Privacy Self-Management and the Consent Dilemma (November 4, 2012). 126 Harvard Law Review 1880 (2013); GWU Legal Studies Research Paper No. 2012-141; GWU Law School Public Law Research Paper No. 2012-141. Available at SSRN:http://ssrn.com/abstract=2171018
-Launching an SMS code of conduct for Crisis Mapping: http://irevolution.net/2013/02/25/launching-sms-code-of-conduct/
+* Data QualYtI: [Do you trust your data](http://istabg.org/data-qualyti-do-you-trust-your-data)? (an article Hjusein Tjurkmen, Mariyana Hristova, Musala Soft)
+See more [here](http://schoolofdata.org/handbook/courses/finding-data/#sthash.8o6YozUJ.dpuf)
+
+* Organizations that may be able to help you further on issues you may encounter:
+    - [Geeks without Bounds](http://gwob.org) 
+    - [Datakind](http://www.datakind.org)
+
+
+* A checklist for evaluating policies on consent is available [here](https://docs.google.com/a/theengineroom.org/document/d/1PJxBAP1rFkjq9p7NuYcN_G5iomfCML-qiMTn5SPPHxE/edit).
+
+* Solove, Daniel J., Privacy Self-Management and the Consent Dilemma (November 4, 2012). 126 Harvard Law Review 1880 (2013); GWU Legal Studies Research Paper No. 2012-141; GWU Law School Public Law Research Paper No. 2012-141. [Available at SSRN](http://ssrn.com/abstract=2171018).
+
+*  Launching an [SMS code of conduct](http://irevolution.net/2013/02/25/launching-sms-code-of-conduct/
+) for Crisis Mapping. 

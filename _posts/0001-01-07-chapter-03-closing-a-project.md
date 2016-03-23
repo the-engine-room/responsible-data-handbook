@@ -29,10 +29,17 @@ If the data in question is very large, substantial data infrastructure may well 
 Though it might be easy to forget, what happens to the data at the end of a project can make a huge difference to how the project is referenced, how its legacy lives on (to inform other projects, or not) - and, most crucially, to how the people referenced in the data are treated.
 
 ##<span id="useful-resources">Useful resources</span>:
-Archivists' Guide to Archiving Video (WITNESS) http://archiveguide.witness.org/ and a video on this topic http://blog.witness.org/2014/10/video-series-archiving-and-preservation-activists/
-New Tactics online discussion on archiving for human rights advocacy, justice and memory https://www.newtactics.org/conversation/archiving-human-rights-advocacy-justice-and-memory
-The Open Society Archives http://www.osaarchivum.org/
-Duke University Human Rights Archive http://library.duke.edu/rubenstein/human-rights/
-Human Rights Web Archive at Columbia University http://hrwa.cul.columbia.edu/
-University of Texas Libraries' Human Rights Documentation Initiative http://www.lib.utexas.edu/hrdi
-Archivists without Borders http://www.arxivers.org/en/asf_internacional.php
+
+* [Archivists' Guide to Archiving Video](http://archiveguide.witness.org/) (from WITNESS) and a [video](http://blog.witness.org/2014/10/video-series-archiving-and-preservation-activists/) on this topic.
+
+* New Tactics [online discussion](https://www.newtactics.org/conversation/archiving-human-rights-advocacy-justice-and-memory) on archiving for human rights advocacy, justice and memory. 
+ 
+* [The Open Society Archives](http://www.osaarchivum.org/)
+
+* [Duke University Human Rights Archive](http://library.duke.edu/rubenstein/human-rights/)
+
+* [Human Rights Web Archive](http://hrwa.cul.columbia.edu/) at Columbia University 
+
+* University of Texas Libraries' [Human Rights Documentation Initiative](http://www.lib.utexas.edu/hrdi) 
+
+* [Archivists without Borders](http://www.arxivers.org/en/asf_internacional.php)
