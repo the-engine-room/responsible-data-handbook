@@ -2,8 +2,9 @@
 layout: post
 title:  Sharing Data
 categories: chapters
-num: 6
-asset-link: sharing-data-06
+num: 2.3
+ch: 2c
+asset-link: sharing-data-02c
 nav: 
     - Target audience
     - When might this chapter be useful? 

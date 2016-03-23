@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
 
   {% include head.html %}
 
@@ -9,17 +12,22 @@
   <div class="container">
 
     <div class="page-content">
-      <div class="row">
 
 
       {% if page.layout == "post" %}
-          <div class="col-md-3">
-            {% include sidemenu.html %}
-          </div>
+        <div class="row">
 
-          <div class="col-md-9">
-              {{ content }}
-          </div>
+            <div class="col-md-3">
+              {% include sidemenu.html %}
+            </div>
+
+            <div class="col-md-9">
+                {{ content }}
+            </div>
+        </div>
+
+        {% include browsechapters.html %}
+
 
       {% else %}
 
@@ -28,7 +36,6 @@
       {% endif %}
 
   
-      </div>
     
     </div>
 

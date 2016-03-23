@@ -2,8 +2,9 @@
 layout: post
 title:  Introduction
 categories: chapters
-num: 1
-asset-link: introduction-01
+num: 0
+ch: 0
+asset-link: introduction-00
 nav: 
     - Target audience
     - When might this chapter be useful? 

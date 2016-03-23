@@ -3,8 +3,9 @@ layout: post
 title: Designing a Project
 subtitle: Designing Responsible Projects
 categories: chapters
-num: 2
-asset-link: designing-a-project-02
+num: 1
+ch: 1
+asset-link: designing-a-project-01
 nav: 
     - Target audience
     - When might this chapter be useful? 

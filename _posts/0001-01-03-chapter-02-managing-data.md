@@ -2,8 +2,9 @@
 layout: post
 title:  Managing Data
 categories: chapters
-num: 3
-asset-link: managing-data-03
+num: 2
+ch: 2
+asset-link: managing-data-02
 nav: 
     - Target audience
     - When might this chapter be useful? 

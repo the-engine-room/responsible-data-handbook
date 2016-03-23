@@ -1,0 +1,15 @@
+<div class="row">
+	<h5 class="browse">Browse Other Chapters</h5>
+</div>
+
+<div class="row">
+	{% assign posts = site.posts | sort: "num" %}
+	{% for post in posts %}
+		{% if post.title != page.title %}
+		  <a href="{{ post.url | prepend: site.baseurl }}" class="browselink">
+		  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
+			</a>
+		{% endif %}
+	{% endfor %}
+
+</div>

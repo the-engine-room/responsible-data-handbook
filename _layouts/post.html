@@ -4,10 +4,15 @@ layout: default
 <article class="post">
 
   <header class="post-header">
+  	<div class="chnum">{{ page.ch }}</div>
+  	<img class="numholder" src="{{ "/assets/img/elem-1.png" | prepend: site.baseurl }}" />
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
    {% if page.subtitle %}
    	<h3>{{ page.subtitle }}</h3>
    {% endif %}
+
+   <img class="curls" src="{{ "/assets/img/curls-1.png" | prepend: site.baseurl }}" />
+  
   </header>
 
   <div class="post-content" itemprop="articleBody">

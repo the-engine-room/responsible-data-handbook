@@ -2,8 +2,9 @@
 layout: post
 title:  Undestanding Data
 categories: chapters
-num: 5
-asset-link: understanding-data-05
+num: 2.2
+ch: 2b
+asset-link: understanding-data-02b
 nav: 
     - Target audience
     - When might this chapter be useful? 

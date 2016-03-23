@@ -2,8 +2,9 @@
 layout: post
 title:  Getting Data
 categories: chapters
-num: 4
-asset-link: getting-data-04
+num: 2.1
+ch: 2a
+asset-link: getting-data-02a
 nav: 
     - Target audience
     - When might this chapter be useful? 

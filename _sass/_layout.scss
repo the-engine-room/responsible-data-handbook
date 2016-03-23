@@ -166,7 +166,7 @@
         padding: 30px;
         border: 1px solid;
     }
-    
+
     .contentnav{
         ul{
             width: 60%;
@@ -287,6 +287,72 @@
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+}
+
+/**
+ * Browse Chapters at bottom of posts
+**/
+
+
+
+a.browselink:hover{
+    text-decoration: none;
+}
+
+img.chapterthumb, .thumb img{
+    max-width: 150px;
+    padding: 10px;
+}
+
+/**
+* Index 
+**/
+
+/* Full download */
+
+
+.fullbook{
+    .link{
+        float: left;
+        height: 220px;
+        padding: 5px 10px 0 0;
+    }
+
+    .content{
+        .chapterthumb{
+            float: left;
+            img{
+                float: left;
+            }
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.filter-group{
+    ul{
+        li{
+            cursor: pointer;
+        }
+    }
+}
+
+.grid{
+
+    width: 85%;
+    margin: 0 auto;
+    .grid-item{
+        width: 30%;
+        height: 400px; 
+        padding: 30px;
+
+        img{
+            max-height: 350px;
+            padding: 10px;
         }
     }
 }

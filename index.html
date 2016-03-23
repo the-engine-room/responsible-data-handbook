@@ -4,19 +4,40 @@ layout: default
 
 <div class="home">
 
+    <div class="homehead row">
+      <img class="title" src="{{ "/assets/img/title-1.png" | prepend: site.baseurl }}" />
+    </div>
 
-  <ul class="post-list">
-    {% assign posts = site.posts | sort: "num" %}
-    {% for post in posts %}
-      <li>
-       
+    <div class="fullbook row">
+        <div class="col-md-4">
+          <img class="link" src="{{ "/assets/img/bold-line.png" | prepend: site.baseurl }}" />
+          
+          <div class="content">
+            <h5>Full Books Download</h5>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <a href="{{ "/assets/pdf/responsible-data-handbook.pdf" | prepend: site.baseurl }}" target="_blank">
+              <div class="thumb">
+                <img src="{{ "/assets/img/chapter-0.png" | prepend: site.baseurl }}" />
+                <img src="{{ "/assets/img/chapter-1.png" | prepend: site.baseurl }}" />
+
+              </div>
+            </a>
+          
+          </div>
+
+      
+        </div>
+
+        <div class="col-md-8">
+          {% capture index-text %}{% include about.md %}{% endcapture %}
+                <p>{{ index-text | markdownify }}</p>
+        </div>
+    
+    </div>
+
+    
+      {% include isotope.html %}
+
 
 
 
