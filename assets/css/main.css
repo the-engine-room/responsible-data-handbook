@@ -662,6 +662,27 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .post-content h4 { font-size: 20px; }
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
+/** Browse Chapters at bottom of posts
+**/
+a.browselink:hover { text-decoration: none; }
+
+img.chapterthumb, .thumb img { max-width: 150px; padding: 10px; }
+
+/**
+* Index 
+**/
+/* Full download */
+.fullbook .link { float: left; height: 220px; padding: 5px 10px 0 0; }
+.fullbook .content .chapterthumb { float: left; }
+.fullbook .content .chapterthumb img { float: left; }
+.fullbook .content a:hover { text-decoration: none; }
+
+.filter-group ul li { cursor: pointer; }
+
+.grid { width: 85%; margin: 0 auto; }
+.grid .grid-item { width: 30%; height: 400px; padding: 30px; }
+.grid .grid-item img { max-height: 350px; padding: 10px; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlighter-rouge .highlight { background: #eef; }
