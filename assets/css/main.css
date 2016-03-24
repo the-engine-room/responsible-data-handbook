@@ -452,7 +452,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 body, html { overflow-x: hidden; }
 
 /** Basic styling */
-body { font: 400 16px/1.5 "latolight", Helvetica, Arial, sans-serif; color: #111; background-color: #fff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
+body { font: 500 18px/1.5 "latolight", Helvetica, Arial, sans-serif; color: #111; background-color: #fff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -463,7 +463,7 @@ img { max-width: 100%; vertical-align: middle; }
 /** Figures */
 figure > img { display: block; }
 
-figcaption { font-size: 14px; }
+figcaption { font-size: 15.75px; }
 
 /** Lists */
 ul, ol { margin-left: 30px; }
@@ -471,7 +471,7 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-weight: 500; }
 
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
@@ -502,7 +502,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Fonts on persistent elements **/
 h2, .contentnav li a, h5, .filter-group li, h6, .mobilemenu li a { font-family: "gentium_basicbold", Arial, sans-serif; }
 
-h1, .index h5, .post-header h3 { font-family: "alegreyabold", Times, serif; }
+h1, .post-header h3 { font-family: "alegreyabold", Times, serif; }
 
 .wrapperhead li a { font-family: "montserratregular", Times, serif; }
 
@@ -510,7 +510,7 @@ p strong, .chnum { font-family: "trattatelloregular", Times, serif; }
 
 /** Lists
 **/
-ul { list-style: url("../img/curls-list-2.png"); }
+ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 
 /** Site header */
 .site-header { background-color: #1B1E1F; position: relative; }
@@ -637,19 +637,19 @@ ul { list-style: url("../img/curls-list-2.png"); }
   #heading .cerchez-slider .slider .item .caption span.text { font-size: 1.5em; } }
 /** Side menu
 */
-#sidemenu .title { width: 220px; }
-#sidemenu .index { width: 220px; margin: 20px 40px 20px -5px; padding: 20px 5px; border: 1px solid #cd1619; text-align: center; /*@include media-query($on-laptop) { width: 40%; float: left;
+#sidemenu .title { width: 220px; margin: 0 10px 10px 10px; }
+#sidemenu .index { width: 220px; margin: 20px 40px 20px 10px; padding: 20px 5px; border: 2px solid #cd1619; text-align: center; /*@include media-query($on-laptop) { width: 40%; float: left;
 }*/ }
 #sidemenu .index a:hover { text-decoration: none; }
-#sidemenu .index h5 { color: #cd1619; margin: 0; font-size: 25px; }
-#sidemenu .download { width: 220px; margin: 20px 40px 20px -5px; padding: 10px 5px; border: 1px solid #cd1619; text-align: center; /*@include media-query($on-laptop) { width: 40%; float: left; h6{ font-size: 25px; }
+#sidemenu .index h5 { color: #cd1619; margin: 0; font-size: 27px; }
+#sidemenu .download { width: 220px; margin: 20px 40px 20px 10px; padding: 10px 5px; border: 2px solid #cd1619; text-align: center; /*@include media-query($on-laptop) { width: 40%; float: left; h6{ font-size: 25px; }
 }*/ }
-#sidemenu .download h6 { color: #cd1619; text-transform: uppercase; margin: 0; font-size: 20px; }
+#sidemenu .download h6 { color: #cd1619; text-transform: uppercase; margin: 0; font-size: 18px; letter-spacing: 0.03em; }
 #sidemenu .download a:hover { text-decoration: none; }
 #sidemenu .contentnav { float: left; max-width: 60%; }
-#sidemenu .contentnav ul { float: left; padding: 0; margin: 40px 0 0 0; list-style: none; }
-#sidemenu .contentnav ul li { list-style-type: none; padding: 5px 0 5px 0; font-size: 20px; }
-#sidemenu .contentnav ul li a { font-variant: small-caps; color: #1B1E1F; font-weight: bolder; }
+#sidemenu .contentnav ul { padding: 0 0 0 10px; float: left; margin: 40px 0 0 0; list-style: none; }
+#sidemenu .contentnav ul li { list-style-type: none; padding: 5px 0 5px 0; font-size: 22px; }
+#sidemenu .contentnav ul li a { font-variant: small-caps; color: #1B1E1F; }
 #sidemenu .contentnav ul li a:hover { text-decoration: none; }
 #sidemenu .curls { float: right; margin: 0; }
 #sidemenu .curls img { max-width: 87px; }
@@ -676,11 +676,13 @@ ul { list-style: url("../img/curls-list-2.png"); }
 .post-link { display: block; font-size: 24px; }
 
 /** Posts */
-.post .post-header { margin-bottom: 30px; }
+.post .post-header { margin-top: 15px; margin-bottom: 30px; }
 .post .post-header h3 { color: #cd1619; text-transform: uppercase; font-size: 35px; text-align: center; }
-.post .post-header .curlholder { width: 300px; margin: 0 auto; }
-.post .post-header .chnum { color: #cd1619; position: absolute; top: 25px; left: 330px; font-size: 50px; }
-.post .post-title { font-size: 100px; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
+.post .post-header .numwrapper { position: relative; width: 95%; margin: 0 auto; }
+.post .post-header .numwrapper .curlholder { width: 300px; margin: 0 auto; }
+.post .post-header .numwrapper .chnum { color: #cd1619; position: absolute; top: 26.5%; left: 48%; text-align: center; font-size: 50px; }
+.post .post-header .curlholder { width: 330px; margin: 0 auto; }
+.post .post-title { font-size: 8.5vw; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
 .post .post-content { margin-bottom: 30px; }
 .post .post-content h2 { font-size: 32px; color: #cd1619; font-variant: small-caps; }
 @media screen and (max-width: 800px) { .post .post-content h2 { font-size: 28px; } }
@@ -691,17 +693,18 @@ ul { list-style: url("../img/curls-list-2.png"); }
 .post .post-content p strong { color: #cd1619; }
 .post .post-content p a, .post .post-content li a { color: #cd1619; text-decoration: none; }
 .post .post-content p a:hover, .post .post-content li a:hover { text-decoration: none; }
-.post .mobilemenu { display: none; width: 300px; margin: 0 auto; }
-.post .mobilemenu ul { border: 1px solid #1B1E1F; margin: 10px 0; padding: 10px 0 10px 30px; }
-.post .mobilemenu ul li { font-variant: small-caps; }
-.post .mobilemenu ul li a { color: #cd1619; font-size: 20px; }
+.post .mobilemenu { display: none; width: 200px; margin: 0 auto; }
+.post .mobilemenu ul { margin: 10px 0; padding: 10px 0 10px 30px; }
+.post .mobilemenu ul li { font-variant: small-caps; padding: 5px 0; }
+.post .mobilemenu ul li a { color: #1B1E1F; font-size: 20px; }
 .post .mobilemenu ul li a:hover { text-decoration: none; color: #cd1619; }
 @media screen and (max-width: 800px) { .post .curlholder { padding: 20px 0 0 0; }
   .post .mobilemenu { display: block; }
-  .post .post-title { font-size: 45px; padding: 20px 0; }
+  .post .post-title { font-size: 11vw; padding: 20px 0; }
   .post .post-header { padding: 20px 0 0 0; }
-  .post .post-header h3 { font-size: 23px; padding: 10px 0; } }
-@media screen and (max-width: 600px) { .post .post-header .chnum { top: 35px; left: 175px; font-size: 30px; } }
+  .post .post-header h3 { font-size: 23px; padding: 10px 0; }
+  .post .post-header .numwrapper .chnum { top: 25%; left: 46.5%; font-size: 40px; } }
+@media screen and (max-width: 600px) { .post .post-header .numwrapper .chnum { top: 27%; left: 47.5%; font-size: 20px; } }
 
 /** Browse Chapters at bottom of posts
 **/
