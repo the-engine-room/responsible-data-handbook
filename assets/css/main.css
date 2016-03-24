@@ -449,6 +449,8 @@ hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #ee
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
+body, html { overflow-x: hidden; }
+
 /** Basic styling */
 body { font: 400 16px/1.5 "latolight", Helvetica, Arial, sans-serif; color: #111; background-color: #fff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
 
@@ -645,14 +647,17 @@ ul { list-style: url("../img/curls-list-2.png"); }
 #sidemenu .download h6 { color: #cd1619; text-transform: uppercase; margin: 0; font-size: 20px; }
 #sidemenu .download a:hover { text-decoration: none; }
 #sidemenu .contentnav { float: left; max-width: 60%; }
-#sidemenu .contentnav ul { float: left; padding: 0; margin: 40px 0 0 0; }
+#sidemenu .contentnav ul { float: left; padding: 0; margin: 40px 0 0 0; list-style: none; }
 #sidemenu .contentnav ul li { list-style-type: none; padding: 5px 0 5px 0; font-size: 20px; }
 #sidemenu .contentnav ul li a { font-variant: small-caps; color: #1B1E1F; font-weight: bolder; }
 #sidemenu .contentnav ul li a:hover { text-decoration: none; }
 #sidemenu .curls { float: right; margin: 0; }
 #sidemenu .curls img { max-width: 87px; }
-@media screen and (max-width: 600px) { #sidemenu .title { padding: 0 0 30px 0; }
-  #sidemenu .title, #sidemenu .download, #sidemenu .index { margin: 20px auto; }
+@media screen and (max-width: 800px) { #sidemenu .title { padding: 0 0 20px 0; width: 300px; }
+  #sidemenu .title, #sidemenu .download, #sidemenu .index { margin: 10px auto; }
+  #sidemenu .contentnav, #sidemenu .curls { display: none; } }
+@media screen and (max-width: 600px) { #sidemenu .title { padding: 0 0 20px 0; width: 300px; }
+  #sidemenu .title, #sidemenu .download, #sidemenu .index { margin: 10px auto; }
   #sidemenu .contentnav, #sidemenu .curls { display: none; } }
 
 /** Site footer */
@@ -675,7 +680,7 @@ ul { list-style: url("../img/curls-list-2.png"); }
 .post .post-header h3 { color: #cd1619; text-transform: uppercase; font-size: 35px; text-align: center; }
 .post .post-header .curlholder { width: 300px; margin: 0 auto; }
 .post .post-header .chnum { color: #cd1619; position: absolute; top: 25px; left: 330px; font-size: 50px; }
-.post .post-title { font-size: 130px; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
+.post .post-title { font-size: 100px; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
 .post .post-content { margin-bottom: 30px; }
 .post .post-content h2 { font-size: 32px; color: #cd1619; font-variant: small-caps; }
 @media screen and (max-width: 800px) { .post .post-content h2 { font-size: 28px; } }
@@ -687,14 +692,16 @@ ul { list-style: url("../img/curls-list-2.png"); }
 .post .post-content p a, .post .post-content li a { color: #cd1619; text-decoration: none; }
 .post .post-content p a:hover, .post .post-content li a:hover { text-decoration: none; }
 .post .mobilemenu { display: none; width: 300px; margin: 0 auto; }
-.post .mobilemenu ul { border: 1px solid #cd1619; margin: 10px 0; padding: 10px 0 10px 30px; }
+.post .mobilemenu ul { border: 1px solid #1B1E1F; margin: 10px 0; padding: 10px 0 10px 30px; }
 .post .mobilemenu ul li { font-variant: small-caps; }
 .post .mobilemenu ul li a { color: #cd1619; font-size: 20px; }
 .post .mobilemenu ul li a:hover { text-decoration: none; color: #cd1619; }
-@media screen and (max-width: 600px) { .post .curlholder { padding: 20px 0 0 0; }
+@media screen and (max-width: 800px) { .post .curlholder { padding: 20px 0 0 0; }
   .post .mobilemenu { display: block; }
-  .post .post-title { font-size: 40px; padding: 20px 0; }
-  .post .post-header h3 { font-size: 25px; padding: 10px 0; } }
+  .post .post-title { font-size: 45px; padding: 20px 0; }
+  .post .post-header { padding: 20px 0 0 0; }
+  .post .post-header h3 { font-size: 23px; padding: 10px 0; } }
+@media screen and (max-width: 600px) { .post .post-header .chnum { top: 35px; left: 175px; font-size: 30px; } }
 
 /** Browse Chapters at bottom of posts
 **/
