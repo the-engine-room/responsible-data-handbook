@@ -150,12 +150,14 @@
 */
 
 #sidemenu{
-    .title img{
+    .title{
         width: 220px;
+
     }
 
     .index{
-        margin: 20px 40px 20px 0;
+        width: 220px;
+        margin: 20px 40px 20px -5px;
         padding: 20px 5px;
         border: 1px solid $red-color;
         text-align: center;
@@ -177,7 +179,8 @@
     }
 
     .download{
-        margin: 20px 40px 20px 0;
+        width: 220px;
+        margin: 20px 40px 20px -5px;
         padding: 10px 5px;
         border: 1px solid $red-color;
         text-align: center;
@@ -239,10 +242,26 @@
             img{
                 max-width: 87px;
             }
-        }   
 
 
+
+    }
+
+
+    @include media-query($on-palm) {
+        .title{
+            padding: 0 0 30px 0;
+        }
+        .title, .download, .index{
+            margin: 20px auto;
+        }
+        .contentnav, .curls{
+            display: none;
+        }
+
+    }
 }
+
 
 /**
  * Site footer
@@ -298,73 +317,140 @@
 /**
  * Posts
  */
-.post-header {
-    margin-bottom: $spacing-unit;
 
-    h3{
-        color: $red-color;
-        text-transform: uppercase;
-        font-size: 40px;
-        text-align: center;
+.post{
+    .post-header {
+        margin-bottom: $spacing-unit;
+
+        h3{
+            color: $red-color;
+            text-transform: uppercase;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .curlholder{
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .chnum{
+            color: $red-color;
+            position: absolute;
+            top: 25px;
+            left: 330px;
+            font-size: 50px;
+        }
+
+
     }
-}
 
-.post-title {
-    font-size: 80px;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: $red-color;
-    text-align: center;
-    text-transform: uppercase;
+    .post-title {
+        font-size: 130px;
+        margin-bottom: 0;
+        letter-spacing: -1px;
+        line-height: 1;
+        color: $red-color;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    .post-content {
+        margin-bottom: $spacing-unit;
+
+        h2 {
+            font-size: 32px;
+            color: $red-color;
+            font-variant: small-caps;
+
+            @include media-query($on-laptop) {
+                font-size: 28px;
+            }
+        }
+
+        h3 {
+            font-size: 26px;
+
+            @include media-query($on-laptop) {
+                font-size: 22px;
+            }
+        }
+
+        h4 {
+            font-size: 20px;
+
+            @include media-query($on-laptop) {
+                font-size: 18px;
+            }
+        }
+
+        p strong{
+            color: $red-color;
+        }
+
+        p a, li a{
+            color: $red-color;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .mobilemenu{
+        display: none;
+        width: 300px;
+        margin: 0 auto;
+        ul{
+            border: 1px solid $red-color;
+            margin: 10px 0;
+            padding: 10px 0 10px 30px;
+            li{
+                font-variant: small-caps;
+
+                a{
+                    color: $red-color;
+                    font-size: 20px;
+                    
+                    &:hover{
+                        text-decoration: none;
+                        color: $red-color;
+                    }
+                }
+            }
+        }
+    }
 
     @include media-query($on-laptop) {
-        font-size: 40px;
+
+
     }
+
+    @include media-query($on-palm) {
+        .curlholder{
+            padding: 20px 0 0 0;
+        }
+        .mobilemenu{
+            display: block;
+        }
+        .post-title{
+            font-size: 40px;
+            padding: 20px 0;
+        }
+
+        .post-header{
+            h3{
+                font-size: 25px;
+                padding: 10px 0;
+            }
+        }
+
+
+    }
+
 }
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-        color: $red-color;
-        font-variant: small-caps;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-
-    p strong{
-        color: $red-color;
-    }
-
-    p a, li a{
-        color: $red-color;
-        text-decoration: none;
-
-        &:hover{
-            text-decoration: none;
-        }
-    }
-}
-
 /**
  * Browse Chapters at bottom of posts
 **/

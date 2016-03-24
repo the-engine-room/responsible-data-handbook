@@ -155,7 +155,7 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
+/*.wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -170,7 +170,7 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
-}
+}*/
 
 
 
@@ -206,11 +206,11 @@ pre {
 }
 
 /** Fonts on persistent elements **/
-h2, .contentnav li a, h5, .filter-group li, h6{
+h2, .contentnav li a, h5, .filter-group li, h6, .mobilemenu li a{
     font-family: $bold-font-family;
 }
 
-h1, .index h5, .download h6, .post-header h3{
+h1, .index h5, .post-header h3{
     font-family: $title-font-family;
 }
 
@@ -222,3 +222,11 @@ p strong, .chnum{
     font-family: $fancy-font-family;
 }
 
+/**
+ * Lists
+**/
+
+ul{
+    list-style: url("../img/curls-list-2.png");
+
+}

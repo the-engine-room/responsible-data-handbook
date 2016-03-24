@@ -11,9 +11,30 @@ layout: default
    	<h3>{{ page.subtitle }}</h3>
    {% endif %}
 
-   <img class="curls" src="{{ "/assets/img/curls-1.png" | prepend: site.baseurl }}" />
-  
+  <div class="mobilemenu">
+    <ul>
+
+    {% assign nav = page.nav %}
+
+      {% for n in nav %}
+
+
+        <li><a href="#{{ n | split: " "| join: "-" | downcase }}">{{ n }}</a></li>
+
+      {% endfor %}
+
+    </ul>
+
+
+  </div>
+
+  <div class="curlholder">
+       <img class="curls" src="{{ "/assets/img/curls-1.png" | prepend: site.baseurl }}" />
+  </div>
+
   </header>
+
+
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
