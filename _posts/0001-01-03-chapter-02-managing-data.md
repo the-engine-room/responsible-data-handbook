@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Managing Data
+subtitle: setting up the 'data infrastructure'
 categories: chapters
 num: 2
 ch: 2

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Introduction
+subtitle: what this handbook has to offer
 categories: chapters
 num: 0
 ch: 0

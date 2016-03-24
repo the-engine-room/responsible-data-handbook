@@ -2,7 +2,7 @@
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
 
   {% include head.html %}
 
@@ -16,13 +16,12 @@
 
       {% if page.layout == "post" %}
         <div class="row">
-            <div class="col-md-1"></div>
 
             <div class="col-md-3 col-sm-5">
               {% include sidemenu.html %}
             </div>
 
-            <div class="col-md-7 col-sm-7">
+            <div class="col-md-8 col-sm-8">
                 {{ content }}
             </div>
 

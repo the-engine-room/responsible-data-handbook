@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+body, html{
+    overflow-x:hidden;
+}
+
 
 
 /**
@@ -210,7 +214,7 @@ h2, .contentnav li a, h5, .filter-group li, h6, .mobilemenu li a{
     font-family: $bold-font-family;
 }
 
-h1, .index h5, .post-header h3{
+h1, .post-header h3{
     font-family: $title-font-family;
 }
 
@@ -228,5 +232,6 @@ p strong, .chnum{
 
 ul{
     list-style: url("../img/curls-list-2.png");
+    padding: 0 0 0 10px;
 
 }

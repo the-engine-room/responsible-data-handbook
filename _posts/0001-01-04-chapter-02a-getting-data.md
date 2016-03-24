@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Getting Data
+subtitle: collecting data for your project
 categories: chapters
 num: 2.1
 ch: 2a

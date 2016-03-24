@@ -152,14 +152,15 @@
 #sidemenu{
     .title{
         width: 220px;
+        margin: 0 10px 10px 10px;
 
     }
 
     .index{
         width: 220px;
-        margin: 20px 40px 20px -5px;
+        margin: 20px 40px 20px 10px;
         padding: 20px 5px;
-        border: 1px solid $red-color;
+        border: 2px solid $red-color;
         text-align: center;
         a{
             &:hover{
@@ -170,7 +171,7 @@
         h5{
             color: $red-color;
             margin: 0;
-            font-size: 25px;
+            font-size: 27px;
         }
         /*@include media-query($on-laptop) {
             width: 40%;
@@ -180,16 +181,17 @@
 
     .download{
         width: 220px;
-        margin: 20px 40px 20px -5px;
+        margin: 20px 40px 20px 10px;
         padding: 10px 5px;
-        border: 1px solid $red-color;
+        border: 2px solid $red-color;
         text-align: center;
 
         h6{
             color: $red-color;
             text-transform: uppercase;
             margin: 0;
-            font-size: 20px;
+            font-size: 18px;
+            letter-spacing: 0.03em;
         }
 
         a{
@@ -211,20 +213,20 @@
         float: left;
         max-width: 60%;
         ul{
+            padding: 0 0 0 10px;
             float: left;
-            padding: 0;
             margin: 40px 0 0 0;
+            list-style: none;
 
 
             
             li{
                 list-style-type: none;
                 padding: 5px 0 5px 0;
-                font-size: 20px;
+                font-size: 22px;
                 a{
                     font-variant: small-caps;
                     color: $black-color;
-                    font-weight: bolder;
 
                     &:hover{
                         text-decoration: none;
@@ -248,12 +250,30 @@
     }
 
 
-    @include media-query($on-palm) {
+    @include media-query($on-laptop) {
         .title{
-            padding: 0 0 30px 0;
+
+            padding: 0 0 20px 0;
+            width: 300px;
         }
         .title, .download, .index{
-            margin: 20px auto;
+            margin: 10px auto;
+        }
+        .contentnav, .curls{
+            display: none;
+        }
+
+    }
+
+
+    @include media-query($on-palm) {
+        .title{
+
+            padding: 0 0 20px 0;
+            width: 300px;
+        }
+        .title, .download, .index{
+            margin: 10px auto;
         }
         .contentnav, .curls{
             display: none;
@@ -320,6 +340,7 @@
 
 .post{
     .post-header {
+        margin-top: $spacing-unit/2;
         margin-bottom: $spacing-unit;
 
         h3{
@@ -329,24 +350,35 @@
             text-align: center;
         }
 
-        .curlholder{
-            width: 300px;
+        .numwrapper{
+            position: relative;
+            width:95%;
             margin: 0 auto;
+            .curlholder{
+                width: 300px;
+                margin: 0 auto;
+            }
+
+            .chnum{
+                color: $red-color;
+                position: absolute;
+                top: 26.5%;
+                left: 48%;
+                text-align: center;
+                font-size: 50px;
+            }
         }
 
-        .chnum{
-            color: $red-color;
-            position: absolute;
-            top: 25px;
-            left: 330px;
-            font-size: 50px;
+        .curlholder{
+            width: 330px;
+            margin: 0 auto;
         }
 
 
     }
 
     .post-title {
-        font-size: 130px;
+        font-size: 8.5vw;
         margin-bottom: 0;
         letter-spacing: -1px;
         line-height: 1;
@@ -401,17 +433,17 @@
 
     .mobilemenu{
         display: none;
-        width: 300px;
+        width: 200px;
         margin: 0 auto;
         ul{
-            border: 1px solid $red-color;
             margin: 10px 0;
             padding: 10px 0 10px 30px;
             li{
                 font-variant: small-caps;
+                padding: 5px 0;
 
                 a{
-                    color: $red-color;
+                    color: $black-color;
                     font-size: 20px;
                     
                     &:hover{
@@ -425,10 +457,6 @@
 
     @include media-query($on-laptop) {
 
-
-    }
-
-    @include media-query($on-palm) {
         .curlholder{
             padding: 20px 0 0 0;
         }
@@ -436,21 +464,59 @@
             display: block;
         }
         .post-title{
-            font-size: 40px;
+            font-size: 11vw;
             padding: 20px 0;
         }
 
         .post-header{
+            padding: 20px 0 0 0;
+
+
             h3{
-                font-size: 25px;
+                font-size: 23px;
                 padding: 10px 0;
             }
+
+
+
+            .numwrapper{
+
+
+                .chnum{
+
+                    top: 25%;
+                    left: 46.5%;
+                    font-size: 40px;
+                }
+            }
+
+        }
+
+
+    }
+
+    @include media-query($on-palm) {
+
+        .post-header{
+
+            .numwrapper{
+
+
+                .chnum{
+
+                    top: 27%;
+                    left: 47.5%;
+                    font-size: 20px;
+                }
+            }
+
         }
 
 
     }
 
 }
+
 /**
  * Browse Chapters at bottom of posts
 **/

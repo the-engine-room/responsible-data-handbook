@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Sharing Data
+subtitle: what to do with your processed data
 categories: chapters
 num: 2.3
 ch: 2c

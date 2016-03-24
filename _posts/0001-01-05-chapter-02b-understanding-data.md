@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Undestanding Data
+title:  Understanding Data
+subtitle: cleaning, preparing, and verifying data
 categories: chapters
 num: 2.2
 ch: 2b

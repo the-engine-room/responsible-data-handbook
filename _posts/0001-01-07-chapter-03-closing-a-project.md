@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Closing a Project
+subtitle: archiving and preservation of content
 categories: chapters
 num: 3
 ch: 3
