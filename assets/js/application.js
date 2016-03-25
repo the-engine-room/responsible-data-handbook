@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
-
+	$('.post p strong').before("**").after("**");
+	
 	var $grid = $('.grid').isotope({
 	  itemSelector: '.grid-item',
 	  layoutMode: 'fitRows'

@@ -13,13 +13,13 @@ nav:
     - Useful resources
 ---
 
-##<span id="target-audience">Target audience</span>:
+##Target audience
 Project planners who are getting down to the data details; thinking through what kinds of data the project will need and how to get that data. Issues associated with using datasets from other people are addressed here, as well as things to consider when collecting new data, respecting **data minimisation** principles. Finally, a comprehensive section on **consent** might be of use for those who are wondering what **meaningful consent** actually looks like.
 
-##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
+##When might this chapter be useful?
 When you’re getting down into the details of collecting data for your project. 
 
-##<span id="content-summary">Content summary</span>:
+##Content summary
 
 Why are you collecting data in the first place? To make sure your data gathering is relevant and actually useful, this section suggests framing your data collection in terms of a concrete question and building out processes and data points based on that specific question. You might not always need to directly collect your own data, either, as there are ways of getting data from existing sources - such as Freedom of Information requests from governments, or simply searching to see if anyone has already published the data you need.
 
@@ -65,7 +65,7 @@ Developing a strong consent policy within a project or an organisation can help 
 
 Finally, a word of caution is offered; is consent broken? A brief overview of this argument, and some ways to help create meaningful consent, are included here.
 
-##<span id="useful-resources">Useful resources</span>:
+##Useful resources
 * Data QualYtI: [Do you trust your data](http://istabg.org/data-qualyti-do-you-trust-your-data)? (an article Hjusein Tjurkmen, Mariyana Hristova, Musala Soft)
 See more [here](http://schoolofdata.org/handbook/courses/finding-data/#sthash.8o6YozUJ.dpuf)
 

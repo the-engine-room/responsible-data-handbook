@@ -13,13 +13,13 @@ nav:
     - Useful resources
 ---
 
-##<span id="target-audience">Target audience</span>:
+##Target audience
 Those who are making decisions, or advising others, on how to go about managing data; from the very basics of deciding where and how to store it, to who has access to it, how it is managed on an ongoing basis, and broad legal considerations to bear in mind. 
 
-##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
+##When might this chapter be useful?
 In advance of actually collecting any data, the chapter contains information that might be useful to consider when setting up the 'data infrastructure'.
 
-##<span id="content-summary">Content summary</span>:
+##Content summary
 
 This section provides an overview of approaches you can implement to ensure your information is stored, managed and accessed in a responsible, secure and protected manner. To begin with, it's worth reviewing the general principles of data integrity, and thinking about how to manage risks surrounding data storage.
 
@@ -41,7 +41,7 @@ Despite all this, it is important not to over do the checks and security measure
 
 In the final section within this chapter, **Legal Considerations** are discussed. Given the general nature of the book, much of this is discussed on a very broad level, to provide the reader with a guide of where to look and what to look for when thinking about the legal aspects of data storage. Whether it's data protection laws, encryption technology laws, or jurisdictional issues, (or more!) this section may well be especially relevant to the non-lawyers among us who are looking for a broad overview of what they should have in mind.
 
-##<span id="useful-resources">Useful resources</span>:
+##Useful resources
 
 * [The Frontline SMS Users' Guide to Data Integrity](http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf)
 

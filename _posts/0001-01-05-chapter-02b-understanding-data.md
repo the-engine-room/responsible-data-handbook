@@ -13,13 +13,13 @@ nav:
     - Useful resources
 ---
 
-##<span id="target-audience">Target audience</span>:
+##Target audience
 Those who will be working directly with the data, perhaps those with a data science or computer science background, to help them think through the ethical issues that should be considered. 
 
-##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
+##When might this chapter be useful?
 Once the data has been collected, as cleaning, preparing and verifying data is discussed in this section. 
 
-##<span id="content-summary">Content summary</span>:
+##Content summary
 
 ### verifying and cleaning data
 
@@ -39,7 +39,7 @@ All data, no matter how it is collected, will contain a certain amount of **bias
 
 Specific points that are useful to consider for spotting potential bias are explored here, such as thinking about the **sample** of people from whom data was collected, or cultural biases within the way the collection process was structured. It's good to be on the look out here for any **outliers** within your dataset that might skew your result - that is, datapoints that might represent human or machine errors. Getting expert opinions from those with deeper topical or cultural expertise of where you're working is a good way to verify your findings before moving on, too.
 
-##<span id="useful-resources">Useful resources</span>:
+##Useful resources
 * [The Verification Handbook](http://verificationhandbook.com)
 
 * [The Citizen Evidence Lab](http://citizenevidence.org/)

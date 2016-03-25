@@ -1,28 +1,47 @@
-<div class="row">
-	<div class="col-md-1"></div>
-	<div class="col-md-10">
-		<h5 class="browse">Browse Other Chapters</h5>
-	</div>
-	<div class="col-md-1"></div>
-</div>
 
-<div class="row">
-	<div class="col-md-1"></div>
-	
-	<div class="col-md-10">
-
-	{% assign posts = site.posts | sort: "num" %}
-	{% for post in posts %}
-		{% if post.title != page.title %}
-		  <a href="{{ post.url | prepend: site.baseurl }}" class="browselink">
-		  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
-			</a>
-		{% endif %}
-	{% endfor %}
-
+<div class="browsech">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-11">
+					<h5 class="browse">Browse Other Chapters</h5>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
 	</div>
 
-	<div class="col-md-1"></div>
+	<div class="row">
+		
+		<div class="col-md-12">
 
+					<!-- I don't get why this is part of the design? <img class="bar" src="{{ "/assets/img/bold-line.png" | prepend: site.baseurl}}" /> -->
+					{% assign posts = site.posts | sort: "num" %}
+					{% for post in posts %}
+						{% if post.title != page.title %}
+						<div class="eachch">
+						  <a href="{{ post.url | prepend: site.baseurl }}" class="browselink">
+						  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
+							<h4 class="ch">{{ post.ch }}</h4>
+							</a>
 
-</div>
+						</div>
+						{% else %}
+
+						<div class="eachch">
+						  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
+							
+						  <div class="chcurrent">
+								<h5>{{ post.ch }}</h5>
+								<h4>You are here</h4>
+							</div>
+						</div>
+
+						{% endif %}
+					{% endfor %}
+
+			</div>
+
+		</div>
+
+	</div>

@@ -42,7 +42,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -209,8 +208,11 @@ pre {
     }
 }
 
+
+
+
 /** Fonts on persistent elements **/
-h2, .contentnav li a, h5, .filter-group li, h6, .mobilemenu li a{
+h2, .contentnav li a, h5, h3, .filter-group li, h6, .mobilemenu li a{
     font-family: $bold-font-family;
 }
 
@@ -225,6 +227,8 @@ h1, .post-header h3{
 p strong, .chnum{
     font-family: $fancy-font-family;
 }
+
+
 
 /**
  * Lists

@@ -151,14 +151,14 @@
 
 #sidemenu{
     .title{
-        width: 220px;
+        width: 240px;
         margin: 0 10px 10px 10px;
 
     }
 
     .index{
-        width: 220px;
-        margin: 20px 40px 20px 10px;
+        width: 240px;
+        margin: 20px 0 20px 10px;
         padding: 20px 5px;
         border: 2px solid $red-color;
         text-align: center;
@@ -180,8 +180,8 @@
     }
 
     .download{
-        width: 220px;
-        margin: 20px 40px 20px 10px;
+        width: 240px;
+        margin: 20px 0 20px 10px;
         padding: 10px 5px;
         border: 2px solid $red-color;
         text-align: center;
@@ -190,7 +190,7 @@
             color: $red-color;
             text-transform: uppercase;
             margin: 0;
-            font-size: 18px;
+            font-size: 20px;
             letter-spacing: 0.03em;
         }
 
@@ -239,10 +239,10 @@
     }
 
     .curls{
-            float: right;
+            float: left;
             margin:0;
             img{
-                max-width: 87px;
+                max-width: 95px;
             }
 
 
@@ -270,7 +270,7 @@
         .title{
 
             padding: 0 0 20px 0;
-            width: 300px;
+            width: 280px;
         }
         .title, .download, .index{
             margin: 10px auto;
@@ -377,6 +377,9 @@
 
     }
 
+
+    
+
     .post-title {
         font-size: 8.5vw;
         margin-bottom: 0;
@@ -392,25 +395,35 @@
         margin-bottom: $spacing-unit;
 
         h2 {
-            font-size: 32px;
+            font-size: 25px;
             color: $red-color;
             font-variant: small-caps;
-
-            @include media-query($on-laptop) {
-                font-size: 28px;
-            }
-        }
-
-        h3 {
-            font-size: 26px;
+            margin-bottom: 0;
 
             @include media-query($on-laptop) {
                 font-size: 22px;
             }
         }
 
+        h3 {
+            font-size: 22px;
+            text-transform: capitalize;
+            padding-left: 45px;
+            font-variant: small-caps;
+            margin-bottom: 0;
+            background:  url("../img/curls-list-2.png") no-repeat left center;
+            @include media-query($on-laptop) {
+                font-size: 18px;
+            }
+        }
+
         h4 {
-            font-size: 20px;
+            font-size: 18px;
+            text-transform: capitalize;
+            padding-left: 45px;
+            font-variant: small-caps;
+            margin-bottom: 0;
+            background:  url("../img/curls-list-2.png") no-repeat left center;
 
             @include media-query($on-laptop) {
                 font-size: 18px;
@@ -419,7 +432,33 @@
 
         p strong{
             color: $red-color;
+            font-weight: normal;
+
         }
+
+        h2#content-summary + p:first-letter, h2#content-summary + h3 + p:first-letter{
+                font-family: $bold-font-family;
+                float: left; 
+                font-size: 75px; 
+                line-height: 60px; 
+                padding-top: 5px; 
+                padding-right: 4px; 
+                padding-left: 3px;
+            
+        }
+
+        /*p:nth-of-type(3):first-letter{
+                font-family: $bold-font-family;
+                float: left; 
+                font-size: 75px; 
+                line-height: 60px; 
+                padding-top: 2px; 
+                padding-right: 8px; 
+                padding-left: 3px;
+            
+        }*/
+
+
 
         p a, li a{
             color: $red-color;
@@ -521,20 +560,92 @@
  * Browse Chapters at bottom of posts
 **/
 
-h5.browse{
-    margin: 0 10px 20px 10px;
-    padding: 10px 0 10px 0;
-    text-transform: uppercase;
-    border-bottom: 3px solid $red-color;
-}
+.browsech{
 
-a.browselink:hover{
-    text-decoration: none;
-}
+    h5.browse{
+        margin: 0 10px 20px 10px;
+        padding: 10px 0 10px 0;
+        text-transform: uppercase;
+        border-bottom: 3px solid $red-color;
+        font-size: 28px;
+    }
 
-img.chapterthumb, .thumb img{
-    max-width: 150px;
-    padding: 10px;
+    .col-md-12{
+        margin-left: 40px;
+    }
+
+    .eachch{
+        float: left;
+        position: relative;
+
+        a.browselink:hover{
+            text-decoration: none;
+        }
+
+        .chcurrent{
+            position: absolute;
+            bottom: 50px;
+            left: 25px;
+            background: rgba(250,250,250,0.8);
+            border-radius: 50px;
+            //border: 1px solid $red-color;
+            color: $red-color;
+            text-align: center;
+
+            h5{
+                font-size: 30px;
+                padding: 20px 0 0 0;
+                margin: 0;
+                font-family: $fancy-font-family;
+
+
+            }
+
+            h4{
+                font-size: 20px;
+                padding: 0 10px 10px 10px;
+                font-family: $fancy-font-family;
+
+            }
+
+        }
+
+        .ch{
+            position: absolute;
+            border-radius: 50px;
+            //border: 1px solid $red-color;
+            bottom: 50px;
+            left: 45px;
+            font-family: $fancy-font-family;
+            color: $red-color;
+            line-height: 0.8em;
+            font-size: 50px;
+            background: rgba(250,250,250,0.8);
+            padding: 40px 20px 20px 20px;
+    
+        }
+
+        img.chapterthumb, .thumb img{
+            max-width: 160px;
+            padding: 10px;
+        }
+
+    }
+
+    .bar{
+        width: 20px;
+        height: 170px;
+        margin: 0 0 0 10px;
+    }
+
+    @include media-query($on-palm) {
+
+        h5.browse{
+            font-size: 20px;
+        }
+
+
+    }
 }
 
 /**
@@ -579,6 +690,22 @@ img.chapterthumb, .thumb img{
         }
     }
 }
+
+/* strong text in opening paragraph */
+
+.fullbook{ 
+    p strong{
+        font-family: $bold-font-family;
+        font-variant: small-caps;
+        color: $black-color;
+        font-weight: bolder;
+    }
+    .thumb img{
+            max-width: 150px;
+            padding: 10px;
+        }
+}
+/* isotope filter */
 
 .filter-group{
 

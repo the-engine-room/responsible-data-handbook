@@ -13,13 +13,13 @@ nav:
     - Useful resources
 ---
 
-##<span id="target-audience">Target audience</span>:
+##Target audience
 Project managers who are coming towards the end of a project 
 
-##<span id="when-might-this-chapter-be-useful?">When might this chapter be useful?</span>:
+##When might this chapter be useful?
 When you're approaching the end of the project, but still have a little time left on it for some final decisions around archiving and preservation of content. 
 
-##<span id="content-summary">Content summary</span>:
+##Content summary
 
 This chapter addresses an oft-forgotten part of the project: the end of it. Too often, the data that is produced during a project is left to one side during the rush of ending a project, but in this section we suggest that deciding what to do with the data after it has served its purpose is an integral part of the project design process. 
 
@@ -29,7 +29,7 @@ If the data in question is very large, substantial data infrastructure may well 
 
 Though it might be easy to forget, what happens to the data at the end of a project can make a huge difference to how the project is referenced, how its legacy lives on (to inform other projects, or not) - and, most crucially, to how the people referenced in the data are treated.
 
-##<span id="useful-resources">Useful resources</span>:
+##Useful resources
 
 * [Archivists' Guide to Archiving Video](http://archiveguide.witness.org/) (from WITNESS) and a [video](http://blog.witness.org/2014/10/video-series-archiving-and-preservation-activists/) on this topic.
 
