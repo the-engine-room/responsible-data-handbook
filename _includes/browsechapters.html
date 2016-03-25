@@ -22,7 +22,17 @@
 						<div class="eachch">
 						  <a href="{{ post.url | prepend: site.baseurl }}" class="browselink">
 						  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
+							
+						  {% if post.ch == 0 %}
+
+						  		<h4 class="ch zerosmall"><img src="{{ "/assets/img/special-zero.png" | prepend: site.baseurl }}"/></h4>
+
+						  {% else %}
+						
 							<h4 class="ch">{{ post.ch }}</h4>
+						  
+						  {% endif %}
+
 							</a>
 
 						</div>
@@ -32,7 +42,18 @@
 						  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
 							
 						  <div class="chcurrent">
+								
+		  					{% if post.ch == 0 %}
+
+						  		<h5 class="ch zerosmall"><img src="{{ "/assets/img/special-zero.png" | prepend: site.baseurl }}" /></h5>
+
+						  	{% else %}
+						
+						  
 								<h5>{{ post.ch }}</h5>
+
+							{% endif %}
+
 								<h4>You are here</h4>
 							</div>
 						</div>

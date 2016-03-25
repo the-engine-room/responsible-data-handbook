@@ -5,8 +5,14 @@ layout: default
 
   <header class="post-header">
   	<div class="numwrapper">
-      <div class="chnum">{{ page.ch }}</div>
-    	<img class="numholder" src="{{ "/assets/img/elem-1.png" | prepend: site.baseurl }}" />
+      {% if page.ch == 0 %}
+
+         <div class="chnum zerobig"><img src="{{ "/assets/img/special-zero.png" | prepend: site.baseurl }}" /></div>
+
+      {% else %}
+        <div class="chnum">{{ page.ch }}</div>
+      {% endif %}
+      <img class="numholder" src="{{ "/assets/img/elem-1.png" | prepend: site.baseurl }}" />
     </div>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
    {% if page.subtitle %}
