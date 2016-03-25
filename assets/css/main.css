@@ -656,7 +656,7 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 @media screen and (max-width: 800px) { #sidemenu .title { padding: 0 0 20px 0; width: 300px; }
   #sidemenu .title, #sidemenu .download, #sidemenu .index { margin: 10px auto; }
   #sidemenu .contentnav, #sidemenu .curls { display: none; } }
-@media screen and (max-width: 600px) { #sidemenu .title { padding: 0 0 20px 0; width: 300px; }
+@media screen and (max-width: 600px) { #sidemenu .title { padding: 0 0 20px 0; width: 280px; }
   #sidemenu .title, #sidemenu .download, #sidemenu .index { margin: 10px auto; }
   #sidemenu .contentnav, #sidemenu .curls { display: none; } }
 
@@ -692,7 +692,7 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 .post .post-content h4 { font-size: 18px; text-transform: capitalize; padding-left: 45px; font-variant: small-caps; margin-bottom: 0; background: url("../img/curls-list-2.png") no-repeat left center; }
 @media screen and (max-width: 800px) { .post .post-content h4 { font-size: 18px; } }
 .post .post-content p strong { color: #cd1619; font-weight: normal; }
-.post .post-content h2#content-summary + p:first-letter, .post .post-content h2#content-summary + h3 + p:first-letter { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; float: left; font-size: 75px; line-height: 60px; padding-top: 2px; padding-right: 4px; padding-left: 3px; }
+.post .post-content h2#content-summary + p:first-letter, .post .post-content h2#content-summary + h3 + p:first-letter { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; float: left; font-size: 75px; line-height: 60px; padding-top: 5px; padding-right: 4px; padding-left: 3px; }
 .post .post-content p a, .post .post-content li a { color: #cd1619; text-decoration: none; }
 .post .post-content p a:hover, .post .post-content li a:hover { text-decoration: none; }
 .post .mobilemenu { display: none; width: 200px; margin: 0 auto; }
@@ -738,6 +738,7 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 
 /* strong text in opening paragraph */
 .fullbook p strong { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; font-variant: small-caps; color: #1B1E1F; font-weight: bolder; }
+.fullbook .thumb img { max-width: 150px; padding: 10px; }
 
 /* isotope filter */
 .filter-group ul { margin: 30px 0 0 0; padding: 20px 0; border-bottom: 3px solid #1B1E1F; }
