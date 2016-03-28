@@ -49,6 +49,20 @@ $on-large-laptop:  1200px;
     }
 }
 
+@mixin media-query-landscape($device){
+	@media screen and (max-width: $device) and (orientation: landscape){
+		@content;
+	}
+
+}
+
+@mixin media-query-portrait($device){
+	@media screen and (max-width: $device) and (orientation: portrait){
+		@content;
+	}
+
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

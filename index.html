@@ -16,9 +16,9 @@ layout: default
     </div>
 
     <div class="fullbook row">
-        <div class="col-sm-1"></div>
+        <div class="col-md-1"></div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
           <img class="link" src="{{ "/assets/img/bold-line.png" | prepend: site.baseurl }}" />
           
           <div class="content">
@@ -37,12 +37,12 @@ layout: default
       
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-md-6">
           {% capture index-text %}{% include about.md %}{% endcapture %}
                 <p>{{ index-text | markdownify }}</p>
         </div>
 
-        <div class="col-sm-1"></div>
+        <div class="col-md-1"></div>
     
     </div>
 

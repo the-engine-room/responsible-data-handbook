@@ -299,6 +299,11 @@
         }
     }
 
+    @include media-query($on-palm) {
+        p{
+            font-size: 16px;
+        }
+    }
 
 }
 
@@ -508,7 +513,7 @@
 
 
             h3{
-                font-size: 23px;
+                font-size: 20px;
                 padding: 10px 0;
             }
 
@@ -649,11 +654,15 @@
     
         }
 
-        .zerosmall{
+        h4.zerosmall{
+            padding-top: 20px;
+        }
+
+        h5.zerosmall{
             left: 30px;
             padding-bottom: 10px;
             img{
-                width: 50px;
+                width: 30px;
             }
         }
 
@@ -691,64 +700,122 @@
     .title{
         margin: 10px 0 50px 0;
     }
+
+    @include media-query($on-palm) {
+        .title{
+            margin-bottom: 10px;
+        }
+    }
+
 }
 
 /* Full download */
 
 
 .fullbook{
+    .col-md-4{
+        padding-top: 20px;
+    }
+
     p strong{
         color: $red-color;
     }
 
     h5{
         color: $red-color;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 0 0 0 20px;
+        padding-left: 20px;
     }
-    .link{
+    img.link{
         float: left;
-        height: 220px;
+        height: 250px;
         padding: 5px 10px 0 0;
     }
 
     .content{
-        .chapterthumb{
-            float: left;
+        .thumb{
             img{
                 float: left;
-            }
+                max-width: 45%;
+                padding: 0 10px 10px 10px;
+            }   
         }
+
         a:hover{
             text-decoration: none;
         }
     }
-}
 
-/* strong text in opening paragraph */
-
-.fullbook{ 
     p strong{
         font-family: $bold-font-family;
         font-variant: small-caps;
         color: $black-color;
         font-weight: bolder;
     }
-    .thumb img{
-            max-width: 150px;
-            padding: 10px;
+
+    @include media-query($on-laptop) {
+
+    img.link{
+        height: 60vw;
+        width: 30px;
+        
+    }
+
+      .content{
+        float: none;
+        .thumb{
+            float: none;
+            img{
+                float: none;
+                max-width: 45%;
+            }
         }
+      }
+
+    }
+
+
+    @include media-query($on-palm) {
+
+    img.link{
+        height: 55vw;
+        width: 25px;
+
+    }
+
+    .content{
+        .thumb{
+            float: none;
+            img{
+                max-width: 40%;
+            }
+        }
+      }
+
+    .col-sm-6 p{
+        padding-top:10px;
+    }
+
 }
+
+}
+
+
 /* isotope filter */
 
 .filter-group{
 
     ul{
-        margin: 30px 0 0 0;
+        margin: 10px 0 15px 0;
         padding: 20px 0;
         border-bottom: 3px solid $black-color;
         li{
             display: inline-block;
             list-style-type: none;
             cursor: pointer;
+            font-size:25px;
 
             &:hover{
                 color: $red-color;
@@ -759,6 +826,33 @@
     .active{
         color: $red-color;
     }
+
+    @include media-query($on-laptop) {
+
+        ul{
+
+            li{
+                font-size: 22px;
+            }
+        }
+
+    }
+
+
+    @include media-query($on-palm) {
+
+
+        ul{
+            padding: 10px 0;
+
+            li{
+                font-size: 18px;
+            }
+        }
+
+
+    }
+
 }
 
 .grid{
@@ -776,16 +870,80 @@
         }
 
         a{
-            text-transform: uppercase;
-            color: $black-color;
 
-            &:hover{
-                color: $red-color;
-                text-decoration: none;
+
+            h6{   
+                text-transform: uppercase;
+                color: $black-color;
+                width: 100px;
+                font-size: 20px;
+                float: left;
+                padding: 0 25px 0 0;
+
+                 &:hover{
+                    color: $red-color;
+                    text-decoration: none;
+                }
+
             }
+
+
+            h6.download{
+                color: $red-color;
+
+                &:hover{
+                    color: $black-color;
+                }
+            }
+
 
         }
 
 
     }
+
+    @include media-query($on-laptop) {
+        .grid-item{ 
+            max-height: 450px;
+        
+
+            a{
+                h6{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    @include media-query-landscape($on-laptop){
+        .grid-item{ 
+        
+            max-height: 320px;
+
+            a{
+                h6{
+                    font-size: 12px;
+                    width: 40px;
+                }
+            }
+        }
+
+    }
+
+    @include media-query-portrait($on-palm){
+        .grid-item{ 
+            
+            max-height: 200px;
+
+
+            a{
+                h6{
+                    font-size: 12px;
+                    width: 40px;
+                }
+            }
+        }
+
+    }
+
 }
