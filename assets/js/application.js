@@ -14,7 +14,16 @@ $(document).ready(function(){
 	  $(this).addClass('active')
 	  var filterValue = $(this).attr('data-filter');
 	  console.log(filterValue);
-	  $grid.isotope({ filter: filterValue });
+	  $grid.isotope({ filter: filterValue }).css('overflow','hidden');
+	});
+
+
+
+	$('#menuswitch').click(function(e) {
+		$(this).toggleClass('on');
+		console.log("HEYYYYYY");
+		$('#menu').toggleClass('mobile');
+		return false;
 	});
 
 });
