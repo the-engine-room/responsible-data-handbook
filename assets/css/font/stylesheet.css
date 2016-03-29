@@ -79,3 +79,9 @@
 
 }
 
+@font-face{
+    font-family: 'ThemeIcons';
+    src: url('theme-icons.woff');
+    font-weight: normal;
+    font-style: normal;
+}
