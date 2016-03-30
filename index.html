@@ -16,33 +16,16 @@ layout: default
     </div>
 
     <div class="fullbook row">
-        <div class="col-md-1"></div>
+        <div class="col-sm-2"></div>
 
-        <div class="col-sm-6 col-md-4">
-          <img class="link" src="{{ "/assets/img/bold-line.png" | prepend: site.baseurl }}" />
-          
-          <div class="content">
-            <h5>Full Books Download</h5>
 
-            <a href="{{ "/assets/pdf/responsible-data-handbook.pdf" | prepend: site.baseurl }}" target="_blank">
-              <div class="thumb">
-                <img src="{{ "/assets/img/chapter-0.png" | prepend: site.baseurl }}" />
-                <img src="{{ "/assets/img/chapter-1.png" | prepend: site.baseurl }}" />
 
-              </div>
-            </a>
-          
-          </div>
-
-      
-        </div>
-
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-8">
           {% capture index-text %}{% include about.md %}{% endcapture %}
                 <p>{{ index-text | markdownify }}</p>
         </div>
 
-        <div class="col-md-1"></div>
+        <div class="col-sm-2"></div>
     
     </div>
 
