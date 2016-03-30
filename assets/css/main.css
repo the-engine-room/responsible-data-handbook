@@ -670,7 +670,21 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
   .filter-group ul { padding: 10px 0; }
   .filter-group ul li { font-size: 18px; } }
 
-.grid-item { float: left; width: 30%; height: 450px; padding: 5px 10px 30px 10px; margin: 0 10px; }
+.sidecurls { width: 80px; margin: 50px auto; }
+@media screen and (max-width: 850px) { .sidecurls { display: none; } }
+
+img.first { float: right; -moz-transform: scalX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }
+
+.second { float: left; }
+
+.introduction { padding: 5px 10px 30px 10px; margin: 0 auto; width: 80%; }
+.introduction img { padding: 10px 0; width: 100%; margin: 0 auto; }
+.introduction a h6 { text-transform: uppercase; color: #1B1E1F; width: 100px; font-size: 20px; float: left; padding: 0 25px 0 20px; }
+.introduction a h6:hover { color: #cd1619; text-decoration: none; }
+.introduction a h6.download { color: #cd1619; }
+.introduction a h6.download:hover { color: #1B1E1F; }
+
+.grid-item { width: 30%; float: left; height: 450px; padding: 5px 10px 30px 10px; margin: 0 10px; }
 .grid-item img { max-height: 400px; padding: 10px 0; }
 .grid-item a h6 { text-transform: uppercase; color: #1B1E1F; width: 100px; font-size: 20px; float: left; padding: 0 25px 0 0; }
 .grid-item a h6:hover { color: #cd1619; text-decoration: none; }
@@ -679,12 +693,12 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 
 @media screen and (max-width: 850px) { .grid-item { max-height: 400px; }
   .grid-item img { max-height: 360px; }
-  .grid-item a h6 { font-size: 18px; } }
+  .grid-item a h6, .introduction a h6 { font-size: 18px; padding: 0 25px 0 0; } }
 @media screen and (max-width: 850px) and (orientation: landscape) { .grid-item { max-height: 320px; }
   .grid-item img { max-height: 300px; }
-  .grid-item a h6 { font-size: 12px; width: 40px; } }
+  .grid-item a h6, .introduction a h6 { font-size: 12px; width: 40px; padding: 0 25px 0 0; } }
 @media screen and (max-width: 600px) and (orientation: portrait) { .grid-item { max-height: 200px; }
-  .grid-item a h6 { font-size: 12px; width: 40px; } }
+  .grid-item a h6, .introduction a h6 { font-size: 12px; width: 40px; padding: 0 25px 0 0; } }
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlighter-rouge .highlight { background: #eef; }
