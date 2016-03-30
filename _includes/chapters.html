@@ -1,0 +1,40 @@
+    <div class="chapterrow row">
+      <div class="col-sm-2"></div>
+
+      <div class="col-sm-8">
+
+
+		{% assign post = site.posts | sort %}
+		  
+
+		{% for p in post %}
+
+		 
+
+		<div class="col-sm-4 chapter grid-item">
+
+			  
+			  <a href="{{ p.url | prepend: site.baseurl}}"><img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}.png"/>
+
+			  <h6>read</h6>
+
+			  </a>
+			  
+			  <a href="{{ "/assets/pdf/" | prepend: site.baseurl }}{{ p.asset-link }}.pdf" target="_blank"><h6 class="download">download</h6></a>
+
+
+		</div>
+
+
+
+
+		{% endfor %}
+
+
+      </div>
+
+      <div class="col-sm-2"></div>
+
+    </div>
+
+
