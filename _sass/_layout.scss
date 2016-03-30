@@ -167,6 +167,8 @@
 */
 
 #sidemenu{
+
+
     .title{
         width: 240px;
         margin: 0 10px 10px 10px;
@@ -252,7 +254,7 @@
             float: left;
             margin:0;
             img{
-                max-width: 95px;
+                max-width: 60px;
             }
 
 
@@ -290,6 +292,25 @@
         }
 
     }
+}
+
+.fixed{
+    position: fixed;
+    top: 20px;
+      -webkit-transition: top 0.5s ease, position 0.5s ease;
+    -moz-transition: top 0.5s ease, position 0.5s ease ;
+    -ms-transition: top 0.5s ease, position 0.5s ease;
+    -o-transition: top 0.5s ease, position 0.5s ease;
+    transition: top 0.5s ease, position 0.5s ease;
+}
+
+.gone{
+    position: absolute;
+    -webkit-transition: position 1s slide;
+    -moz-transition: position 1s slide ;
+    -ms-transition: position 1s slide;
+    -o-transition: position 1s slide;
+    transition: position 1s slide;
 }
 
 
