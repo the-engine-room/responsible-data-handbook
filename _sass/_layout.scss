@@ -12,10 +12,6 @@
     
     [class*="icon-"] { font-family: 'ThemeIcons'; speak: none; font-style: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-    #menuswitch{
-        display: none;
-
-    }
 
 
     .container{
@@ -24,16 +20,27 @@
         padding: 0;
     }
 
+   #logo, #menu { display: table-cell; vertical-align: middle; height: 3.45em; }
+
+
     #logo{
-    
-        padding: 0.86em;
+
+        text-align: right; 
+        -ms-touch-action: none; 
         display: table-cell;
         vertical-align: middle;
         height: 4em;
         padding: 0.86em 10px;
         position: relative;
+
+        #menuswitch{
+            display: none;
+
+        }
+
         h1{
             margin-bottom: 0;
+            margin-right: 0;
 
         a{
             display: inline-block;
@@ -66,16 +73,24 @@
                     color: #fff; 
                     text-decoration: none;
                     text-transform: uppercase;
-                    padding: 0.75em 1.5 em;
+                    padding: 0.75em 1.5em;
                         -webkit-transition: all 0.2s ease;
                         -moz-transition: all 0.2s ease;
                         -ms-transition: all 0.2s ease;
                         -o-transition: all 0.2s ease;
                         transition: all 0.2s ease;
+                    display: inline-block; 
+
+                &:hover{
+                    background-color: #090909;
+
+                }
                 }
             }
         }
     }
+  
+      
 
     @media(max-width: 1010px) {
         .container{
@@ -88,6 +103,7 @@
                     li{
                         a{
                             font-size: 14px;
+                            padding: 0.5em 1em;
                         }
                     }
                 }
@@ -97,21 +113,39 @@
     }
 
     @media(max-width: 753px) {
-        .container{
-            width: 100%;
-        }
         #menu{
             display: none;
         }
+        #menu.mobile { display: block; height: auto; }
+        #menu.mobile li { border-top: 1px solid #333; display: block;}
+        #menu.mobile li a { display: block; font-size: 0.86em; padding: 0.86em; }
+
+        #menu.mobile ul { list-style: none; display: block; -webkit-padding-start: 0; -webkit-padding-start: 0; text-align: left;}
+        #menu.mobile ul, #menu li { margin: 0; }
+
+        .container{
+            width: 100%;
+        }
+      
         #logo{
             display: table;
             width: 100%;
+            text-align: inherit;
+
+           #menuswitch { position: absolute; top: 50%; right: 0; width: 5em; height: 6em; margin-top: -3em; cursor: pointer; text-align: center; display: table; }
+            
+            #menuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
+            
+            #menuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; -webkit-transition: transform 0.3s ease; -moz-transition: transform 0.3s ease; -ms-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; }
+            
+            #menuswitch.on:before { top: 15%; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
         }
 
 
     }
 
      @include media-query($on-palm) {
+
         #logo{
             img{
                 width: 240px;
@@ -125,87 +159,11 @@
 
 
 
-/* header */
-/*
-#header #logo h1 { margin-bottom: 0; margin-right: 1.25em; }
-#header #logo h1 a { display: inline-block; color: #fff; text-decoration: none; }
-#header #logo h1 a img { max-height: 3em; }
-#header #menu { display: none; }
 
-*/
-#header #menu.mobile { display: block; }
-#header #menu.mobile li { border-top: 1px solid #333; display: block;}
-#header #menu.mobile li a { display: block; font-size: 0.86em; padding: 0.86em; }
-#header #menu.mobile li li a { padding-left: 2em; }
-#header #menu.mobile li li li a { padding-left: 3em; }
-#header #menu.mobile .mini-menu-cart em { display: none; }
-#header #menu.mobile .mini-menu-cart strong:before { font-weight: 400; content: '\00a0\2014\00a0'; }
-#header #menu.mobile .mini-menu-cart ul { display: none; }
-#header #menu.mobile ul { list-style: none; display: block; -webkit-padding-start: 0; -webkit-padding-start: 0; text-align: left;}
-#header #menu.mobile ul, #header #menu li { margin: 0; }
-#header #menu.mobile ul li.current_page_item > a { color: #2ba8bd; }
-#header #menu.mobile .mini-menu-cart strong { font-weight: 400; }
-
-#header #menuswitch { position: absolute; top: 50%; right: 0; width: 5em; height: 6em; margin-top: -3em; cursor: pointer; text-align: center; display: table; }
-
-#header #menuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
-#header #menuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; -webkit-transition: transform 0.3s ease; -moz-transition: transform 0.3s ease; -ms-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; }
-#header #menuswitch.on:before { top: 15%; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
-
-
-
-@media (min-width: 768px) {
-    #header .wrapper { display: table; width: 100%; }
-    #header #logo, #header #menu { display: table-cell; vertical-align: middle; height: 3.45em; }
-    #header #logo { padding-left: 10px; padding-right: 10px; }
-    #header #logo h1 { margin-right: 0; }
-    #header #menu { text-align: right; padding-right: 10px; -ms-touch-action: none; }
-    #header #menu li { display: inline-block; }
-    #header #menu li a { display: inline-block; padding: 0.5em 1em; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; 
-        &:hover{
-            background-color: #090909;
-
-        }
-    }
-    .no-touch #header #menu li a:hover { background-color: #090909; }
-    #header #menu li.menu-item-has-children, #header #menu li.page_item_has_children, #header #menu li.menu-item-language, #header #menu li.mini-menu-cart { position: relative; }
-    #header #menu li.menu-item-has-children ul, #header #menu li.page_item_has_children ul, #header #menu li.menu-item-language ul.submenu-languages, #header #menu li.mini-menu-cart ul { visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 99; width: 12em; text-align: left; background-color: #090909; opacity: 0; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
-    #header #menu li.menu-item-has-children.left-side ul, #header #menu li.menu-item-language ul.submenu-languages, #header #menu li.mini-menu-cart ul { left: auto; right: 0; text-align: right; }
-    #header #menu li.menu-item-has-children li ul, #header #menu li.page_item_has_children li ul { top: 0; left: 99.99%; }
-    #header #menu.indicators li.menu-item-has-children > a:after, #header #menu.indicators li.page_item_has_children > a:after { content: '\00a0\002B'; font-family: 'Arial'; }
-    #header #menu li.menu-item-has-children ul li, #header #menu li.page_item_has_children ul li, #header #menu li.menu-item-language ul.submenu-languages li, #header #menu li.mini-menu-cart ul li { display: block; font-size: 0.9em; }
-    #header #menu li.menu-item-has-children ul a, #header #menu li.page_item_has_children ul a, #header #menu li.menu-item-language ul.submenu-languages a, #header #menu li.mini-menu-cart ul a { display: block; padding: 0.5em 1.25em; margin-left: 0; }
-    .no-touch #header #menu li.menu-item-has-children ul a:hover, #header #menu li.menu-item-has-children li.hover > a, .no-touch #header #menu li.page_item_has_children ul a:hover, #header #menu li.page_item_has_children li.hover > a, .no-touch #header #menu li.menu-item-language ul.submenu-languages a:hover, #header #menu li.menu-item-language.hover ul.submenu-languages > a, .no-touch #header #menu li.mini-menu-cart ul a:hover { color: #999; }
-    #header #menu li.menu-item-has-children ul li:last-child a, #header #menu li.page_item_has_children ul li:last-child a, #header #menu li.menu-item-language ul.submenu-languages li:last-child a { padding-bottom: 1em; }
-    .no-touch #header #menu li.menu-item-has-children:hover a, #header #menu li.menu-item-has-children.hover a, .no-touch #header #menu li.page_item_has_children:hover a, #header #menu li.page_item_has_children.hover a, .no-touch #header #menu li.menu-item-language:hover a, #header #menu li.menu-item-language.hover a, .no-touch #header #menu li.mini-menu-cart:hover a { background-color: #090909; color: #ddd; }
-    .no-touch #header #menu li.menu-item-has-children:hover ul li.current_page_item > a, #header #menu li.menu-item-has-children.hover ul li.current_page_item > a, .no-touch #header #menu li.page_item_has_children:hover ul li.current_page_item > a, #header #menu li.page_item_has_children.hover ul li.current_page_item > a { color: #2ba8bd; }
-    .no-touch #header #menu li.menu-item-has-children:hover > ul, #header #menu li.menu-item-has-children.hover > ul, .no-touch #header #menu li.page_item_has_children:hover > ul, #header #menu li.page_item_has_children.hover > ul, .no-touch #header #menu li.menu-item-language:hover > ul.submenu-languages, #header #menu li.menu-item-language.hover > ul.submenu-languages, .no-touch #header #menu li.mini-menu-cart:hover > ul { visibility: visible; opacity: 1; }
-    #header #menu .mini-menu-cart a { background-color: #2ba8bd; padding-left: 1em; padding-right: 1em; }
-    #header #menu li.mini-menu-cart > a:after { display: none; }
-    #header #menu ul .mini-menu-cart.current_page_item > a { color: #fff; }
-    #header #menu .mini-menu-cart em { position: relative; top: 0.04em; }
-    #header #menu .mini-menu-cart span.mobile-only { display: none; }
-    #header #menu li.mini-menu-cart ul { width: 13em; }
-    #header #menu li.mini-menu-cart ul a { background-color: #090909; padding: 0.5em 1em 0.5em 0.5em; line-height: 4em; }
-    #header #menu li.mini-menu-cart ul li:last-child a { padding-bottom: 0.5em; }
-    #header #menu li.mini-menu-cart ul li span.icon-cross { margin: 0 0.25em; font-size: 0.8em; }
-    #header #menu li.mini-menu-cart ul li span.equals { margin: 0 0.25em; }
-    .no-touch #header #menu li.mini-menu-cart ul li.checkout-link a { margin: 0 0.5em 0.5em; text-align: center; padding: 0.2em; line-height: 3em; background-color: #292929; }
-    .no-touch #header #menu li.mini-menu-cart ul li.checkout-link a:hover { background-color: #2ba8bd; color: #fff; }
-    #header #menu li.mini-menu-cart ul a img { float: left; height: 4em; }
-    #header #menu-switch { display: none; }
-
-    #heading .bar { height: 1em; }
-    #heading .bar:before, #heading .bar:after { border-bottom-width: 1em; }
-    #heading .bar:before { border-right-width: 1em; }
-    #heading .bar:after { border-left-width: 1em; }
-    #heading .cerchez-slider .slider .item .caption { bottom: 1em; }
-    #heading .cerchez-slider .slider .item .caption span.text:after { border-left-width: 1em; border-right-width: 1em; border-top-width: 1em; bottom: -0.95em; margin-left: -1em; }
-}
 
 
 /**
-    * Side menu
+    * Side menu on chapter pages
 */
 
 #sidemenu{
@@ -450,8 +408,6 @@
 
     }
 
-
-    
 
     .post-title {
         font-size: 8vw;
@@ -699,7 +655,6 @@
         .ch{
             position: absolute;
             border-radius: 50px;
-            //border: 1px solid $red-color;
             bottom: 50px;
             left: 45px;
             font-family: $fancy-font-family;
@@ -928,24 +883,6 @@
         height: 450px; 
         padding: 5px 10px 30px 10px;
         margin: 0 10px;
-
-        .overlay{
-            z-index: 1000;
-            position: absolute;
-            left: 20%;
-            top: 20%;
-            h3{
-                font-family: $fancy-font-family;
-                font-size: 80px;
-                line-height: 1em;
-                text-transform: capitalize;
-                padding: 30px 10px;
-                color: $red-color;
-                border-radius: 50px;
-
-                background-color: rgba(250,250,250,0.8);
-            }
-        }
 
         img{
             max-height: 400px;
