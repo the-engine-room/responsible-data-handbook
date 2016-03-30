@@ -21,7 +21,6 @@ $(document).ready(function(){
 
 	$('#menuswitch').click(function(e) {
 		$(this).toggleClass('on');
-		console.log("HEYYYYYY");
 		$('#menu').toggleClass('mobile');
 		return false;
 	});
