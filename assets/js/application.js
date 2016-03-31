@@ -18,15 +18,20 @@ $(window).bind('scroll', function () {
 	    if ($(window).scrollTop() > 50)
 	    {
 	        $('#sidemenu').addClass('fixed');
+	        $('.index,.download').addClass('dontshow');
 	    } else {
 	        $('#sidemenu').removeClass('fixed');
+	       	$('.index,.download').removeClass('dontshow');
+
 	    }
 
 	    if ((window.innerHeight + window.scrollY + 500) >= document.body.offsetHeight){
 	    	$('#sidemenu').removeClass('fixed');
 	    	$('#sidemenu').addClass('gone');
+
 	    }else{
 	    	$('#sidemenu').removeClass('gone');
+
 	    }
 	}
 });
