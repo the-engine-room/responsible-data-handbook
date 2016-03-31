@@ -1,37 +1,16 @@
    {% assign post = site.posts | sort %}
 		  
+   	<div class="handbookrow row">
+	   		<div class="col-sm-1 col-md-2"></div>
 
-		{% for p in post %}
+	   		<div class="col-md-8 col-sm-10">
 
-		 {% assign loopindex = forloop.index | modulo: 4 %}
+	   			<h2 class="resource">Handbook</h2>
+	   		</div>
 
-         {% if forloop.first %}
-
-         <div class="introrow row">
-
-         	<div class="col-sm-4"></div>
-
-         	<div class="col-sm-4 col-xs-6">
-	         	<div class="introduction">
-				  <a href="{{ p.url | prepend: site.baseurl}}"><img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}.png"/></a>
-					
-					 <a href="{{ p.url | prepend: site.baseurl}}"><h6>read</h6></a>
-
-
-					  <a href="{{ "/assets/pdf/" | prepend: site.baseurl }}{{ p.asset-link }}.pdf" target="_blank"><h6 class="download">download</h6></a>
-
-				</div>
-         	</div>
-
-         	<div class="col-sm-4 col-xs-6"></div>
-
-
-		 </div>
-
-		 {% endif %}
-		 {% endfor %}
-
-
+	   		<div class="col-sm-1 col-md-2"></div>
+	</div>
+   	</div>
     <div class="chapterrow row">
       <div class="col-md-2 col-sm-1">
       		<img class="sidecurls first" src="{{ "/assets/img/curls-3.png" | prepend: site.baseurl }}" />
@@ -39,12 +18,24 @@
 
       <div class="col-md-8 col-sm-10">
 
+      	<div class="col-sm-3 col-md-4 chapter grid-item">
+
+				  <a href="{{ "/assets/pdf/responsible-data-handbook.pdf" | prepend: site.baseurl }}" target="_blank"><img class="img" title="Responsible Data Handbook" src="{{ "/assets/img/chapter-0.png" | prepend: site.baseurl }}"/>
+          		
+          			<h6 class="button downloadbook download">Download Book</h6></a>
+
+
+      	</div>
+
+      	<div class="col-sm-3 col-md-4 chapter grid-item">
+
+				  	<a href="{{ "/assets/pdf/responsible-data-handbook.pdf" | prepend: site.baseurl }}" target="_blank"><img class="img" title="Chapter Summaries" src="{{ "/assets/img/chapter-0.png" | prepend: site.baseurl }}"/>
+          		
+          			<h6 class="button downloadbook download">Download Chapter Summaries</h6></a>
+      	</div>
+
 		{% for p in post %}
 
-		 {% assign loopindex = forloop.index | modulo: 4 %}		
-
-
-		 {% unless forloop.first %}
 
 			<div class="col-sm-3 col-md-4 chapter grid-item">
 
@@ -61,7 +52,6 @@
 			</div>
 
 
-		{% endunless %}
 
 		{% endfor %}
 

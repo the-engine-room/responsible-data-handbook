@@ -334,7 +334,16 @@
  */
 .site-footer {
     padding: $spacing-unit 0;
-    border-top: 20px solid black;
+
+    .col-xs-10{
+        border-top: 20px solid black;
+
+        .col-md-6{
+            margin: 20px 0 0 0;
+            padding: 20px 0 0 0;
+        }
+
+    }
 
     img{
         width: 20%;
@@ -782,63 +791,65 @@
 }
 
 
-/* isotope filter */
+/* index button row */
 
-.filter-group{
-        font-size: 25px;
+.sliderow, .handbookrow{
+        color: $black-color;
+        padding: 20px 0 ;
+            h2.resource{
+                font-size: 30px;
+                padding: 10px;
+                border-bottom: 4px solid $black-color;
 
-    ul{
-        margin: 10px 0 15px 0;
-        padding: 20px 0;
-        border-bottom: 3px solid $black-color;
-        li{
-            display: inline-block;
-            list-style-type: none;
-            cursor: pointer;
-            font-size: 25px;
-            &:hover{
-                color: $red-color;
             }
-        }   
-    }
+            a{ 
+                color: $red-color;
+                font-size: 22px;
+                background:  url("../img/curls-list-2.png") no-repeat left center;
+                padding: 0 0 0 45px;
+            
+                &:hover{
+                    color: $black-color;
+                    text-decoration: none;
+                }
+            }
+            
 
-    .active{
-        color: $red-color;
-    }
+
 
     @include media-query($on-laptop) {
-        
-        font-size: 22px;
-        
-        ul{
-
-            li{
-                font-size: 22px;
-            }
+        h2.resource{
+            font-size: 25px;
         }
+        
+        a{
+                font-size: 18px;
+            }
+        
 
     }
 
 
     @include media-query($on-palm) {
  
-        font-size: 18px;
-
-        ul{
-            padding: 10px 0;
-
-            li{
-                font-size: 18px;
-            }
+        h2.resource{
+            font-size: 22px;
         }
+        
+        a{
+                font-size: 16px;
+            }
 
 
     }
 
 }
+
+/* index chapter grid */ 
+
     .sidecurls{
        width: 80px;
-       margin: 50px auto;
+       margin: 300px auto;
 
         @include media-query($on-laptop) {
 
