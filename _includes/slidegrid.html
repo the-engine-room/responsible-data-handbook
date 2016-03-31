@@ -1,0 +1,91 @@
+   {% assign post = site.posts | sort %}
+	<div class="introrow row">
+
+		<div class="col-sm-10">
+      	<div class="row">
+
+
+		<div class="col-sm-3 col-md-2 chapter grid-item">
+				 <a href="{{ "/assets/slides/fullslides.pdf" | prepend: site.baseurl }}" target="_blank">
+
+				 <img class="img" title="Full Slide Deck" src="{{ "/assets/img/chapter-0.png" | prepend: site.baseurl }}"/>
+					
+
+				<h6 class="download">download</h6></a>
+
+         	</div>
+
+		{% for p in post %}
+
+		 {% assign loopindex = forloop.index | modulo: 4 %}
+
+         {% if forloop.first %}
+
+
+
+		<div class="col-sm-3 col-md-2 chapter grid-item">
+				  <a href="{{ "/assets/slides/" | prepend: site.baseurl }}{{ p.asset-link }}.pdf" target="_blank">
+				  	<img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}.png"/>
+					
+
+					 <h6 class="download">download</h6></a>
+
+         	</div>
+
+
+
+
+
+		 {% endif %}
+		 {% endfor %}
+		 
+
+
+		</div>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+
+
+    <div class="chapterrow row">
+
+
+      <div class="col-sm-10">
+      	<div class="row">
+
+		{% for p in post %}
+
+		 {% assign loopindex = forloop.index | modulo: 4 %}		
+
+
+		 {% unless forloop.first %}
+
+			<div class="col-sm-3 col-md-2 chapter grid-item">
+
+				  
+				  <a href="{{ "/assets/pdf/" | prepend: site.baseurl }}{{ p.asset-link }}.pdf" target="_blank">
+				  <img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}.png"/>
+				  <h6 class="download">download</h6></a>
+
+
+			</div>
+
+
+		{% endunless %}
+
+		{% endfor %}
+
+
+
+		</div>
+      </div>
+      	<div class="col-sm-2">
+      		<img class="sidecurls second" src="{{ "/assets/img/curls-3.png" | prepend: site.baseurl }}" />
+
+	    </div>
+
+
+
+    </div>
+
+

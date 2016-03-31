@@ -1,0 +1,54 @@
+---
+layout: default
+title: "Responsible Data Slides"
+---
+
+<div class="slides">
+    <header class="post-header">
+
+      <div class="homehead row">
+
+        <div class="col-sm-11">
+              <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            {% if page.subtitle %}
+          <h3>{{ page.subtitle }}</h3>
+             {% endif %}
+
+          <div class="curlholder">
+           <img class="curls" src="{{ "/assets/img/curls-1.png" | prepend: site.baseurl }}" />
+          </div>
+        </div>
+
+        <div class="col-sm-1"></div>
+
+
+      </div>
+
+
+  
+    </header>
+
+      <div class="fullbook row">
+
+
+
+          <div class="col-sm-11">
+            {% capture index-text %}{% include slides.md %}{% endcapture %}
+                  <p>{{ index-text | markdownify }}</p>
+          </div>
+
+          <div class="col-sm-1"></div>
+      
+      </div>
+
+    
+
+
+
+
+    {% include slidegrid.html %}
+    
+
+
+
+</div>

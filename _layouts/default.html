@@ -13,12 +13,32 @@
 
     <div class="page-content">
 
+      {% if page.title == "Responsible Data Slides" %}
+      <div class="row">
 
-      {% if page.layout == "post" %}
+            <div class="col-sm-3">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-11"> 
+                 {% include sideslides.html %}
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-9">
+
+
+                {{ content }}
+         
+
+          </div>
+        </div>
+
+      {% elsif page.layout == "post" %}
         <div class="row">
 
-            <div class="col-md-4 col-sm-4">
-              <div class="row">
+            <div class="col-sm-4">
+              <div class="row postrow">
                 <div class="col-md-1"></div>
                 <div class="col-md-11"> 
                  {% include sidemenu.html %}
@@ -26,7 +46,7 @@
               </div>
             </div>
 
-            <div class="col-md-8 col-sm-8">
+            <div class="col-sm-8">
               <div class="row">
                 <div class="col-md-11 col-sm-12">
 

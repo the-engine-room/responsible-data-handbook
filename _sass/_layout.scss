@@ -227,11 +227,11 @@
 
     .dontshow{
         display: none;
-          -webkit-transition: display 0.5s ease;
-        -moz-transition: display 0.5s ease ;
-        -ms-transition: display 0.5s ease;
-        -o-transition: display 0.5s ease;
-        transition: display 0.5s ease;
+          -webkit-transition: display 1s ease;
+        -moz-transition: display 1s ease ;
+        -ms-transition: display 1s ease;
+        -o-transition: display 1s ease;
+        transition: display 1s ease;
 
     }
 
@@ -449,7 +449,7 @@
 
 
     .post-title {
-        font-size: 8vw;
+        font-size: 7.5vw;
         margin-bottom: 0;
         letter-spacing: -1px;
         line-height: 1;
@@ -881,7 +881,7 @@
                 width: 100px;
                 font-size: 20px;
                 float: left;
-                padding: 0 25px 0 20px;
+                padding: 0 120px 0 0;
 
                  &:hover{
                     color: $red-color;
@@ -1019,3 +1019,53 @@
         }
 
     }
+/**
+  ** Slides 
+
+**/
+
+.slides{
+    .curlholder{
+            width: 330px;
+            margin: 0 auto;
+
+    }
+
+    .fullbook{
+        margin-bottom: 50px;
+    }
+
+
+    .post-title {
+        font-size: 6vw;
+        margin: 50px 0 30px 0;
+        letter-spacing: -1px;
+        line-height: 1;
+        color: $red-color;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    a{
+
+
+            h6.allsides{   
+                text-transform: uppercase;
+                color: $red-color;
+                font-size: 19px;
+                float: left;
+                padding: 0;
+                width: 100%;
+
+                 &:hover{
+                    color: $black-color;
+                    text-decoration: none;
+                }
+
+            }
+    }
+
+
+}
+
