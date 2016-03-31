@@ -43,25 +43,9 @@
 						<div class="eachch">
 						  <img class="chapterthumb" alt="{{post.title}}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ post.num }}.png" />
 							
-						  <div class="chcurrent">
+						  	<div class="chcurrent">
 								
-		  					{% if post.ch == 0 %}
-
-						  		<h5 class="ch zerosmall"><img src="{{ "/assets/img/special-zero.png" | prepend: site.baseurl }}" /></h5>
-
-						  		<h4 class="zerosmall">You are here</h4>
-
-
-						  	{% else %}
-						
-						  
-								<h5>{{ post.ch }}</h5>
-
-								<h4>You are here</h4>
-
-
-							{% endif %}
-
+		  						<img src="{{ "/assets/img/here.png" | prepend: site.baseurl }}" />
 							</div>
 						</div>
 
