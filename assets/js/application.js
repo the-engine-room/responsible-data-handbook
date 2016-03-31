@@ -18,14 +18,14 @@ $(window).bind('scroll', function () {
 	    if ($(window).scrollTop() > 50)
 	    {
 	        $('#sidemenu').addClass('fixed');
-	        $('.index,.download').addClass('dontshow');
+	        $('.index').addClass('dontshow');
 	    } else {
 	        $('#sidemenu').removeClass('fixed');
-	       	$('.index,.download').removeClass('dontshow');
+	       	$('.index').removeClass('dontshow');
 
 	    }
 
-	    if ((window.innerHeight + window.scrollY + 500) >= document.body.offsetHeight){
+	    if ((window.innerHeight + window.scrollY + 475) >= document.body.offsetHeight){
 	    	$('.postrow #sidemenu').removeClass('fixed');
 	    	$('.postrow #sidemenu').addClass('gone');
 
