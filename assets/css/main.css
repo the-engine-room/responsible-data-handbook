@@ -575,7 +575,9 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 .gone { position: absolute; -webkit-transition: position 1s slide; -moz-transition: position 1s slide; -ms-transition: position 1s slide; -o-transition: position 1s slide; transition: position 1s slide; }
 
 /** Site footer */
-.site-footer { padding: 30px 0; border-top: 20px solid black; }
+.site-footer { padding: 30px 0; }
+.site-footer .col-xs-10 { border-top: 20px solid black; }
+.site-footer .col-xs-10 .col-md-6 { margin: 20px 0 0 0; padding: 20px 0 0 0; }
 .site-footer img { width: 20%; float: left; }
 .site-footer p { padding: 0 0 30px 30px; width: 70%; float: left; }
 .site-footer a { color: #cd1619; }
@@ -659,19 +661,18 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 /* Full download */
 .fullbook p strong { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; font-variant: small-caps; color: #1B1E1F; font-weight: bolder; }
 
-/* isotope filter */
-.filter-group { font-size: 25px; }
-.filter-group ul { margin: 10px 0 15px 0; padding: 20px 0; border-bottom: 3px solid #1B1E1F; }
-.filter-group ul li { display: inline-block; list-style-type: none; cursor: pointer; font-size: 25px; }
-.filter-group ul li:hover { color: #cd1619; }
-.filter-group .active { color: #cd1619; }
-@media screen and (max-width: 850px) { .filter-group { font-size: 22px; }
-  .filter-group ul li { font-size: 22px; } }
-@media screen and (max-width: 600px) { .filter-group { font-size: 18px; }
-  .filter-group ul { padding: 10px 0; }
-  .filter-group ul li { font-size: 18px; } }
+/* index button row */
+.sliderow, .handbookrow { color: #1B1E1F; padding: 20px 0; }
+.sliderow h2.resource, .handbookrow h2.resource { font-size: 30px; padding: 10px; border-bottom: 4px solid #1B1E1F; }
+.sliderow a, .handbookrow a { color: #cd1619; font-size: 22px; background: url("../img/curls-list-2.png") no-repeat left center; padding: 0 0 0 45px; }
+.sliderow a:hover, .handbookrow a:hover { color: #1B1E1F; text-decoration: none; }
+@media screen and (max-width: 850px) { .sliderow h2.resource, .handbookrow h2.resource { font-size: 25px; }
+  .sliderow a, .handbookrow a { font-size: 18px; } }
+@media screen and (max-width: 600px) { .sliderow h2.resource, .handbookrow h2.resource { font-size: 22px; }
+  .sliderow a, .handbookrow a { font-size: 16px; } }
 
-.sidecurls { width: 80px; margin: 50px auto; }
+/* index chapter grid */
+.sidecurls { width: 80px; margin: 300px auto; }
 @media screen and (max-width: 850px) { .sidecurls { display: none; } }
 
 img.first { float: right; -moz-transform: scalX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }
