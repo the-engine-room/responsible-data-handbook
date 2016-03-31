@@ -604,6 +604,7 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 .post .post-header .numwrapper .zerobig img { width: 50px; }
 .post .post-header .curlholder { width: 330px; margin: 0 auto; }
 .post .post-title { font-size: 7.5vw; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
+.post .map { padding: 30px 0 50px 0; width: 90%; margin: 0 auto; }
 .post .post-content { margin-bottom: 30px; }
 .post .post-content h2 { font-size: 25px; color: #cd1619; font-variant: small-caps; margin-bottom: 0; }
 @media screen and (max-width: 850px) { .post .post-content h2 { font-size: 22px; } }
@@ -620,16 +621,18 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 .post .mobilemenu ul li { font-variant: small-caps; padding: 5px 0; }
 .post .mobilemenu ul li a { color: #1B1E1F; font-size: 20px; }
 .post .mobilemenu ul li a:hover { text-decoration: none; color: #cd1619; }
-@media screen and (max-width: 850px) { .post .curlholder { padding: 20px 0 0 0; }
-  .post .mobilemenu { display: block; }
+@media screen and (max-width: 850px) { .post .mobilemenu { display: block; }
   .post .post-title { font-size: 7.5vw; padding: 20px 0; }
   .post .post-header { padding: 20px 0 0 0; }
+  .post .post-header .curlholder { padding: 20px 0 0 0; width: 220px; }
+  .post .post-header .map { padding-bottom: 10px; }
   .post .post-header h3 { font-size: 20px; padding: 10px 0; }
   .post .post-header .numwrapper .chnum { top: 25%; left: 42%; font-size: 40px; width: 100px; }
   .post .post-header .numwrapper .chnum img { width: 80px; }
   .post .post-header .numwrapper .zerobig { top: 21%; left: 40%; }
   .post .post-header .numwrapper .zerobig img { width: 40px; } }
-@media screen and (max-width: 600px) { .post .post-header .numwrapper .chnum { width: 100px; top: 27%; left: 35%; font-size: 20px; }
+@media screen and (max-width: 600px) { .post .post-header .curlholder { width: 200px; padding-top: 0; }
+  .post .post-header .numwrapper .chnum { width: 100px; top: 27%; left: 35%; font-size: 20px; }
   .post .post-header .numwrapper .zerobig { top: 21%; left: 35%; }
   .post .post-header .numwrapper .zerobig img { width: 30px; } }
 
