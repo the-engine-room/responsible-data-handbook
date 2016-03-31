@@ -468,6 +468,12 @@
 
     }
 
+    .map{
+        padding: 30px 0 50px 0;
+        width:90%;
+        margin: 0 auto;
+    }
+
     .post-content {
         margin-bottom: $spacing-unit;
 
@@ -561,9 +567,7 @@
 
     @include media-query($on-laptop) {
 
-        .curlholder{
-            padding: 20px 0 0 0;
-        }
+
         .mobilemenu{
             display: block;
         }
@@ -575,6 +579,13 @@
         .post-header{
             padding: 20px 0 0 0;
 
+            .curlholder{
+                padding: 20px 0 0 0;
+                width: 220px;
+            }
+            .map{
+                padding-bottom: 10px;
+            }
 
             h3{
                 font-size: 20px;
@@ -617,8 +628,15 @@
     }
 
     @include media-query($on-palm) {
+       
 
         .post-header{
+             .curlholder{
+                    width: 200px;
+                    padding-top: 0;
+                }
+
+
 
             .numwrapper{
 
