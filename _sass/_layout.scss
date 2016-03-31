@@ -169,8 +169,11 @@
 #sidemenu{
 
 
+
+
     .title{
         width: 240px;
+        display: block;
         margin: 0 10px 10px 10px;
         a:hover{
             text-decoraton: none;
@@ -180,6 +183,7 @@
 
     .index{
         width: 240px;
+        display: block;
         margin: 20px 0 20px 10px;
         padding: 20px 5px;
         border: 2px solid $red-color;
@@ -201,6 +205,7 @@
         width: 240px;
         margin: 20px 0 20px 10px;
         padding: 10px 5px;
+        display: block;
         border: 2px solid $red-color;
         text-align: center;
 
@@ -218,6 +223,16 @@
             }
 
         }
+    }
+
+    .dontshow{
+        display: none;
+          -webkit-transition: display 0.5s ease;
+        -moz-transition: display 0.5s ease ;
+        -ms-transition: display 0.5s ease;
+        -o-transition: display 0.5s ease;
+        transition: display 0.5s ease;
+
     }
 
     .contentnav{
@@ -848,7 +863,7 @@
 
     .introduction{
 
-        padding: 5px 10px 30px 10px;
+        padding: 5px 10px 50px 10px;
         margin: 0 auto;
         width: 80%;
         img{
