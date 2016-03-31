@@ -500,7 +500,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon > svg path { fill: #1B1E1F; }
 
 /** Fonts on persistent elements **/
-h2, .contentnav li a, h5, h3, .filter-group li, h6, .mobilemenu li a { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; }
+h2, .contentnav li a, h5, h3, .filter-group li, h6, h7, .mobilemenu li a { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; }
 
 h1, .post-header h3 { font-family: "alegreyabold", Georgia, Times, serif; }
 
@@ -555,7 +555,7 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 #sidemenu .download { width: 240px; margin: 20px 0 20px 10px; padding: 10px 5px; display: block; border: 2px solid #cd1619; text-align: center; }
 #sidemenu .download h6 { color: #cd1619; text-transform: uppercase; margin: 0; font-size: 20px; letter-spacing: 0.03em; }
 #sidemenu .download a:hover { text-decoration: none; }
-#sidemenu .dontshow { display: none; -webkit-transition: display 0.5s ease; -moz-transition: display 0.5s ease; -ms-transition: display 0.5s ease; -o-transition: display 0.5s ease; transition: display 0.5s ease; }
+#sidemenu .dontshow { display: none; -webkit-transition: display 1s ease; -moz-transition: display 1s ease; -ms-transition: display 1s ease; -o-transition: display 1s ease; transition: display 1s ease; }
 #sidemenu .contentnav { float: left; max-width: 60%; }
 #sidemenu .contentnav ul { padding: 0 0 0 10px; float: left; margin: 40px 0 0 0; list-style: none; }
 #sidemenu .contentnav ul li { list-style-type: none; padding: 5px 0 5px 0; font-size: 22px; line-height: 1.2em; }
@@ -601,7 +601,7 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 .post .post-header .numwrapper .zerobig { top: 23%; left: 43%; }
 .post .post-header .numwrapper .zerobig img { width: 50px; }
 .post .post-header .curlholder { width: 330px; margin: 0 auto; }
-.post .post-title { font-size: 8vw; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
+.post .post-title { font-size: 7.5vw; margin-bottom: 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
 .post .post-content { margin-bottom: 30px; }
 .post .post-content h2 { font-size: 25px; color: #cd1619; font-variant: small-caps; margin-bottom: 0; }
 @media screen and (max-width: 850px) { .post .post-content h2 { font-size: 22px; } }
@@ -680,7 +680,7 @@ img.first { float: right; -moz-transform: scalX(-1); -o-transform: scaleX(-1); -
 
 .introduction { padding: 5px 10px 50px 10px; margin: 0 auto; width: 80%; }
 .introduction img { padding: 10px 0; width: 100%; margin: 0 auto; }
-.introduction a h6 { text-transform: uppercase; color: #1B1E1F; width: 100px; font-size: 20px; float: left; padding: 0 25px 0 20px; }
+.introduction a h6 { text-transform: uppercase; color: #1B1E1F; width: 100px; font-size: 20px; float: left; padding: 0 120px 0 0; }
 .introduction a h6:hover { color: #cd1619; text-decoration: none; }
 .introduction a h6.download { color: #cd1619; }
 .introduction a h6.download:hover { color: #1B1E1F; }
@@ -700,6 +700,15 @@ img.first { float: right; -moz-transform: scalX(-1); -o-transform: scaleX(-1); -
   .grid-item a h6, .introduction a h6 { font-size: 12px; width: 40px; padding: 0 25px 0 0; } }
 @media screen and (max-width: 600px) and (orientation: portrait) { .grid-item { max-height: 200px; }
   .grid-item a h6, .introduction a h6 { font-size: 12px; width: 40px; padding: 0 25px 0 0; } }
+/** * Slides 
+
+**/
+.slides .curlholder { width: 330px; margin: 0 auto; }
+.slides .fullbook { margin-bottom: 50px; }
+.slides .post-title { font-size: 6vw; margin: 50px 0 30px 0; letter-spacing: -1px; line-height: 1; color: #cd1619; text-align: center; text-transform: uppercase; }
+.slides a h6.allsides { text-transform: uppercase; color: #cd1619; font-size: 19px; float: left; padding: 0; width: 100%; }
+.slides a h6.allsides:hover { color: #1B1E1F; text-decoration: none; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlighter-rouge .highlight { background: #eef; }

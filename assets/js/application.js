@@ -26,11 +26,11 @@ $(window).bind('scroll', function () {
 	    }
 
 	    if ((window.innerHeight + window.scrollY + 500) >= document.body.offsetHeight){
-	    	$('#sidemenu').removeClass('fixed');
-	    	$('#sidemenu').addClass('gone');
+	    	$('.postrow #sidemenu').removeClass('fixed');
+	    	$('.postrow #sidemenu').addClass('gone');
 
 	    }else{
-	    	$('#sidemenu').removeClass('gone');
+	    	$('.postrow #sidemenu').removeClass('gone');
 
 	    }
 	}
