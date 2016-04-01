@@ -1126,3 +1126,11 @@
 
 }
 
+.slidepage{
+    @include media-query($slide-page-break) {
+        #sidemenu .title, #sidemenu .index{
+            width: 200px;
+        }
+    }
+}
+

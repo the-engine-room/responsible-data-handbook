@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 });
 
+
 $(window).bind('scroll', function () {
 	if($(window).width()>850){
 	    if ($(window).scrollTop() > 50)
