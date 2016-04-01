@@ -18,10 +18,8 @@ $(window).bind('scroll', function () {
 	    if ($(window).scrollTop() > 50)
 	    {
 	        $('#sidemenu').addClass('fixed');
-	        $('.index').addClass('dontshow');
 	    } else {
 	        $('#sidemenu').removeClass('fixed');
-	       	$('.index').removeClass('dontshow');
 
 	    }
 

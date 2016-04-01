@@ -668,13 +668,14 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 
 /* index button row */
 .sliderow, .handbookrow { color: #1B1E1F; padding: 20px 0; }
-.sliderow h2.resource, .handbookrow h2.resource { font-size: 30px; padding: 10px; border-bottom: 4px solid #1B1E1F; }
-.sliderow a, .handbookrow a { color: #cd1619; font-size: 22px; background: url("../img/curls-list-2.png") no-repeat left center; padding: 0 0 0 45px; }
-.sliderow a:hover, .handbookrow a:hover { color: #1B1E1F; text-decoration: none; }
-@media screen and (max-width: 850px) { .sliderow h2.resource, .handbookrow h2.resource { font-size: 25px; }
-  .sliderow a, .handbookrow a { font-size: 18px; } }
-@media screen and (max-width: 600px) { .sliderow h2.resource, .handbookrow h2.resource { font-size: 22px; }
-  .sliderow a, .handbookrow a { font-size: 16px; } }
+.sliderow h2.resource, .handbookrow h2.resource { font-size: 30px; padding: 0 0 10px 10px; border-bottom: 4px solid #cd1619; }
+.sliderow a, .handbookrow a { color: #1B1E1F; font-size: 30px; padding: 0; }
+.sliderow a h6, .handbookrow a h6 { text-align: center; padding: 0; line-height: 1em; font-size: 30px; vertical-align: middle; }
+.sliderow a:hover, .handbookrow a:hover { color: #cd1619; text-decoration: none; }
+.sliderow .button, .handbookrow .button { padding: 20px; min-height: 150px; border: 4px solid #cd1619; }
+@media screen and (max-width: 990px) { .sliderow .button, .handbookrow .button { padding: 30px; min-height: auto; margin: 20px 0; } }
+@media screen and (max-width: 850px) { .sliderow h2.resource, .sliderow .sliderow h6, .handbookrow h2.resource, .handbookrow .sliderow h6 { font-size: 25px; } }
+@media screen and (max-width: 600px) { .sliderow h2.resource, .sliderow .sliderow h6, .handbookrow h2.resource, .handbookrow .sliderow h6 { font-size: 22px; } }
 
 /* index chapter grid */
 .sidecurls { width: 80px; margin: 300px auto; }
