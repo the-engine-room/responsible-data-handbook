@@ -428,15 +428,24 @@
             }
 
             .chnum{
-                width: 100px;
+                width: 10%;
                 color: $red-color;
-                position: absolute;
-                top: 23%;
-                left: 43%;
+                margin: 40px auto 0 auto;
                 text-align: center;
-                font-size: 50px;
+                font-size: 3em;
+                z-index: 1000;
+
+                img{
+                    width: 50px;
+                }
 
  
+            }
+
+            .numholder{
+                position: absolute;
+                top: -20px;
+                z-index: -1;
             }
 
             .zerobig{
@@ -597,28 +606,9 @@
             .numwrapper{
 
 
-                .chnum{
-
-                    top: 25%;
-                    left: 42%;
-                    font-size: 40px;
-                    width: 100px;
-
-                
-                    img{
-                        width: 80px;
-                    }
+                .numholder{
+                    top: -10px;
                 }
-
-
-            .zerobig{
-                top: 21%;
-                left: 40%;
-                img{
-                    width: 40px;
-                }
-                }
-
 
             }
 
@@ -626,8 +616,39 @@
 
 
     }
+    @include media-query-landscape($on-palm){
 
-    @include media-query($on-palm) {
+        .post-header{
+             .curlholder{
+                    width: 200px;
+                    padding-top: 0;
+                }
+
+            .post-title{
+                margin-top: 10px;
+            }
+
+
+            .numwrapper{
+
+                .numholder{
+                    top: -25px;
+                }
+               .chnum{
+                  
+                    font-size: 1.5em;
+                    img{
+                        width: 30px;
+                        margin-top: -5px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    @include media-query-portrait($on-palm) {
        
 
         .post-header{
@@ -636,28 +657,30 @@
                     padding-top: 0;
                 }
 
+            .post-title{
+                margin-top: 10px;
+            }
 
 
             .numwrapper{
 
-
-                .chnum{
-                    width: 100px;
-                    top: 27%;
-                    left: 35%;
-                    font-size: 20px;
+                .numholder{
+                    top: -10px;
                 }
-
-                .zerobig{
-                    top: 21%;
-                    left: 35%;
+               .chnum{
+                  
+                    font-size: 1.5em;
                     img{
+                        margin-top: -10px;
                         width: 30px;
                     }
                 }
-            }
 
+
+            }
         }
+
+        
 
 
     }
@@ -692,8 +715,8 @@
 
         .chcurrent{
             position: absolute;
-            bottom: -40px;
-            left: -10px;
+            bottom: -43px;
+            left: -20px;
             z-index: 1000;
 
 
