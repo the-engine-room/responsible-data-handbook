@@ -461,6 +461,17 @@
             width: 330px;
             margin: 0 auto;
         }
+        #smallmenuswitch{
+            display: none;
+
+        }
+
+        .icon-arrow-down:before { 
+            content: "\e005"; 
+        }
+    
+        [class*="icon-"] { font-family: 'ThemeIcons'; speak: none; font-style: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
 
 
     }
@@ -552,34 +563,14 @@
 
     .mobilemenu{
         display: none;
-        width: 200px;
-        margin: 0 auto;
-        ul{
-            margin: 10px 0;
-            padding: 10px 0 10px 30px;
-            li{
-                font-variant: small-caps;
-                padding: 5px 0;
 
-                a{
-                    color: $black-color;
-                    font-size: 20px;
-                    
-                    &:hover{
-                        text-decoration: none;
-                        color: $red-color;
-                    }
-                }
-            }
-        }
     }
+
 
     @include media-query($on-laptop) {
 
 
-        .mobilemenu{
-            display: block;
-        }
+   
         .post-title{
             font-size: 7.5vw;
             padding: 20px 0;
@@ -610,10 +601,39 @@
 
             }
 
-        }
+
+            #menusmall{
+            display: none;
+            position: fixed; top: 185px; left: 20px;
+            }
+
+            #menusmall.mobile { display: block; height: auto; border: 2px solid $red-color; background-color: rgba(250,250,250, 0.9)}
+            #menusmall.mobile li { border-bottom: 1px solid $black-color; display: block; }
+            #menusmall.mobile li a { display: block; font-size: 0.86em; padding: 0.5em; color: $black-color; 
+                &:hover{
+                    text-decoration: none;
+                    color: $red-color;
+                    }
+                }
+
+            #menusmall.mobile ul { list-style: none; display: block; -webkit-padding-start: 0; -webkit-padding-start: 0; text-align: left;}
+            #menusmall.mobile ul, #smallmenu li { margin: 0; }
 
 
+
+            #smallmenuswitch { position: fixed; top: 200px; left: 20px; width: 2em; height: 2em; margin-top: -3em; cursor: pointer; text-align: center; display: table; background-color: rgba(250,250,250,0.8); border: 2px solid $red-color;}
+                
+            #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
+                
+            #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; -webkit-transition: transform 0.3s ease; -moz-transition: transform 0.3s ease; -ms-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; }
+                
+            #smallmenuswitch.on:before { top: 15%; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+            }
+    
     }
+
+
+    
     @include media-query-landscape($on-palm){
 
         .post-header{
@@ -684,6 +704,8 @@
     }
 
 }
+
+
 
 /**
  * Browse Chapters at bottom of posts
