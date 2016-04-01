@@ -817,33 +817,51 @@
         padding: 20px 0 ;
             h2.resource{
                 font-size: 30px;
-                padding: 10px;
-                border-bottom: 4px solid $black-color;
-
+                padding: 0 0 10px 10px;
+                border-bottom: 4px solid $red-color;
             }
             a{ 
-                color: $red-color;
-                font-size: 22px;
-                background:  url("../img/curls-list-2.png") no-repeat left center;
-                padding: 0 0 0 45px;
+                color: $black-color;
+                font-size: 30px;
+                padding: 0;
+
+                h6{
+                    text-align: center;
+                    padding: 0;
+                    line-height: 1em;
+                    font-size: 30px;
+                    vertical-align: middle;
+
+                }
             
                 &:hover{
-                    color: $black-color;
+                    color: $red-color;
                     text-decoration: none;
                 }
             }
+            .button{
+                padding: 20px;
+                min-height: 150px;
+                border: 4px solid $red-color;
+
+            }
             
 
 
-
+    @include media-query($md-col-break){
+        .button{
+            padding: 30px;
+            min-height: auto;
+            margin: 20px 0;
+        }
+    }
     @include media-query($on-laptop) {
-        h2.resource{
+        h2.resource, .sliderow h6{
             font-size: 25px;
         }
-        
-        a{
-                font-size: 18px;
-            }
+
+ 
+
         
 
     }
@@ -851,13 +869,11 @@
 
     @include media-query($on-palm) {
  
-        h2.resource{
+        h2.resource, .sliderow h6{
             font-size: 22px;
         }
+
         
-        a{
-                font-size: 16px;
-            }
 
 
     }
