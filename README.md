@@ -32,7 +32,7 @@ The site is [live](https://the-engine-room.github.io/responsible-data-handbook/)
 
 
 ## Additional Documentation
-Additional documentation is available on this repository's [wiki](https://github.com/the-engine-room/responsible-data-handbook).
+Additional documentation is available on this repository's [wiki](https://github.com/the-engine-room/responsible-data-handbook/wiki).
 
 
 
