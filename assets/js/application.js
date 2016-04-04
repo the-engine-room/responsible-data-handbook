@@ -18,6 +18,8 @@ $(document).ready(function(){
 	$('#smallmenuswitch, .mobile').hide();
 
 
+
+
 });
 
 

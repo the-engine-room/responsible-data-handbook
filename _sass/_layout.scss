@@ -604,7 +604,7 @@
 
             #menusmall{
             display: none;
-            position: fixed; top: 185px; left: 20px;
+            position: fixed; top: 33px; left: 20px;
             }
 
             #menusmall.mobile { display: block; height: auto; border: 2px solid $red-color; background-color: rgba(250,250,250, 0.9)}
@@ -621,7 +621,7 @@
 
 
 
-            #smallmenuswitch { position: fixed; top: 200px; left: 20px; width: 2em; height: 2em; margin-top: -3em; cursor: pointer; text-align: center; display: table; background-color: rgba(250,250,250,0.8); border: 2px solid $red-color;}
+            #smallmenuswitch { position: fixed; top: 50px; left: 20px; width: 2em; height: 2em; margin-top: -3em; cursor: pointer; text-align: center; display: table; background-color: rgba(250,250,250,0.8); border: 2px solid $red-color;}
                 
             #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
                 
