@@ -490,10 +490,6 @@ code { padding: 1px 5px; }
 pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
-/** Wrapper */
-/*.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width:         calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: $spacing-unit; padding-left: $spacing-unit; @extend %clearfix;
- @include media-query($on-laptop) { max-width: -webkit-calc(800px - (30px)); max-width:         calc(800px - (30px)); padding-right: $spacing-unit / 2; padding-left: $spacing-unit / 2; }
-}*/
 /** Clearfix */
 /** Icons */
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
@@ -628,14 +624,14 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
   .post .post-header .map { padding-bottom: 10px; }
   .post .post-header h3 { font-size: 20px; padding: 10px 0; }
   .post .post-header .numwrapper .numholder { top: -10px; }
-  .post .post-header #menusmall { display: none; position: fixed; top: 185px; left: 20px; }
+  .post .post-header #menusmall { display: none; position: fixed; top: 33px; left: 20px; }
   .post .post-header #menusmall.mobile { display: block; height: auto; border: 2px solid #cd1619; background-color: rgba(250, 250, 250, 0.9); }
   .post .post-header #menusmall.mobile li { border-bottom: 1px solid #1B1E1F; display: block; }
   .post .post-header #menusmall.mobile li a { display: block; font-size: 0.86em; padding: 0.5em; color: #1B1E1F; }
   .post .post-header #menusmall.mobile li a:hover { text-decoration: none; color: #cd1619; }
   .post .post-header #menusmall.mobile ul { list-style: none; display: block; -webkit-padding-start: 0; -webkit-padding-start: 0; text-align: left; }
   .post .post-header #menusmall.mobile ul, .post .post-header #smallmenu li { margin: 0; }
-  .post .post-header #smallmenuswitch { position: fixed; top: 200px; left: 20px; width: 2em; height: 2em; margin-top: -3em; cursor: pointer; text-align: center; display: table; background-color: rgba(250, 250, 250, 0.8); border: 2px solid #cd1619; }
+  .post .post-header #smallmenuswitch { position: fixed; top: 50px; left: 20px; width: 2em; height: 2em; margin-top: -3em; cursor: pointer; text-align: center; display: table; background-color: rgba(250, 250, 250, 0.8); border: 2px solid #cd1619; }
   .post .post-header #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
   .post .post-header #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; -webkit-transition: transform 0.3s ease; -moz-transition: transform 0.3s ease; -ms-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; }
   .post .post-header #smallmenuswitch.on:before { top: 15%; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); } }
