@@ -111,7 +111,7 @@ but we generate data all time. Writing emails, sending text messages, automated
 GPS tracking on our phones. Data is everywhere, whether we recognize it or not.
 For this toolkit, data is any kind of information that can be communicated and
 learned from, whether or not we call it data. See more
-at:<http://schoolofdata.org/handbook/courses/what-is-data/>.
+at [School of Data](http://schoolofdata.org/handbook/courses/what-is-data/).
 
 ###Who is in your data?
 
@@ -190,10 +190,8 @@ Data is used by organisations in all sorts of ways - as information about whom
 your organisation is serving, statistics about the situation you're operating
 in, or even counting the number of countries in which your organisation is
 active. Some organisations working in the development sector have made data
-their main commodity or service - the UN Global Pulse Labs
-(<http://www.unglobalpulse.org/>), for example, analyse big data to accelerate
-social innovation for sustainable development, and Ushahidi
-(<http://www.ushahidi.com/>) have developed a number of data management
+their main commodity or service - the [UN Global Pulse Labs](http://www.unglobalpulse.org/), for example, analyse big data to accelerate
+social innovation for sustainable development, and [Ushahidi](http://www.ushahidi.com/) have developed a number of data management
 platforms to allow people to map out what is happening in their area. . [See the
 section Am I working with data]
 
