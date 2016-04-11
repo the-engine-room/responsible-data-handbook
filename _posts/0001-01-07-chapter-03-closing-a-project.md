@@ -7,40 +7,350 @@ num: 3
 ch: 3
 asset-link: closing-a-project-03
 nav: 
-    - Target audience
-    - When might this chapter be useful? 
-    - Content summary
-    - Useful resources
+    - Archiving data
 ---
 
-##Target audience
-Project managers who are coming towards the end of a project 
+**Closing a Project: Archiving and Preservation of Content**
+------------------------------------------------------------
 
-##When might this chapter be useful?
-When you're approaching the end of the project, but still have a little time left on it for some final decisions around archiving and preservation of content. 
+**Archiving data**
+==================
 
-##Content summary
+Archiving is a general term for the range of practices and decisions that
+support the long-term preservation, use, and accessibility of content with
+enduring value. It is not a one-time action, but is instead a process and an
+investment that connects directly to your projects' goals.
 
-This chapter addresses an oft-forgotten part of the project: the end of it. Too often, the data that is produced during a project is left to one side during the rush of ending a project, but in this section we suggest that deciding what to do with the data after it has served its purpose is an integral part of the project design process. 
+Should you archive your data?
+-----------------------------
 
-To plan for project closure, start by thinking through the types of data you have, and where it all lives. Then you can decide what to do with it; whether that is **disposing of it** (and making sure that that is really the right decision for you, and that the data isn't being used by others) - or working out a responsible way of **archiving** your data. Preserving your information has the potential to be used by others, as well as bringing historical value.
+You may want to archive your information if it has enduring cultural,
+historical, or evidentiary value. Preserving information has the potential to
+support the protection of rights, to seek redress, and to support reconciliation
+or recovery in damaged societies.
 
-If the data in question is very large, substantial data infrastructure may well need to be in place to support it being archived. If this is too much of a technical burden, then some potential partners for archiving your data are suggested here to make this process a little easier. 
+Planning for your data to be archived
+-------------------------------------
 
-Though it might be easy to forget, what happens to the data at the end of a project can make a huge difference to how the project is referenced, how its legacy lives on (to inform other projects, or not) - and, most crucially, to how the people referenced in the data are treated.
+Try to identify as early as possible that you want archive, what you want to
+archive and where you want to archive. When you are at the closing stage, it may
+be overwhelming to solve all arising problems, while having limited time before
+you need to move on.
 
-##Useful resources
+Ideally you will identify the metadata that you need about the information you
+are collecting so that you don't need to collect too much and you don't collect
+too little.
 
-* [Archivists' Guide to Archiving Video](http://archiveguide.witness.org/) (from WITNESS) and a [video](http://blog.witness.org/2014/10/video-series-archiving-and-preservation-activists/) on this topic.
+Try to store data to be archived in popular (=interoperable) formats which are
+likely to be used in future (for example, they are used by popular software).
+Over the course of a few years formats may go out of use and software systems
+become unable to use the data.
 
-* New Tactics [online discussion](https://www.newtactics.org/conversation/archiving-human-rights-advocacy-justice-and-memory) on archiving for human rights advocacy, justice and memory. 
- 
-* [The Open Society Archives](http://www.osaarchivum.org/)
+Keep in mind that videos can be very large, so you need to make sure that you
+have the infrastructure or support in place to accommodate this data (see
+potential archive partners below).
 
-* [Duke University Human Rights Archive](http://library.duke.edu/rubenstein/human-rights/)
+Where do you archive?
+---------------------
 
-* [Human Rights Web Archive](http://hrwa.cul.columbia.edu/) at Columbia University 
+If you archive data yourself, you will need to consider the cost, time and
+skills that will be required to maintain the archival system. This is not for
+the faint of data-heart! See (and learn intimately) the section A **home for
+healthy data** and include data storage capacity into your long-term
+organisational strategy.
 
-* University of Texas Libraries' [Human Rights Documentation Initiative](http://www.lib.utexas.edu/hrdi) 
+Alternatively, it might be useful to partner directly with an archive that will
+help you in the public interest, such as:
 
-* [Archivists without Borders](http://www.arxivers.org/en/asf_internacional.php)
+-   The Open Society Archives <http://www.osaarchivum.org/>
+
+-   Duke University Human Rights Archive
+    <http://library.duke.edu/rubenstein/human-rights/>
+
+-   Human Rights Web Archive at Columbia University
+    <http://hrwa.cul.columbia.edu/>
+
+-   University of Texas Libraries' Human Rights Documentation Initiative
+    <http://www.lib.utexas.edu/hrdi>
+
+-   Archivists without Borders
+    <http://www.arxivers.org/en/asf_internacional.php>
+
+Further resources
+-----------------
+
+-   Archivists' Guide to Archiving Video (WITNESS)
+    <http://archiveguide.witness.org/> and a video on this topic
+    <http://blog.witness.org/2014/10/video-series-archiving-and-preservation-activists/>
+
+-   New Tactics online discussion on archiving for human rights advocacy,
+    justice and memory
+    <https://www.newtactics.org/conversation/archiving-human-rights-advocacy-justice-and-memory>
+
+Additional resources
+
+**Organizations to reach out to for urgent support**
+====================================================
+
+**HIVOS Digital Defenders Emergency Response and Grants** If you are a human
+rights defender, journalist, blogger, activist, NGO or media organisation and
+you need immediate help to mitigate a digital emergency, check in with Digital
+Defenders. If you think something is wrong with your computer, phone or accounts
+(email, social media, website or other) please get in contact with them.
+[http://digitaldefenders.org](http://digitaldefenders.org/) See also: Digital
+First Aid Kit <http://digitaldefenders.org/digitalfirstaid>
+
+**freeDimensional** Distress Services are intended for activists and culture
+workers in situations of distress as a result of their professional
+work.<http://freedimensional.org/services/distress-services/>
+
+**Frontline Defenders** Front Line seeks to provide 24 hour support to human
+rights defenders at immediate risk. If there is a crisis you can contact Front
+Line at any hour on the emergency hotline.
+<http://www.frontlinedefenders.org/emergency>
+
+**Urgent Action Fund for Women's Human Rights** Urgent Action Fund supports
+women activists who are being threatened because of their work defending human
+rights. The Evacuation Grant is a specific type of Rapid Response Grant,
+designed for those in urgent need of relocation funding because of threats,
+persecution and/or an extreme security situation.
+<http://urgentactionfund.org/apply-for-a-grant/apply-for-an-evacuation-grant/>
+
+**Online Directory of Urgent Responses for WHRDs**
+
+This Online Directory was produced by the Association for Women in Development
+and the WHRD International Coalition in 2011. It outlines the diverse urgent
+responses for human rights defenders that exist and, where available, those that
+are specific to WHRDs. <http://urgent-responses.awid.org/>
+
+**Project Design Resources**
+============================
+
+**Privacy Impact Assessments Handbook (Information Commissioner's Office
+(UK))**<http://www.ico.org.uk/upload/documents/pia_handbook_html_v2/files/PIAhandbookV2.pdf>
+
+**Security in a Box** <https://securityinabox.org/>
+
+**Me and my shadow (Tactical Technology Collective)** <https://myshadow.org/>
+
+**Dialing Down Risks: Mobile Privacy and Information Security in Global
+Development Projects (New America
+Foundation)**<http://newamerica.net/publications/policy/dialing_down_risks_mobile_privacy_and_information_security_in_global_development>
+
+**On-going study into digital security for aid agencies (European Inter-agency
+Security Forum)** <http://www.eisf.eu/resources/home.asp>
+
+**Online and Physical Security Training (Save the Children)**
+<http://www.disasterready.org/>
+
+**Data Management Resources**
+=============================
+
+**De-identification Maturity Model (Privacy Analytics)**
+<http://waelhassan.com/wp-content/uploads/2013/06/DMM-Khaled-El-Emam-Wael-Hassan.pdf>
+
+**Guide to Protecting the Confidentiality of Personally Identifiable Information
+(National Institute of Standards and
+Technology)**<http://csrc.nist.gov/publications/nistpubs/800-122/sp800-122.pdf>
+
+**The Frontline SMS Users' Guide to Data Integrity**
+<http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf>
+
+**For a listing of secure tools, see**
+[https://www.prismbreak.org](https://www.prismbreak.org/)
+
+**On choosing a hosting provider, see**
+<https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting>
+
+**On setting up a secure hosting provider, see**
+<https://learn.equalit.ie/wiki/Secure_hosting_guide>
+
+**Tactical Tech's Security in a Box chapter on protecting physical assets**
+<https://securityinabox.org/chapter-2>
+
+**OECD Privacy Principles** <http://oecdprivacy.org/>
+
+**Anonymisation: managing data protection risk code of practice (Information
+Commissioner's Office
+UK)**<http://www.ico.org.uk/for_organisations/data_protection/topic_guides/anonymisation>
+
+**Getting Data Resources**
+==========================
+
+**Conducting safe, effective and ethical Interviews with survivors of Sexual and
+Gender-Based Violence
+(WITNESS)**<http://www.scribd.com/doc/159998474/Conducting-Safe-Effective-and-Ethical-Interviews-with-Survivors-of-Sexual-and-Gender-Based-Violence>
+
+**Draft Principles for Resilience and Big Data (Bellagio/PopTech Fellows)** The
+following is a draft “Code of Conduct” that seeks to provide guidance on best
+practices for resilience building projects that leverage Big Data and Advanced
+Computing.
+<http://irevolution.net/2013/09/23/principles-for-big-data-and-resilience/>
+
+**Code of Ethics for the Proper Use of Social Data (Big Boulder Initiative)** An
+effort to begin to define a set of ethical values and practices for the
+treatment of social data, and to educate the industry about ethical social data
+collection, processing and utilization
+practices.<http://blog.bigboulderinitiative.org/2014/06/05/a-code-of-ethics-for-social-data-we-need-your-help/>
+
+**Big data: Philanthropy or privacy invasion? by Ayee Macaraig**
+<http://www.rappler.com/world/regions/asia-pacific/42116-big-data-philanthropy-privacy-invasion>
+
+**Open Data & Privacy Discussion Notes (Open Data Research Network)**
+<http://www.opendataresearch.org/content/2013/501/open-data-privacy-discussion-notes>
+
+**Open Data Impacts Research Blog (Tim Davies)**
+<http://www.opendataimpacts.net/>
+
+**Big Data and Privacy (NYU School of Law) reducing predictive harm**
+<http://lsr.nellco.org/cgi/viewcontent.cgi?article=1434&context=nyu_plltwp>
+
+**Guidelines on use of video for documentation, including human rights abuses
+(Video 4 Change)** <https://www.v4c.org/category/safety-and-security>
+
+**Ethical Decision-Making and Internet Research**
+[http://aoir.org/reports/ethics2.pdfQualItY](http://aoir.org/reports/ethics2.pdf)
+
+**Internews - SpeakSafe: Media Workers’ Tool for Safer Online and Mobile
+Practices**
+<https://internews.org/research-publications/speaksafe-media-workers-toolkit-safer-online-and-mobile-practices>
+
+**Understanding Data Resources**
+================================
+
+**A gentle introduction to cleaning data (School of Data)**
+<http://schoolofdata.org/handbook/courses/data-cleaning/>
+
+**A gentle introduction to exploring and understanding your data (School of
+Data)**
+<http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/>
+
+**Data Quality: Do you trust your data?** an article Hjusein Tjurkmen, Mariyana
+Hristova, Musala Soft <http://istabg.org/data-qualyti-do-you-trust-your-data/>
+
+**Open Refine** offers powerful ways to combine, compare and reconcile your
+data. <http://openrefine.org/>
+
+**The Storyful Blog and Case Studies** provide a constant stream of up-to-date
+information on the ever-challenging video verification process
+http[://blog.storyful.com/](http://blog.storyful.com/)
+
+**Verification Handbook** is authored by leading journalists from the BBC,
+Storyful, ABC, Digital First Media and other verification experts. Created for
+journalists and human rights defenders as it provides the tools, techniques and
+step-by-step guidelines for how to deal with user-generated content (UGC) during
+emergencies. <http://verificationhandbook.com/>
+
+**Truth in the Age of Social Media (The Nieman Lab report)**
+<http://nieman.harvard.edu/reports/issue/100072/Summer-2012.aspx>
+
+**Citizen Evidence Lab** tools for speedy checks on YouTube videos as well as
+for more advanced assessment <http://citizenevidence.org/>
+
+**Authenticating Open Source Video (WITNESS)**
+<http://www.mediafire.com/view/cd7b76ydpe22khn/AuthenticatingOpenSourceVideo_2013.pdf>
+
+**Data Integrity User Guide (FrontlineSMS)** The guide is intended to help users
+to understand, analyze, and address the vulnerabilities, risks and threats that
+can affect the integrity of the information communicated through the
+FrontlineSMS platform.
+<http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf>
+
+**Sharing Data Resources**
+==========================
+
+**A Qualitative Risk Assessment Framework for Sharing Computer Network Data
+(Scott E. Coull RedJack Erin
+Kenneally)**<http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2032315>.
+
+**Handbook on Statistical Disclosure Control (CNEX project)**
+<http://neon.vb.cbs.nl/casc/SDC_Handbook.pdf>
+
+**Heuristics for de-identifying health data (Khaled el emam Children’s Hospital
+of Eastern Ontario Research
+Institute)**<http://ruor.uottawa.ca/fr/bitstream/handle/10393/12987/El_Emam_Khaled_2008_Heuristics_for_de-identifying_health_data.pdf?sequence=1>
+
+**Choosing an Open Source Licence for code**
+[http://choosealicense.com](http://choosealicense.com/)
+
+**Content Licencing**
+[https://creativecommons.org](https://creativecommons.org/)
+
+**Existing Data Policies and Guidelines**
+=========================================
+
+**InterAction Protection Working Group: Data Collection in Humanitarian Response
+- A Guide for Incorporating Protection
+Http**[://pqdl.care.org/Practice/Data%20Collection%20in%20Humanitarian%20Response,%20A%20Guide%20for%20Incorporating%20Protection.pdf](http://pqdl.care.org/Practice/Data
+Collection in Humanitarian Response, A Guide for Incorporating Protection.pdf)
+
+**Post about forthcoming OCHA report on Humanitarianism in the age of Cyber
+Warfare - Towards the Principled and Secure Use of Information in Humanitarian
+Emergencies**
+<http://wget2014.wordpress.com/2014/04/22/15-humanitarianism-in-the-cyberwarfare-age-the-principled-and-secure-use-of-information-in-humanitarian-response/>
+(April 2014)
+
+**Guidance for Establishing Affected Persons Information Center (Viktoria
+Lovrics and Andrej Verity (UN Office of the Coordination of Humanitarian Affairs
+(OCHA))**
+<http://blog.veritythink.com/post/98874290694/guidance-for-establishing-an-affected-persons>
+
+**International Committee of the Red Cross (ICRC)** Professional standards for
+protection work carried out by humanitarian and human rights actors in armed
+conflict and other situations of violence
+<https://www.icrc.org/eng/resources/documents/publication/p0999.htm>
+
+**2013 OECD Privacy Guidelines** <http://www.oecd.org/sti/ieconomy/privacy.htm>
+
+**Guidelines for Secure Use of Social Media by Federal Departments and Agencies
+(CIO Council)** This guidelines document is written for the US government and
+yet its description of the benefits and risks of using social media and
+networking sites are in part appropriate to the needs and risks of NGOs
+<https://cio.gov/wp-content/uploads/downloads/2012/09/Guidelines_for_Secure_Use_Social_Media_v01-0.pdf>
+
+**Applying Ethical Principles to Information and Communication Technology
+Research: A Companion to the Department of Homeland Security Menlo Report**
+<http://www.cyber.st.dhs.gov/wp-content/uploads/2012/01/MenloPrinciplesCOMPANION-20120103-r731.pdf>
+
+**NYU School of Law - Big Data and Due Process: Toward a Framework to Redress
+Predictive Privacy Harms**
+
+<http://lsr.nellco.org/cgi/viewcontent.cgi?article=1434&context=nyu_plltwp>
+
+**Children’s Online Privacy and Protection Act (COPPA)** <http://www.coppa.org/>
+
+**ICRC Professional Standards for Protection Work** These standards are
+addressed to all humanitarian and human rights actors engaged in protection work
+in favour of communities and persons at risk in armed conflict and other
+situations of violence. Chapter 6 page 37 is on ‘Managing sensitive protection
+information’ <https://www.icrc.org/eng/assets/files/other/icrc-002-0999.pdf>
+
+**IOM Data Protection Manual** The manual is comprised of three parts: the first
+part outlines the IOM data protection principles as informed by relevant
+international standards; the second part includes comprehensive guidelines on
+each principle, consideration boxes and practical examples; and the third part
+provides generic templates and checklists to ensure that data protection is
+taken into account when collecting and processing personal data
+<http://publications.iom.int/bookstore/index.php?main_page=product_info&cPath=47&products_id=759>
+
+**Ethical Framework for Researchers Using and Collecting Data on the M-Lab
+Platform for Mobile Connectivity Measurements (Oxford Internet Institute)**
+<http://www.oii.ox.ac.uk/research/projects/?id=107>
+
+**Donor code of conduct**
+<http://www.ssireview.org/blog/entry/a_new_donor_code_of_conduct>
+
+**UN data collection**
+<http://www.unglobalpulse.org/privacy-and-data-protection>
+
+**Professional standards for protection work carried out by humanitarian and
+human rights actors in armed conflict and other situations of violence**
+<http://www.icrc.org/eng/resources/documents/publication/p0999.htm>
+
+**UNFPA guidelines on data issues in Humanitarian Crisis situations**
+<https://www.unfpa.org/public/home/publications/pid/6253>
+
+**Protection International – Security Manual Updating**
+<http://protectioninternational.org/publication/new-protection-manual-for-human-rights-defenders-3rd-edition/>
+
+\<INSERT IMAGES FROM PH 107/108 FROM CLOSE OF PDF\>

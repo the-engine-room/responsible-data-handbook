@@ -15,8 +15,6 @@ nav:
     - How to use this book
 ---
 
-![Introduction](../assets/img/chapter-0.png)
-
 About this book
 ===============
 

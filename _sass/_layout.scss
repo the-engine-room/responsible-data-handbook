@@ -242,7 +242,7 @@
         ul{
             padding: 0 0 0 10px;
             float: left;
-            margin: 40px 0 0 0;
+            margin: 0;
             list-style: none;
 
 
@@ -1068,7 +1068,6 @@
                     padding: 0 25px 0 0;
                     color: $black-color;
 
-                    z-index: 10000;
                     h6{
                         font-size: 20px;
                          text-transform: uppercase;
@@ -1088,7 +1087,6 @@
             a.dl{
   
                     color: $red-color;
-                    z-index: 10000;
 
                     &:hover{
                         color: $black-color;
@@ -1112,6 +1110,9 @@
     }
 
     @include media-query($slide-page-break-2){
+        .fullbook{
+            margin-bottom: 0;
+        }
         .grid-item-slides{
             padding: 10px 0;
             margin: 20px;
@@ -1127,55 +1128,19 @@
 
 
 
-
-   /* @include media-query($on-laptop){
-
-        .grid-item-slides{
-            max-height: 250px;
-            padding: 10px 0;
-
-            img{
-                max-height: 200px;
-            }
-
-
-            a{
-                h6{
-                    font-size: 12px;
-                    width: 40px;
-                    padding: 0 25px 0 0;
-
-                }
-            }
-        }
-
-    }*/
-/*
-    @include media-query($on-palm){
-
-        .grid-item-slides{
-
-
-                a{
-                    h6{
-
-                        font-size: 12px;
-                        padding: 0 25px 0 0;
-
-                    }
-                    
-
-                }
-    
-        }
-
-    }
-    
-*/
-
 }
 
 .slidepage{
+
+    #sidemenu{
+        .download{
+            padding: 40px 30px;
+            h6{
+                line-height: 1em;
+                font-size: 19px;
+            }
+        }
+    }
     @include media-query($slide-page-break) {
         #sidemenu .title, #sidemenu .download{
             width: 180px;
