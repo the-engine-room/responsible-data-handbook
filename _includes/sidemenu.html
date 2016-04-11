@@ -31,8 +31,7 @@
 
 			{% for n in nav %}
 
-
-				<li><a href="#{{ n | replace: "?", "" | split: " " | join: "-" | downcase }}">{{ n }}</a></li>
+				<li><a href="#{{ n | replace: "?" , "" | split: " " | join: "-" | downcase }}">{{ n }}</a></li>
 
 			{% endfor %}
 

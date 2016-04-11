@@ -24,6 +24,7 @@ $text-color:       #111;
 $background-color: #fff;
 $brand-color:      #2a7ae2;
 $red-color:        #cd1619;
+$yellow-color: 	   #faf8ec;
 $black-color: 	   #1B1E1F;
 $grey-color:       #1B1E1F;
 $grey-color-light: lighten($grey-color, 40%);
@@ -36,6 +37,7 @@ $on-palm:          600px;
 $on-laptop:        850px;
 $md-col-break: 	   990px;
 $slide-page-break: 1000px;
+$slide-page-break-2: 768px;
 $on-large-laptop:  1200px;
 
 // Use media queries like this:

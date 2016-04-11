@@ -207,6 +207,7 @@
         padding: 10px 5px;
         display: block;
         border: 2px solid $red-color;
+        background-color: $yellow-color;
         text-align: center;
 
         h6{
@@ -820,6 +821,11 @@
 
 .fullbook{
 
+    .col-sm-11{
+        padding-bottom: 25px;
+        border-bottom: 5px solid $black-color;
+    }
+
 
     p strong{
         font-family: $bold-font-family;
@@ -984,9 +990,10 @@
     }
 
     .grid-item{
+
+        height: 450px; 
         width: 30%;
         float: left;
-        height: 450px; 
         padding: 5px 10px 30px 10px;
         margin: 0 10px;
 
@@ -1126,31 +1133,147 @@
 
     }
 
-    a{
 
 
-            h6.allsides{   
-                text-transform: uppercase;
-                color: $red-color;
-                font-size: 19px;
-                float: left;
-                padding: 0;
-                width: 100%;
+  
+        .grid-item-slides{
+            height: 300px; 
+            padding: 5px 10px 30px 10px;
+            margin: 0 10px;
 
-                 &:hover{
+        img{
+            border: 2px solid $black-color;
+            padding: 0;
+            margin: 10px 0;
+        }
+    
+    
+
+
+            a{   
+        
+                    cursor: pointer;
+                    float: left;
+                    width: 100px;
+
+                    padding: 0 25px 0 0;
                     color: $black-color;
-                    text-decoration: none;
-                }
+
+                    z-index: 10000;
+                    h6{
+                        font-size: 20px;
+                         text-transform: uppercase;
+
+
+                    }
+
+                     &:hover{
+                        color: $red-color;
+                        text-decoration: none;
+                    }
+               
 
             }
+
+
+            a.dl{
+  
+                    color: $red-color;
+                    z-index: 10000;
+
+                    &:hover{
+                        color: $black-color;
+                    }
+            
+            }
+
+
+    }
+    
+    @include media-query($slide-page-break){
+        .grid-item-slides{
+            max-height: 250px;
+            padding: 10px 0
+
+            img{
+                max-height: 200px;
+            }
+        }
+
     }
 
+    @include media-query($slide-page-break-2){
+        .grid-item-slides{
+            padding: 10px 0;
+            margin: 20px;
+            height: auto;
+            max-height: 100%;
+
+            img{
+                max-width: 90%;
+            }
+        }
+
+    }
+
+
+
+
+   /* @include media-query($on-laptop){
+
+        .grid-item-slides{
+            max-height: 250px;
+            padding: 10px 0;
+
+            img{
+                max-height: 200px;
+            }
+
+
+            a{
+                h6{
+                    font-size: 12px;
+                    width: 40px;
+                    padding: 0 25px 0 0;
+
+                }
+            }
+        }
+
+    }*/
+/*
+    @include media-query($on-palm){
+
+        .grid-item-slides{
+
+
+                a{
+                    h6{
+
+                        font-size: 12px;
+                        padding: 0 25px 0 0;
+
+                    }
+                    
+
+                }
+    
+        }
+
+    }
+    
+*/
 
 }
 
 .slidepage{
     @include media-query($slide-page-break) {
-        #sidemenu .title, #sidemenu .index{
+        #sidemenu .title, #sidemenu .download{
+            width: 180px;
+        }
+    }
+    @include media-query($slide-page-break-2) {
+        #sidemenu .title, #sidemenu .download{
             width: 200px;
         }
     }
