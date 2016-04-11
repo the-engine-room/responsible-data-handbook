@@ -522,16 +522,20 @@
         }
 
         h4 {
-            font-size: 18px;
+            font-size: 20px;
             text-transform: capitalize;
-            padding-left: 45px;
+            color: $red-color;
+            font-style: bolder;
             font-variant: small-caps;
             margin-bottom: 0;
-            background:  url("../img/curls-list-2.png") no-repeat left center;
 
             @include media-query($on-laptop) {
                 font-size: 18px;
             }
+        }
+
+        img{
+            padding: 50px;
         }
 
         p strong{

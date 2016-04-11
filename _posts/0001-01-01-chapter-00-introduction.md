@@ -15,8 +15,7 @@ nav:
     - How to use this book
 ---
 
-About this book
-===============
+##About this book
 
 This book is offered as a first attempt to understand what responsible data
 means in the context of international development programming. We have taken a
@@ -42,11 +41,9 @@ experience in the sector of international development; our first hand
 experiences of horrific misuse of data within the sector, combined with
 anecdotal stories of (mis)treatment and usage of data having catastrophic
 effects within some of the world’s most vulnerable communities, has highlighted
-for us the need for a book tackling issues of how we can all deal with data in a
-responsible and respectful way.
+for us the need for a book tackling issues of how we can all deal with data in a responsible and respectful way.
 
-Why this book?
---------------
+###Why this book?
 
 What made 12 people descend upon a farmhouse in the Netherlands for three days,
 dedicating intense time and effort into creating this book from scratch?
@@ -82,15 +79,13 @@ Taquet for their early contributions.
 
 ![Am I working with data?](../assets/img/img-00-01.png)
 
-**Am I working with data?**
-===========================
+##Am I working with data?
 
 Yes, you are. Almost certainly. If information is in any way meaningful for the
 work you do, and if you plug anything into a power source, you are likely
 working with data.
 
-What is Data?
--------------
+###What is Data?
 
 When we think of data, we often imagine large amounts of information that are
 formally collected, stored in a database or stashed in an Excel spreadsheet.
@@ -99,15 +94,15 @@ of forms.
 
 So...this is data:
 
-\<INSERT IMAGE FROM PAGE 11 OF PDF\>
+![This is data](../assets/img/img-00-02.png)
 
 As is this:
 
-\<INSERT IMAGE FROM PAGE 11 OF PDF\>
+![As is this](../assets/img/img-00-03.png)
 
 But so is this:
 
-\<INSERT IMAGE FROM PAGE 11 OF PDF\>
+![This cat is data](../assets/img/img-00-04.png)
 
 ...if you are studying LOL cats.
 
@@ -118,8 +113,7 @@ For this toolkit, data is any kind of information that can be communicated and
 learned from, whether or not we call it data. See more
 at:<http://schoolofdata.org/handbook/courses/what-is-data/>.
 
-Who is in your data?
---------------------
+###Who is in your data?
 
 When thinking about responsible data, it's worth giving special attention to
 data about people. Data that reveals personal identities, habits, activities or
@@ -156,8 +150,7 @@ information could be potentially very interesting to various political parties,
 and, dependent upon the political climate, could be dangerous for the
 individuals from whom it was gathered.
 
-Whose responsibility is it anyway?
-----------------------------------
+###Whose responsibility is it anyway?
 
 In short: yours.
 
@@ -181,11 +174,9 @@ Managing data responsibly is not simply the task of one person: it's an
 overarching theme to be considered throughout (and after!) the lifecycle of a
 project.
 
-**The world of data: opportunities and risks**
-==============================================
+##The world of data: opportunities and risks
 
-Data is all around us...
-========================
+###Data is all around us...
 
 This is the information age. Within international development (and beyond), data
 is becoming a necessary part of our work; thanks to technological advances, we
@@ -206,7 +197,7 @@ social innovation for sustainable development, and Ushahidi
 platforms to allow people to map out what is happening in their area. . [See the
 section Am I working with data]
 
-### **CASE STUDY: Refugee Camp Statistics**
+###CASE STUDY: Refugee Camp Statistics
 
 A humanitarian organisation is charged with delivering vital services to a
 refugee camp. In order to do so, they need to know how many people are living in
@@ -230,8 +221,7 @@ has strengthened interest in data and data collection among policy makers,
 without necessarily strengthening the capacities of data providers to operate
 responsibly or strengthen the capacities of data subjects.
 
-Walking the data tightrope : power dynamics
--------------------------------------------
+###Walking the data tightrope : power dynamics
 
 Data exercises power. It can create it, redistribute it, amplify it or disrupt
 it. It can entrench and privilege certain actors or perspectives, but it can
@@ -241,29 +231,9 @@ can often account for the difference between these binaries or polar extremes.
 
 Collecting data about someone creates an inherent power imbalance to the extent
 that the data collector effectively owns a commodity relating intimately to an
-individual. This much is not new to those familiar with the if it's free, you're
-the product trope associated largely with social media networks. That data may
-be financially and practically valuable is widely accepted: that it could also
-have negative consequences for the data subject, such as whether or not they
-receive vital services, is less commonly understood. Similarly, we are familiar
-with the notion that data in the wrong hands can be dangerous, putting
-individuals at risk, but perhaps less aware that even in the right hands, there
-are violations that can arise from individuals being documented or categorised,
-leading to discrimination or exclusion. This could result in you paying more for
-a pair of jeans than a neighbor in a different zip code, or getting a higher
-interest rate because items in a shopping cart signal race or ethnicity.
+individual. This much is not new to those familiar with the if it's free, you're the product trope associated largely with social media networks. That data may be financially and practically valuable is widely accepted: that it could also have negative consequences for the data subject, such as whether or not they receive vital services, is less commonly understood. Similarly, we are familiar with the notion that data in the wrong hands can be dangerous, putting individuals at risk, but perhaps less aware that even in the right hands, there are violations that can arise from individuals being documented or categorised, leading to discrimination or exclusion. This could result in you paying more for a pair of jeans than a neighbor in a different zip code, or getting a higher interest rate because items in a shopping cart signal race or ethnicity.
 
-This sort of algorithmic bias, widely prevalent in the marketing and advertising
-space, is increasingly finding its way into other kinds of decision making about
-welfare benefits, immigration, healthcare and other sectors. Does this mean that
-you forego the opportunities that data presents and the societal benefits that
-it can facilitate? Sometimes, it just might. It may be that certain kinds of
-data are just too risky to collect, even as part of a human rights or
-development effort, for reasons that will be elaborated throughout this book. Or
-that none of the technical, legal or practical measures adopted to safeguard the
-data, and more importantly, the people that it relates to, really work. Those
-are extreme cases, however: usually, it is possible to manage the risks and
-achieve great successes and gains, while still being sensitive to asymmetries.
+This sort of algorithmic bias, widely prevalent in the marketing and advertising space, is increasingly finding its way into other kinds of decision making about welfare benefits, immigration, healthcare and other sectors. Does this mean that you forego the opportunities that data presents and the societal benefits that it can facilitate? Sometimes, it just might. It may be that certain kinds of data are just too risky to collect, even as part of a human rights or development effort, for reasons that will be elaborated throughout this book. Or that none of the technical, legal or practical measures adopted to safeguard the data, and more importantly, the people that it relates to, really work. Those are extreme cases, however: usually, it is possible to manage the risks and achieve great successes and gains, while still being sensitive to asymmetries.
 
 Issues of agency, legitimacy and representation pose additional problems in
 international development: the audience with which you are engaging may not be
@@ -273,7 +243,7 @@ basic human rights; they might not be aware of the implications of their data
 being collected or used, have little or no awareness of their digital rights,
 and even less power to influence the process.
 
-### **CASE STUDY: Iris scans**
+###CASE STUDY: Iris scans
 
 The UNHCR are collecting biometric identification data (iris scans and
 fingerprints) from Syrian refugees who are living in Jordan, as lots of people
@@ -286,22 +256,13 @@ over.
 
 These challenges place an even bigger responsibility in the hands of
 intermediaries, who need to be aware of the opportunities and risks of the data
-that they are working with, and to embed sensitivity and responsibility in their
-data handling practices. However, it is all too easy, within development, to
-focus on the broader societal benefits that accrue, always for a good cause, and
-avoid the more problematic, critical discussion of how data is actually being
-managed or used, and whether they leave communities worse off after certain
-(arguably) paternalistic interventions than before.
+that they are working with, and to embed sensitivity and responsibility in their data handling practices. However, it is all too easy, within development, to focus on the broader societal benefits that accrue, always for a good cause, and avoid the more problematic, critical discussion of how data is actually being managed or used, and whether they leave communities worse off after certain (arguably) paternalistic interventions than before.
 
 We also see an increasing reliance on quantification: documenting, measuring,
 monitoring and reporting may be motivated by funders, by governments, by
 financial incentives or by research goals. This may lead to transformative or
 even incremental gains that hugely benefit people, but it may be at the expense
-of more nuanced, qualitative measures that do not override the legitimate rights
-of the less advantaged who are impacted differently by the collection and use of
-such finely grained data. Adopting a critical approach to avert a data for
-data’s sake methodology will go a long way towards ensuring fairness and
-balance.
+of more nuanced, qualitative measures that do not override the legitimate rights of the less advantaged who are impacted differently by the collection and use of such finely grained data. Adopting a critical approach to avert a data for data’s sake methodology will go a long way towards ensuring fairness and balance.
 
 Future-proofing is also an issue: what seems unproblematic data right now, for
 example, may turn out to be very sensitive in the future. Changes to political
@@ -313,30 +274,22 @@ collected can in itself be a responsible measure, regardless of circumstances.
 Uncertainty is inevitable in these processes, and there is no perfect solution.
 There are good questions though, and asking these well in time, to the people
 involved, and to other subject matter experts, is always recommended. You may
-not be able to prevent every possible consequence of a data-intensive world, but
-being mindful of the particular vulnerabilities and circumstances of the worst
-off within the communities that you work for and with can go a long way towards
-averting or containing harm.
+not be able to prevent every possible consequence of a data-intensive world, but being mindful of the particular vulnerabilities and circumstances of the worst off within the communities that you work for and with can go a long way towards averting or containing harm.
 
-**Why responsible data**
-========================
+##Why responsible data
 
-**Responsible data is: "The duty to ensure people’s rights to consent, privacy
-security and ownership around the information processes of collection, analysis,
-storage, presentation and reuse of data, while respecting the values of
-transparency and openness.”**
+Responsible data is:
+
+>"The duty to ensure people’s rights to consent, privacy, security and ownership around the information processes of collection, analysis, storage, presentation and reuse of data, while respecting the values of transparency and openness.”
 
 *Responsible Data Forum, working definition, September 2014.*
 
-Basic principles
-----------------
+###Basic principles
 
 Engaging with responsible data practices means upholding a certain set of
 ethical practices with regards to the way you use data. As the use of digital
 and mobile information becomes more commonplace in international development
-programming, we are only beginning to understand the implications that real-time
-information, data trails and information + communication technologies (ICTs)
-pose for relationships with and between the people and communities these
+programming, we are only beginning to understand the implications that real-time information, data trails and information + communication technologies (ICTs) pose for relationships with and between the people and communities these
 projects aim to serve.
 
 The power dynamics created by use of technology, or more specifically, of data,
@@ -346,8 +299,7 @@ association and privacy. Responsible data is a set of practices and
 considerations that aims to address these challenges in a practical sense, to
 help projects enhance the good they aim to do, and to avoid inadvertent harm.
 
-At its base, understanding why responsible data is needed can be understood as a
-combination of empowerment and avoidance of harm:
+At its base, understanding why responsible data is needed can be understood as a combination of empowerment and avoidance of harm:
 
 **Empowerment**: We use data and technology to produce and mobilise appropriate
 information, to ensure that policies take everyone into account, especially
@@ -377,20 +329,16 @@ but about prioritising dignity, respect and privacy of the people we work with,
 and making sure that the people reflected in the data we use are counted and
 heard, and able to make informed decisions about their lives.
 
-What could go wrong?
---------------------
+### What could go wrong?
 
 We don't know much about how data-driven projects can go wrong until they go
 terribly wrong. There are strong incentives not to share experiences of
-responsible data harm, and those who share stories, especially of dramatic harm,
-usually don't wish to be attributed. Nonetheless, there are a number case
+responsible data harm, and those who share stories, especially of dramatic harm, usually don't wish to be attributed. Nonetheless, there are a number case
 studies described in this guide that illustrate the breadth of harm that can
-result from irresponsible data practices. Here are some broad examples of things
-that can go wrong:
+result from irresponsible data practices. Here are some broad examples of things that can go wrong:
 
 Individuals can be harmed physically, emotionally or financially. When
-personally identifiable information is leaked in sensitive contexts it can spark
-violence, discrimination, or exclusionary policies.
+personally identifiable information is leaked in sensitive contexts it can spark violence, discrimination, or exclusionary policies.
 
 Groups can be harmed without individuals ever being identified, through the
 enactment of discriminatory policies on the basis of data, on the basis of
@@ -401,8 +349,7 @@ be harmed when stakeholders feel as though they are exploited for data without
 receiving benefits, or when projects have adverse and unintended consequences.
 
 Organisational brands and efficiency can be harmed, with negative consequences
-for funding, legal liability, high level policy discussions, or credibility with
-public institutions or the audience they seek to serve.
+for funding, legal liability, high level policy discussions, or credibility with public institutions or the audience they seek to serve.
 
 It takes just one tactical oversight, one data breach, or one
 mistakenly-collected dataset to put people in danger or damage critical
@@ -413,12 +360,9 @@ sometimes frightening ease with which these situations arise. As with many of
 life's bad experiences - they can happen to any of us, at any time.
 
 Whether the harm is dramatic and clear, such as violence and death, or more
-subtle and nuanced such as changes in social dynamics, this book aims to provide
-entry points and guidance for identifying and mitigating these risks before they
-occur.
+subtle and nuanced such as changes in social dynamics, this book aims to provide entry points and guidance for identifying and mitigating these risks before they occur.
 
-Arguments for speaking about responsible data with peers and management
------------------------------------------------------------------------
+###Arguments for speaking about responsible data with peers and management
 
 Responsible data requires input and engagement across project teams and
 significant investments of time, energy and resources. This, in turn, will
@@ -451,8 +395,7 @@ Incorporating responsible data practices into project design is, simply, good
 project design. Addressing responsible data considerations when thinking about
 scope, audience, goals, risks, rewards and mitigation will help projects to
 anticipate challenges before they arrive, and assist project leaders to plan
-accordingly, with positive consequences for the allocation of resources - human,
-financial and technical.
+accordingly, with positive consequences for the allocation of resources - human, financial and technical.
 
 Responsible data practices make for more impactful programming. When done well,
 a responsible approach to data in programming can be hugely transformative and
@@ -460,8 +403,7 @@ capable of disrupting or democratising existing structural inequalities. It can
 result in internal benefits to organisations as well as systemic or
 environmental benefits within the area in which you are operating. It can
 minimize the extent and the nature of harm if/when something does go wrong, and
-it can contribute to a larger ecosystem founded not just on Do No Harm but on Do
-Good.
+it can contribute to a larger ecosystem founded not just on Do No Harm but on Do Good.
 
 You may find that when discussing these issues with management and with
 colleagues, people assume that responsible data will come at a cost to some
@@ -470,77 +412,50 @@ discussing in groups. Working together to agree on the non-negotiable elements
 involved will generally help to identify responsible data practice, and is an
 important first step towards getting team members onboard.
 
-Perceived tensions you might come across
-----------------------------------------
+###Perceived tensions you might come across
 
 Transparency, openness and responsibility. There is a superficial contradiction
 between absolute transparency and absolute protection of individual privacy. At
 close look and in specific instances, this will often reveal itself to be a
-fundamental but manageable tension. When discussing specifics, it's rare to find
-a case where thoughtful, dedicated and informed people won't agree on what is
-permissible and what isn't permissible when promoting transparency and
+fundamental but manageable tension. When discussing specifics, it's rare to find a case where thoughtful, dedicated and informed people won't agree on what is permissible and what isn't permissible when promoting transparency and
 accountability. There is a key difference between personal data and data that
 should be made open: as a broad rule, we believe that the right to privacy is
 for those without power, and transparency is for those with power.
 
-Efficiency and responsibility. Often, objections to processes around responsible
-data will be hidden within objections to efficiency from the project
-implementer's perspective. Securing informed consent involves telling people
-about risks, and might decrease participation in a survey. De-identifying data
-may require external expertise and additional resources, delaying data release
-and delaying advocacy timelines. Humanitarian and other high pressure projects
-may feel that they should be exempt from all responsible constraints, since
-their work is, essentially, life and death. These tensions should also be
-addressed in the specific rather than the abstract, and teams should expect that
-they can agree on where to draw the red lines of what is absolutely not
-permissible and what benchmarks must be maintained. However, remember that
-respecting people's privacy rights is part and parcel of respecting their human
-rights, respecting these rights isn't an either/or, it's a must.
+Efficiency and responsibility. Often, objections to processes around responsible data will be hidden within objections to efficiency from the project implementer's perspective. Securing informed consent involves telling people about risks, and might decrease participation in a survey. De-identifying data may require external expertise and additional resources, delaying data release and delaying advocacy timelines. Humanitarian and other high pressure projects may feel that they should be exempt from all responsible constraints, since their work is, essentially, life and death. These tensions should also be addressed in the specific rather than the abstract, and teams should expect that they can agree on where to draw the red lines of what is absolutely not permissible and what benchmarks must be maintained. However, remember that respecting people's privacy rights is part and parcel of respecting their human rights, respecting these rights isn't an either/or, it's a must.
 
 Representation and responsibility. Projects that aim to represent and amplify
 the voices of marginalised communities may struggle with the idea that some
 information about those groups should not be made public. The argument is
 sometimes made that it might be necessary to make some concessions in the
-pursuit of larger benefits; for example, causing some social discomfort or small
-harm in order to promote the position of a marginalised group, or empowering
-them to claim their rights.
+pursuit of larger benefits; for example, causing some social discomfort or small harm in order to promote the position of a marginalised group, or empowering them to claim their rights.
 
-### **Further resources**
+##Further resources
 
--   Donor code of conduct
-    <http://www.ssireview.org/blog/entry/a_new_donor_code_of_conduct>
+-   [Donor code of conduct](http://www.ssireview.org/blog/entry/a_new_donor_code_of_conduct)
 
--   UN data collection
-    <http://www.unglobalpulse.org/privacy-and-data-protection>
+-   [UN data collection](http://www.unglobalpulse.org/privacy-and-data-protection)
 
--   Professional standards for protection work carried out by humanitarian and
-    human rights actors in armed conflict and other situations of violence:
-    <http://www.icrc.org/eng/resources/documents/publication/p0999.htm>
+-   [Professional standards](http://www.icrc.org/eng/resources/documents/publication/p0999.htm) for protection work carried out by humanitarian and human rights actors in armed conflict and other situations of violence.
 
--   Fair Information Practice Principles
-    <http://www.nist.gov/nstic/NSTIC-FIPPs.pdf>
+-   [Fair Information Practice Principles](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf)
 
--   International Principles on the Application of Human Rights to
-    Communications Surveillance <https://en.necessaryandproportionate.org/>
+-   [International Principles](https://en.necessaryandproportionate.org) on the Application of Human Rights to Communications Surveillance
 
--   OECD Privacy Principles <http://oecdprivacy.org/>
+-   [OECD Privacy Principles](http://oecdprivacy.org)
 
--   UNFPA guidelines on data issues in Humanitarian Crisis situations
-    <https://www.unfpa.org/public/home/publications/pid/6253>
+-   [UNFPA guidelines](https://www.unfpa.org/public/home/publications/pid/6253) on data issues in Humanitarian Crisis situations
 
-**Misconceptions and common myths**
-===================================
+##Misconceptions and common myths
 
 If you are working with data and want to speak about the importance of
-responsible data, you may run into a number of recurring ideas that get into the
-way of moving this discussion forward - be it within your organization or in
-your interaction with other stakeholders, such as donors or beneficiaries of
+responsible data, you may run into a number of recurring ideas that get into the way of moving this discussion forward - be it within your organization or in your interaction with other stakeholders, such as donors or beneficiaries of
 your projects.
 
 Below are a number of those we have encountered so far and would like to
 address:
 
-**It is not my job, the IT department has this covered.**
+####It is not my job, the IT department has this covered.
 
 Actually, IT staff don't always understand these challenges very well either;
 they likely have a whole other set of tasks to prioritise. And, no matter how
@@ -550,8 +465,7 @@ one is an expert. The only way to responsibly address these challenges is to do
 so across expertise and project teams, and to think hard about every step of the
 data lifecycle - often in complicated information environments.
 
-**Privacy isn't important to people who are struggling to survive, it's a
-Western luxury that shouldn't be forced on us.**
+####Privacy isn't important to people who are struggling to survive, it's a Western luxury that shouldn't be forced on us.
 
 Everyone is entitled to basic human rights, and privacy rights (or digital
 rights) are just part of these. Responsible data is simply a way of
@@ -562,7 +476,7 @@ in the digital world. The consequences of violating someone's privacy rights
 could be just as serious as violating their other human rights - for example,
 leading to physical violence or preventing them from access to vital services.
 
-**This is needless handwringing; no one has really ever been harmed by data.**
+####This is needless handwringing; no one has really ever been harmed by data.
 
 False. There are actually a number of real life examples where irresponsible
 data practices have led to people being subjected to physical violence, in the
@@ -579,9 +493,9 @@ and without doing harm. It does require effort and investment though, and until
 organizations and individuals make a commitment to begin internalizing
 responsible data practices, there will likely continue to be accidental harm.
 
-**All our data is encrypted, so it's fine.**
+####All our data is encrypted, so it's fine.
 
-![](media/image1.png)
+![XKCD](../assets/img/img-00-05.png)
 
 Source: [XKCD](http://xkcd.com/538/)
 
@@ -590,7 +504,7 @@ digital security - but it's rarely infallible. You could encrypt your hard drive
 in case someone steals it - but what if they steal it, then use physical threats
 to get the password?
 
-**It is all anonymised, so there's nothing to worry about.**
+####It is all anonymised, so there's nothing to worry about.
 
 Taking names out of data doesn't make it anonymous. There are multiple tactics
 for re-identifying data, and we have recently seen several instances where
@@ -599,18 +513,16 @@ identify individuals and their online activity. This phenomenon, called the
 Mosaic effect, is especially problematic because it's not possible to estimate
 the chances that any given data set can be re-identified, because it's not
 possible to anticipate all the data sets that might be produced and meshed with
-it. Let alone the impossibility of anticipating what kinds of data sets might be
-made available in the future...
+it. Let alone the impossibility of anticipating what kinds of data sets might be made available in the future...
 
-**This data is not sensitive.**
+####This data is not sensitive.
 
 Not sensitive for whom? Perhaps not for you, but have you asked the people who
 are reflected in the data whether they think it's sensitive? Will it be
 sensitive a year from now? What if the government changes, if political tensions
 are exacerbated or if discriminatory legislation is passed?
 
-**The people handling our data are absolutely trustworthy and have the best of
-intentions.**
+####The people handling our data are absolutely trustworthy and have the best of intentions.
 
 Even if that's true and will remain true in changing contexts, the road to hell
 is paved with good intentions. Responsible data challenges are complicated and
@@ -618,31 +530,20 @@ require a thoughtful approach from multiple perspectives and expertise, not
 simply relying on the goodwill of a few individuals - human errors happen all
 the time, and it's best to have multiple strategies as a back up.
 
-**I don't have time for this right now; I have other priorities.**
-
+####I don't have time for this right now; I have other priorities.
 This, especially in international development, is almost always the case; we're
 working in high pressure environments. But just think what would happen if that
 data set got leaked, or malicious actors got their hands on something they
 shouldn't... you could be putting the lives of the people you're trying to help,
 at serious risk.
 
-**How to use this book**
-========================
+##How to use this book
 
-We divided this book into thematic, independently readable sections that let you
-dig right into the part that is most relevant to your current objective. The six
-main sections try to cover the spectrum of considerations, practical methods and
-responsible data challenges in different phases of a project. While sections
-sometimes refer to other parts of the book, each module can be read
-independently. Should you prefer to read the book in the traditional way, the
-sections follow a narrative logic that is closely related to different steps of
-the project evolution.
+We divided this book into thematic, independently readable sections that let you dig right into the part that is most relevant to your current objective. The six main sections try to cover the spectrum of considerations, practical methods and responsible data challenges in different phases of a project. While sections sometimes refer to other parts of the book, each module can be read independently. Should you prefer to read the book in the traditional way, the sections follow a narrative logic that is closely related to different steps of the project evolution.
 
-\<INSERT IMAGE FROM PDF PAGE 23\>
----------------------------------
+![Project Data Flow](../assets/img/project-data-flow.png)
 
-Designing a project
--------------------
+###Designing a project
 
 Thinking responsibly about data during a project is good, doing so before is
 even better. Designing a project to inherently accommodate responsible data
@@ -651,24 +552,18 @@ your planning phase. It provides practical suggestions for thinking about risk
 assessment, threat modelling and budgeting to help you implement responsible
 data practices.
 
-Managing data
--------------
+###Managing data
 
 Any step of the project data flow will need to consider the management and
 storage of information. This section looks into how data is stored, where it is
 archived, who can access it and at the possible legal ramifications and risks
 associated with storage.
 
-Getting, understanding and sharing data
----------------------------------------
+###Getting, understanding and sharing data
 
-These sections get into the main pipeline of the project data flow. From zero to
-publish: what are the risks, perils, pitfalls, resources, tools and techniques
-you can use to develop a trusted, secure data flow that takes into account
-consent, agency, privacy and ethics.
+These sections get into the main pipeline of the project data flow. From zero to publish: what are the risks, perils, pitfalls, resources, tools and techniques you can use to develop a trusted, secure data flow that takes into account consent, agency, privacy and ethics.
 
-Closing a project
------------------
+###Closing a project
 
 Harm can originate from zombie projects, abandoned databases, orphan sites and
 online ghost towns. This section is about getting closure: about secure
