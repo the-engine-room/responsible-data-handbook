@@ -7,7 +7,7 @@ num: 2.2
 ch: 2b
 asset-link: understanding-data-02b
 nav: 
-    - Veryifying & cleaning data
+    - Verifying & cleaning data
     - Managing bias & assumptions 
 ---
 
@@ -17,7 +17,7 @@ nav:
 
 \<INSERT IMAGE FROM PDF PG 73\>
 
-Verifying & Cleaning Data
+Verifying &#38; Cleaning Data
 -------------------------
 
 In a perfect world your data would live in neat boxes, tagged, categorised and
@@ -209,7 +209,7 @@ purposes. Having the data live in a proprietary file format like .xls might mean
 that one day the company that owns it stops supporting it, the data set becomes
 unusable, and the knowledge is lost.
 
-**Managing Bias & Assumptions**
+**Managing Bias &#38; Assumptions**
 ===============================
 
 Can I trust what my data set is telling me?

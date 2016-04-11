@@ -238,11 +238,11 @@
 
     .contentnav{
         float: left;
-        max-width: 60%;
         ul{
             padding: 0 0 0 10px;
             float: left;
             margin: 0;
+            width: 220px;
             list-style: none;
 
 
@@ -610,7 +610,7 @@
 
             #menusmall.mobile { display: block; height: auto; border: 2px solid $red-color; background-color: rgba(250,250,250, 0.9)}
             #menusmall.mobile li { border-bottom: 1px solid $black-color; display: block; }
-            #menusmall.mobile li a { display: block; font-size: 0.86em; padding: 0.5em; color: $black-color; 
+            #menusmall.mobile li a { text-transform: uppercase; display: block; font-size: 0.86em; padding: 0.5em; color: $black-color; 
                 &:hover{
                     text-decoration: none;
                     color: $red-color;

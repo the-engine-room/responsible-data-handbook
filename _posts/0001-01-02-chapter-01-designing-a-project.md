@@ -8,7 +8,7 @@ ch: 1
 asset-link: designing-a-project-01
 nav: 
     - Designing responsible projects
-    - Don't panic, plan: assessing risks and threats
+    - Don't panic, plan&#58; assessing risks and threats
     - Budgeting. Do we have a line item for that? Oops....
 
 ---
@@ -255,10 +255,9 @@ working in this space. On the topic of holistic security, Tactical Technology
 Collective have put together a note with further discussion-
 <https://tacticaltech.org/holistic-security>.
 
-**Budgeting**
-=============
+**Budgeting. Do we have a line item for that? Oops....**
+=========================================================
 
-**Do we have a line item for that? Oops....**
 
 Sometimes, treating data responsibly in your project will cost money and
 resources. If it's too late to include responsible data considerations in the
