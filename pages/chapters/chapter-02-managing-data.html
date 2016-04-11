@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Managing Data</title>
+  <meta name="description" content="Setting up the ‘Data Infrastructure’">
+  
+  <link rel="shortcut icon" href="/responsible-data-handbook/assets/img/RD-favicon.png" />
+  <link rel="stylesheet" type="text/css" href="/responsible-data-handbook/assets/css/font/stylesheet.css" />
+  <link rel="stylesheet" href="/responsible-data-handbook/assets/css/main.css">
+
+  <link rel="canonical" href="http://the-engine-room.github.io/responsible-data-handbook/chapters/chapter-02-managing-data.html">
+
+  	<script src="/responsible-data-handbook/assets/js/jquery-1.12.2.min.js"></script>
+  	<script src="/responsible-data-handbook/assets/js/application.js"></script>
+
+
+</head>
+
+
+  <body>
+    <header id="header" class="site-header">
+  <div class="container">
+    <div class="wrapperhead">
+        <div id="logo">
+          <h1>
+            <a href="https://responsibledata.io" rel="home">
+                <img src="/responsible-data-handbook/assets/img/responsibledata.png" width="268" height="80" alt="Responsible Data Forum" />
+            </a>
+          </h1>
+         <span id="menuswitch" class="icon-arrow-down"></span>
+
+        </div>
+
+        <nav id="menu" class="indicators ">
+          <ul>
+            <li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 menu-item-139"><a href="https://responsibledata.io/">Home</a></li>
+            <li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a href="https://responsibledata.io/about/">About</a></li>
+            <li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a href="https://responsibledata.io/events/">Events</a></li>
+            <li id="menu-item-921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-921"><a href="https://responsibledata.io/blog/">Blog</a></li>
+            <li id="menu-item-768" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-768"><a href="https://responsibledata.io/category/resources/">Resources</a></li>
+            </ul>       
+        
+        </nav>
+        
+        <div class="clear"></div>
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+</header>
+
+  
+  <div class="container-fluid">
+
+    <div class="page-content">
+
+      
+        <div class="row">
+
+            <div class="col-sm-4">
+              <div class="row postrow">
+                <div class="col-md-1"></div>
+                <div class="col-md-11"> 
+                 <div id="sidemenu">
+
+
+		<div class="title">
+			<a href="/responsible-data-handbook/"><img src="/responsible-data-handbook/assets/img/title-2.png" /></a>
+		</div>
+
+
+		<!--<div class="index">
+			<a href="/responsible-data-handbook/"><h5>Back to INDEX</h5></a>
+
+		</div>-->
+ 
+
+		<div class="download">
+			<a href="/responsible-data-handbook/assets/pdf/managing-data-02.pdf" target="_blank"><h6>
+				Download Chapter
+			</h6></a>
+		</div>
+		<div class="download">
+			<a href="/responsible-data-handbook/assets/pdf/managing-data-02-summary.pdf" target="_blank"><h6>
+				Download Chapter Summary
+			</h6></a>
+		</div>
+
+
+	<div class="contentnav">
+		<ul>
+
+		
+
+			
+
+				<li><a href="#a-home-for-healthy-data">A home for healthy data</a></li>
+
+			
+
+				<li><a href="#dude-wheres-my-data">Dude, where's my data?</a></li>
+
+			
+
+				<li><a href="#for-your-eyes-only">For your eyes only...?</a></li>
+
+			
+
+				<li><a href="#what-types-of-laws-and-procedures-apply-to-your-data-project">What types of laws and procedures apply to your data project?</a></li>
+
+			
+
+		</ul>
+		
+
+
+	</div>
+	
+	<div class="curls">
+			<img src="/responsible-data-handbook/assets/img/curls-2.png" />
+	</div>
+
+
+
+
+
+
+</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-8">
+              <div class="row">
+                <div class="col-md-11 col-sm-12">
+
+                <article class="post">
+
+  <header class="post-header">
+  	<div class="numwrapper">
+      
+        <div class="chnum text">2</div>
+      
+      <img class="numholder" src="/responsible-data-handbook/assets/img/elem-1.png" />
+    </div>
+    <h1 class="post-title" itemprop="name headline">Managing Data</h1>
+   
+   	<h3>setting up the 'data infrastructure'</h3>
+   
+    
+
+      <div class="curlholder">
+           <img class="curls" src="/responsible-data-handbook/assets/img/curls-1.png" />
+      </div>
+
+     <div class="map">
+    <img src="/responsible-data-handbook/assets/img/managing-data-02-map.png" />
+    </div>
+ 
+    <span id="smallmenuswitch" class="icon-arrow-down"></span>
+
+    <div id="menusmall" class="mobilemenu">
+    <ul>
+
+    
+
+      
+
+
+        <li><a href="#a-home-for-healthy-data">A home for healthy data</a></li>
+
+      
+
+
+        <li><a href="#dude-wheres-my-data">Dude, where's my data?</a></li>
+
+      
+
+
+        <li><a href="#for-your-eyes-only">For your eyes only...?</a></li>
+
+      
+
+
+        <li><a href="#what-types-of-laws-and-procedures-apply-to-your-data-project">What types of laws and procedures apply to your data project?</a></li>
+
+      
+
+    </ul>
+
+
+  </div>
+
+
+
+  </header>
+
+
+
+
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="setting-up-the-data-infrastructure"><strong>Setting up the ‘Data Infrastructure’</strong></h1>
+
+<p>&lt;INSERT IMAGE FROM PG 25 OF PDF&gt;</p>
+
+<h2 id="a-home-for-healthy-data">A Home For Healthy Data</h2>
+
+<h2 id="give-your-data-a-safe-space">Give your data a safe space</h2>
+
+<p>Data occupies physical space, even if in our imagination the bits and bytes are
+ephemeral. We store data on hard drives, and these drives have a physical
+presence, which brings a number of responsibility and privacy implications.</p>
+
+<p>The most obvious issue to address is about data <strong>access</strong>: who can physically
+(or digitally) reach that hard drive and copy data from it, or simply take the
+drive away with them? Another one is <strong>location</strong>: there are many different
+places in which we can store our data. It can be on a laptop, on a USB stick, on
+a remote server in some other country, or even distributed throughout different
+geographic locations (interestingly, this is probably one of the most common
+cases). Location issues also bring with them legal implications, especially if
+we don’t know in which country our data is being stored, and which laws govern
+digital property there.</p>
+
+<p>This section provides an overview of approaches you can implement to ensure your
+information is stored, managed and accessed in a responsible, secure and
+protected manner. To begin with, it’s worth reviewing the general principles of
+data integrity, and how to manage risks surrounding data storage.</p>
+
+<h2 id="data-integrity">Data integrity</h2>
+
+<p>Data integrity is a term used to describe the validity, authenticity and
+security of information. It includes aspects of both information security and
+information quality, including how information systems and processes for sharing
+information are designed. As such, it has some overlap with confidentiality and
+availability, but is a useful frame of analysis for considering the interaction
+of technical and human influences on data responsibility.</p>
+
+<ul>
+  <li>
+    <p>Is the data checked for changes at key points (upload, migration across
+servers, migration from data collection devices to the main server)?</p>
+  </li>
+  <li>
+    <p>Are changes to the data flagged and are there mechanisms for version
+control?</p>
+  </li>
+  <li>
+    <p>Are there granular permissions for making changes to the data during
+analysis?</p>
+  </li>
+  <li>
+    <p>Is the data collection process well-documented? For example, through a
+codebook or other document that allows newcomers to the project to make
+sense of the data and understand the relationships between data structure,
+variables and the data collection process.</p>
+  </li>
+  <li>
+    <p>Does the data include contextual information (potentially in metadata) that
+is necessary to understand the data?</p>
+  </li>
+  <li>
+    <p>Are data collection notes (eg. on ambiguity, potential duplication,
+variations, or more contextual information such as notes made during
+personal interviews) provided together with the data in an accessible
+format, and the relationship between the two made clear?</p>
+  </li>
+  <li>
+    <p>Are appropriate backup mechanisms in place in case of blackouts or system
+failures?</p>
+  </li>
+  <li>
+    <p>Is the software used to manage and store the data fully up to date and
+licensed?</p>
+  </li>
+  <li>
+    <p>Is the data interoperable? Can it be accessed by all the people and
+platforms that it needs to be? If people who might need to access the data
+don’t have technical training, is the data available in common file formats
+(such as csv files)?</p>
+  </li>
+  <li>
+    <p>Have you future-proofed your data by anticipating changes in institutional
+and contextual factors which could make the data difficult to access or use?</p>
+  </li>
+</ul>
+
+<h2 id="assessing-and-managing-risks">Assessing and managing risks</h2>
+
+<p>A thorough discussion of risk assessments is included in the chapter on project
+design. When planning data storage, there are some specific risks and mitigation
+strategies that are worth considering.</p>
+
+<p>Some data storage risks and harms:</p>
+
+<ul>
+  <li>
+    <p>Loss of information (deliberate or accidental)</p>
+  </li>
+  <li>
+    <p>Confiscation of information</p>
+  </li>
+  <li>
+    <p>Data breach</p>
+  </li>
+  <li>
+    <p>Legal threats</p>
+  </li>
+  <li>
+    <p>Malicious attack</p>
+  </li>
+</ul>
+
+<p>Some mitigation strategies:</p>
+
+<ul>
+  <li>
+    <p>Speak to other organisations in your community who have conducted data
+projects successfully. Ask them about their storage practices.</p>
+  </li>
+  <li>
+    <p>For bonus points, adapt or use standards for benchmarking your information
+security procedures, such as ISO 27001 or PCI DSS.</p>
+  </li>
+  <li>
+    <p>Only store the minimal amount of data necessary to complete the task.</p>
+  </li>
+  <li>
+    <p>De-identify data by default (though this approach has its limitations, see
+the chapter on anonymisation).</p>
+  </li>
+  <li>
+    <p>Encrypt your data at all stages of its collection, usage, transmission and
+storage.</p>
+  </li>
+  <li>
+    <p>Use secure tools (ideally open source tools which are more transparent) for
+communication (for a listing of secure tools, see
+<a href="https://www.prismbreak.org/">https://www.prismbreak.org</a>)</p>
+  </li>
+  <li>
+    <p>Delete and destroy data safely when it has become insecure.</p>
+  </li>
+  <li>
+    <p>Conduct regular audits and penetration tests of your security measures.</p>
+  </li>
+  <li>
+    <p>Ensure your organisation is capable of managing and updating the system and
+tools on a long-term basis - as technology becomes outdated and easier to
+breach</p>
+  </li>
+</ul>
+
+<p>For more information on protecting your information in a physical space, see
+Tactical Tech’s Security in a Box chapter on this topic
+<a href="https://securityinabox.org/chapter-2">https://securityinabox.org/chapter-2</a></p>
+
+<h2 id="separate-storage-for-sensitive-data">Separate storage for sensitive data</h2>
+
+<p>You can store some information separately from the rest. For example, if you
+have a database with case files, you can replace the names with codes and create
+a spreadsheet with the codes and their resolution to real names. You can then
+store this spreadsheet on another, highly-protected computer. This method alone
+will in most cases not lead to true anonymisation because the case files are
+easily linkable to real persons.</p>
+
+<p><strong>CASE STUDY: Hacked and then fined!</strong></p>
+
+<p>In 2014, the UK Information Commissioner’s Office (ICO) imposed a £200,000 fine
+on a charity called the British Pregnancy Advisory Service. The organisation’s
+website had been hacked by an anti-abortion activist who threatened to publish
+the names, addresses, dates of birth and telephone numbers of women using the
+service. The ICO determined that considering the sensitivity and risk of the
+information, the website did not have adequate security and left a vulnerability
+which could be exploited by the attacker. The organisation also breached the
+Data Protection Act by keeping data on callers for five years longer than was
+necessary. Reference: “Abortion service to appeal against £200,000 fine over
+hacked website”
+<a href="http://www.theguardian.com/world/2014/mar/07/abortion-service-website-hacker-information-commissioner-fine">http://www.theguardian.com/world/2014/mar/07/abortion-service-website-hacker-information-commissioner-fine</a></p>
+
+<h2 id="further-resources">Further resources</h2>
+
+<ul>
+  <li>
+    <p>The Frontline SMS Users’ Guide to Data Integrity
+<a href="http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf">http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf</a></p>
+  </li>
+  <li>
+    <p>Deflect <a href="https://deflect.ca/">https://deflect.ca/</a></p>
+  </li>
+  <li>
+    <p>Cloudflare <a href="https://www.cloudflare.com/">https://www.cloudflare.com</a></p>
+  </li>
+  <li>
+    <p>For a listing of secure tools, see
+<a href="https://www.prismbreak.org/">https://www.prismbreak.org</a></p>
+  </li>
+</ul>
+
+<h1 id="dude-wheres-my-data"><strong>Dude, where’s my data?</strong></h1>
+
+<p>There are many ways to store data that vary in terms of convenience and
+security. How you store your data should be measured against the particular
+risks you or your partners may be facing, and your personal priorities: for
+example, are you more concerned about data loss, or surveillance? These are
+extremely important questions. Perhaps it isn’t so important to you if
+authorities have access to your data, but it would be disastrous if the data
+were somehow destroyed.</p>
+
+<p>Remember: no method of storing data is 100% safe, so it is essential that you
+backup your data, no matter how or where it is stored.</p>
+
+<h2 id="data-storage">Data storage</h2>
+
+<p>There are a few areas to take into consideration as you make decisions on
+storage and these could include:</p>
+
+<ul>
+  <li>
+    <p>Physical location: Where should data be stored given the type of data and
+the potential vulnerabilities? Within the country you’re working in, or in
+another country, and what are the implications of both of these? (eg.
+differing legal jurisdictions, local internet regulations, especially with
+regards to storing sensitive data)</p>
+  </li>
+  <li>
+    <p>Digital location: Should data be stored on‐line or off‐line or both? Or is
+it open data? (see: The Sharing Spectrum)</p>
+  </li>
+  <li>
+    <p>Ultimate ownership of storage: Consider pros/cons of third party data
+storage vs local data storage (e.g. do you have local capacity for local
+data storage; what is the desired uptime; etc.)</p>
+  </li>
+  <li>
+    <p>Back ups: what level of data back‐ups are required? (you can never back up
+too much!) Access: ensure storage method allows for the necessary levels of
+access. (see: For Your Eyes Only)</p>
+  </li>
+  <li>
+    <p>Data lifecycle: what is the data lifecycle and who will manage it until the
+end of the data’s life? (if it ends!)</p>
+  </li>
+  <li>
+    <p>Saving data: what is the data access / data saving policy, especially for
+sensitive data (e.g. if data must be downloaded locally it must be
+encrypted, etc.)</p>
+  </li>
+</ul>
+
+<h2 id="pros-and-cons-of-storage-options">Pros and cons of storage options</h2>
+
+<p>Some of the advantages and disadvantages of various approaches may be:</p>
+
+<h3 id="locally-on-your-pcs"><strong>Locally on your PC(s)</strong></h3>
+
+<p>Advantages: high security if encrypted, fast and always accessible, easier
+version control, greater legal clarity over ownership</p>
+
+<p>Disadvantages: lower security if physical theft or confiscation is an issue,
+poor backup, bad resiliency in terms of physical emergencies - fires or floods
+for example, poor access except for people located near the machines, potential
+increase in time spent maintaining the system versus working with a specialist
+provider.</p>
+
+<h3 id="on-your-own-network"><strong>On your own network</strong></h3>
+
+<p>Advantages: increased resilience, easier sharing and collaboration, better
+backup, greater legal clarity</p>
+
+<p>Disadvantages: increased cost, greater skill needed for effective security,
+greater reliance on IT support team or third party contractor, potential
+exposure still to confiscation</p>
+
+<h3 id="living-in-the-cloud"><strong>Living in the cloud</strong></h3>
+
+<p>Advantages: decreased costs, increased resilience, easier sharing and
+collaboration, less downtime, better backup, specialist provider knowledge</p>
+
+<p>Disadvantages: increased legal uncertainty, no control over physical access,
+nearly impossible to vet people with access to the servers, reliant on cloud
+company policies which may change</p>
+
+<p>If using cloud hosts, you should ideally identify those who have previous
+experience in:</p>
+
+<ul>
+  <li>
+    <p>Providing secure access and protection for your information</p>
+  </li>
+  <li>
+    <p>Supporting the tools which you wish to use</p>
+  </li>
+  <li>
+    <p>Providing good and fast support to their customers - find people who come
+recommended from trusted members of your network</p>
+  </li>
+  <li>
+    <p>Demonstrable and verifiable commitment to privacy</p>
+  </li>
+  <li>
+    <p>Working with other projects in the humanitarian or human rights field</p>
+  </li>
+  <li>
+    <p>Working within the legal jurisdiction you need</p>
+  </li>
+  <li>
+    <p>Protecting physical data: securing your information from theft, damage and
+loss</p>
+  </li>
+</ul>
+
+<p>For many people, information security often makes them think only of digital
+data. However, physical data protection is a vital process, as gaining physical
+access to data often requires less technical skill than a cyber threat and can
+often be an easier strategy for a potential adversary.</p>
+
+<p>Imagine if your office or home were burned down or broken into today - what
+would you wish you had thought of in advance? Some things to think about include
+the following:</p>
+
+<ul>
+  <li>
+    <p>Location of data: the physical security of locations where you store
+physical data (such as paper) or physical media (such as laptops, USB
+sticks, DVDs, SD Cards, hard-drives). Are they all in the same location, and
+easy to find and gain access to?</p>
+  </li>
+  <li>
+    <p>Access to sensitive locations: who has access to your office, home and
+working environment. Especially to areas of highest sensitivity such as
+server rooms, research desks, consultation rooms, meeting rooms etc.
+Consider using high-grade locks, CCTV, fences etc.</p>
+  </li>
+  <li>
+    <p>Installing appropriate fire safety controls</p>
+  </li>
+  <li>
+    <p>External staff: vetting all staff and contractors such as cleaners or
+security guards</p>
+  </li>
+  <li>
+    <p>Using an inventory: creating and consistently updating an inventory, to
+enable you to be able to identify any loss or theft of data.</p>
+  </li>
+  <li>
+    <p>Building a security incident registry: This should be filled out if any
+member of staff physically sees anything suspicious or has an unusual
+incident occurring with their IT equipment. It allows for monitoring and
+identification of incident patterns which may otherwise have been missed.
+For help in identifying suspicious digital incidents, see
+<a href="http://digitaldefenders.org/digitalfirstaid/">http://digitaldefenders.org/digitalfirstaid/</a></p>
+  </li>
+  <li>
+    <p>Getting rid of physical waste: regularly shredding and disposing of any
+paper waste</p>
+  </li>
+  <li>
+    <p>Regularly changing security procedures: for example, changing keys, cards,
+pin codes or other access control mechanisms, particularly following a
+change of staff.</p>
+  </li>
+</ul>
+
+<h2 id="further-resources-1">Further resources</h2>
+
+<ul>
+  <li>
+    <p>On choosing a hosting provider, see
+<a href="https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting">https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting</a></p>
+  </li>
+  <li>
+    <p>On setting up a secure hosting provider, see
+<a href="https://learn.equalit.ie/wiki/Secure_hosting_guide">https://learn.equalit.ie/wiki/Secure_hosting_guide</a></p>
+  </li>
+</ul>
+
+<h1 id="for-your-eyes-only"><strong>For your eyes only…?</strong></h1>
+
+<h2 id="who-can-access-the-data">Who can access the data?</h2>
+
+<p>The person ultimately responsible for the data will need to have both physical
+and digital control over the data. Physical access control means having control
+over the documents, computers, servers and working areas where data is kept. On
+the digital side, check that are you doing all you reasonably can to secure your
+data - for example, using strong passwords, encrypted connections, VPN, logging,
+two factor authentication etc.</p>
+
+<p>To work out what kinds of permissions and controls others in your team might
+need, mapping the types of users and what kind of access they will need is a
+useful exercise to undertake early in project planning.</p>
+
+<p><strong>CASE STUDY: “Human Trojans”</strong></p>
+
+<p>Many NGOs work on areas that involve high stakes and powerful interests, such as
+when it comes to operations in natural resource issues (oil, diamonds, gas).
+This often involves collecting information on the ground in countries where
+those resources are extracted (sourced from governments, companies, local
+people) and then transferring this information to an international office in
+another country – often in the Global North – for analysis and reporting. In
+this case, it was a company that was adversely affected by one of the NGO’s
+reports that started wondering about the source of leaks that caused negative
+information about their practices to end up in the NGO reports. It then hired
+private intelligence services to specifically find ways to get people working at
+the international offices on their payroll. This time, the attempt to infiltrate
+the international office to locate the sources was unsuccessful since some of
+the targeted employee reported it. The assumed intention of the attempt was to
+locate embarrassing information on the NGO to use as leverage, potentially
+embarrass their donors, bug their offices and place trojans on their computers.</p>
+
+<p>Lessons:</p>
+
+<ul>
+  <li>
+    <p>Human beings are the biggest risk</p>
+  </li>
+  <li>
+    <p>Provide access to information on a need-to-know basis only</p>
+  </li>
+  <li>
+    <p>Even if local operations are secure, complacency in international offices
+may increase vulnerability</p>
+  </li>
+</ul>
+
+<p>Mitigation:</p>
+
+<ul>
+  <li>
+    <p>Strong vetting of staff is crucial</p>
+  </li>
+  <li>
+    <p>Conduct and continuously update a threat assessment, especially when new
+data is released</p>
+  </li>
+  <li>
+    <p>Understand your potential adversary</p>
+  </li>
+  <li>
+    <p>Think also about physical access control of offices</p>
+  </li>
+</ul>
+
+<h2 id="setting-permissions">Setting permissions</h2>
+
+<p>A general security principle is to limit user access to only the minimum amount
+of data that they need to be able to do their work effectively - and only have
+access for as long as they need it. This ensures the privacy of people who have
+had their data stored by your organisation, and also reduces the potential
+impact of security incidents such as a data breach or data loss. Put otherwise:
+if only very few people have access to the whole database, then there is less
+chance of them accidentally deleting all of it.</p>
+
+<p>People should also only have the minimum permissions that they need to do their
+job. To do this, you must identify the broad categories of users and what
+information they will need to work with. For example, a role such as a remote
+medical clinic worker on a short term project might only need to access data
+relevant to the area they are travelling in for a few weeks of their deployment.
+This means they only need to have access to office files and IT systems which
+are relevant to that specific area. However, someone working as a country
+researcher tasked with identifying trends across the country might need access
+permissions to all of the data in the country for a longer period. Although it
+might be less work for you to simply give out the widest possible permissions to
+people, to avoid them having to come back to you and have them adjusted. The
+easy route is not always the most sensible, and doing so could create a lot more
+work for you in the future.</p>
+
+<p>Access permission also includes items like auditing and controlling who can
+manipulate, manage and delete data. The person with responsibility for managing
+and creating access should schedule regular times to audit the users types and
+remove people who no longer need access - for example, temporary workers such as
+contractors and interns. Unfortunately this is particularly important for
+potentially disgruntled staff such as workers who are fired - a number of
+examples exist of people using their old job credentials to illegally access
+data at their previous roles.</p>
+
+<p>HUMAN RESOURCES: Bear in mind that if you are introducing people to a new set of
+tools or methods for accessing the data, they will likely require ongoing
+training sessions and follow up.</p>
+
+<p><strong>CASE STUDY: “Donor Data Danger”</strong></p>
+
+<p>In a project involving sensitive human rights work, two of the donors involved
+insisted collecting a huge amount of data on operations, including names of
+people involved and receipts for all activities. Within three months of the
+project, however, both of those donors discovered inside threats. In each case,
+some of their employees had become disgruntled with their working conditions and
+subsequently left the organisations, taking with them a large amount of data –
+not only on one project, but all the NGOs and individuals the donor had been
+working with and/or had funded. In some instances, this information was even
+channelled to the country’s intelligence services directly or indirectly,
+exposing a large number of people to high risk (including employees, sources,
+beneficiaries, as well as their connections and networks). At the high point of
+this crisis, even the regional director of one of those donors said we should
+stop passing sensitive information to his employees, as he couldn’t trust those
+in the organisation. While it is impossible to prove causality, a considerable
+increase in attacks and disruption of those NGOs’ work that had linkages with
+those particular donors was reported.</p>
+
+<p>Lessons:</p>
+
+<ul>
+  <li>
+    <p>Be aware and prepared to actively disagree with your stakeholders, even if
+they are your funders</p>
+  </li>
+  <li>
+    <p>International actors can be just as much a threat as anybody else – secure
+your info from the bottom up, but also all the way up</p>
+  </li>
+  <li>
+    <p>Don’t think because an organisation has an international reputation, they
+are automatically responsible data holders – in the end, you will be
+responsible for your data and the people it reflects!</p>
+  </li>
+  <li>
+    <p>Encourage a culture of responsible access controls and permissions, not just
+within your organisation, but also in organisations you share your data
+with.</p>
+  </li>
+</ul>
+
+<h2 id="collaboration">Collaboration</h2>
+
+<p>Controlling access effectively means selecting the right choice of methods and
+tools which balance the need to keep information secure, and also allowing
+effective collaboration in the field. A number of things which need to be
+considered in this area include:</p>
+
+<ul>
+  <li>
+    <p>Types of data that people are collecting, and where they are putting it.</p>
+  </li>
+  <li>
+    <p>Tool choice: suitability, usability, support, updates, cost, local vs
+network, network vs online access, mobile vs desktop, open source vs
+proprietary.</p>
+  </li>
+  <li>
+    <p>Levels of verification for the data: how many people should be looking at
+and checking the data?</p>
+  </li>
+  <li>
+    <p>Speed of internet connections for users accessing data: eg. if users are
+collecting data on their mobile devices in the field, the mechanism chosen
+for collaboration will need to be able to cope with receiving from such
+devices. Depending on phone signal, this may mean collecting and sending
+video from remote locations is not possible. This should be thought about
+prior to committing to any technical infrastructure.</p>
+  </li>
+  <li>
+    <p>Access points: Collaboration often requires remote access which can
+occasionally decrease security, as it opens up a number of less easily
+secured access points to a network. As such, tools and methods such as
+forcing regular password changes, two factor authentication, network
+logging, VPN only access, etc. are important to help mitigate such risks.
+(see: Security Resources)</p>
+  </li>
+  <li>
+    <p><strong>Layered access:</strong> Having appropriate access permissions is pivotal to
+ensuring that strategies for separating information will work. Note that it
+can also be an option to only allow access when several people co-sign, that
+is, certain data is only accessible when more than one person unlocks it.</p>
+  </li>
+</ul>
+
+<h2 id="but-dont-overdo-it">But don’t overdo it!</h2>
+
+<p>It’s important to make sure that there are rigorous controls on how data is
+accessed, but you don’t want to lock it up so tight that you are unable to
+access the data when needed. In fact, projects should take active steps to make
+sure that the data can be accessed by the right people at the right times. Below
+are some concrete steps to take that will ensure data integrity, while also
+making sure that it’s available only for the right people at the right time.</p>
+
+<ul>
+  <li>
+    <p>Backing up your data: regularly back up your files, and test these
+procedures on a regular basis.</p>
+  </li>
+  <li>
+    <p>Building redundant systems in case of failure: For example, it can happen
+that hard drives or essential equipment can completely fail without warning.
+Without redundancy like alternate data servers, this can completely disrupt
+your operations.</p>
+  </li>
+  <li>
+    <p>Building architecture with extra capacity: data collection can be disrupted
+when space runs out on storage or collection platforms. You should try to
+ensure any system you have can be easily and cheaply expansible.</p>
+  </li>
+  <li>
+    <p>Emergency situations: unexpected interruptions like natural disasters or
+internet shut downs can interrupt data collection and transmission. Having a
+plan for such occurrences (for example, to shift to satellite links) can
+minimize the damage such interruptions may cause.</p>
+  </li>
+  <li>
+    <p>Targeted disruption: sometimes someone, or something, may target your data
+specifically. Ideally, threats such as this will be identified in a risk
+assessment, allowing you to build extra capacity into your architecture to
+deal with such problems. If hosting on your own, fighting against malicious
+attacks (such as Deliberate Denial of Service) can be very expensive.
+However, services exist which specialise in absorbing such attacks and using
+these is recommended best practice - such as Deflect (<a href="https://deflect.ca/">https://deflect.ca/</a>)
+and the commercial provider Cloudflare
+(<a href="https://www.cloudflare.com/">https://www.cloudflare.com</a>)</p>
+  </li>
+</ul>
+
+<h2 id="legal-considerations"><strong>Legal Considerations</strong></h2>
+
+<p>All steps of the data lifecycle are subject to legal requirements, and managing
+data securely requires understanding and meeting these requirements adequately.
+It’s better to be proactively aware of the legal restrictions on your work, than
+to realise after the fact that you’ve been breaking the law and face monetary
+fines as a consequence, or that you can’t legally do what you were planning to
+do. With the growth of cheap cloud computing (ie. data stored on servers not
+owned by your organisation), it is often difficult to know exactly where your
+digital data is being held. Popular providers of email and storage such as
+Google, Amazon, Facebook, Yahoo, DropBox, GitHub make use of infrastructure
+spread across a number of international sites. For example, Google stores data
+in the US, Ireland, Belgium, Finland, Chile, Taiwan and Singapore; so, which
+country’s laws affect your data? It’s not always easy, but you need to
+understand the legal ramifications of where you store your data.</p>
+
+<h1 id="what-types-of-laws-and-procedures-apply-to-your-data-project"><strong>What types of laws and procedures apply to your data project?</strong></h1>
+
+<h2 id="jurisdiction">Jurisdiction</h2>
+
+<p>It can be challenging to understand how management of your data is affected by
+the laws of the countries in which the data is stored. Some common grounds for
+jurisdiction include:</p>
+
+<ul>
+  <li>
+    <p>The countries where your organization is registered</p>
+  </li>
+  <li>
+    <p>The countries where your organization operates</p>
+  </li>
+  <li>
+    <p>The countries where your data is stored (for cloud storage, this can quickly
+become complicated and involve multiple countries)</p>
+  </li>
+  <li>
+    <p>The countries where your users, participants or subjects are</p>
+  </li>
+</ul>
+
+<p>Sometimes the terms of service or specific policies will determine which law
+applies, but often not, and other jurisdictional claims can supercede these. As
+a point of departure, it’s worth assuming that all of these jurisdictions apply.
+Talk to your technical and legal team to determine which don’t.</p>
+
+<h2 id="data-protection-laws">Data protection laws</h2>
+
+<p>A number of countries have strong data protection laws which place limits on the
+types of data which may be collected from individuals. They also often include
+specific legal requirements about the methods used to store such data, along
+with mandatory reporting and monetary fines for breaches. Individuals about whom
+data is stored are often granted a number of rights, such as access to their
+information and the right to have their data correction and/or removed.</p>
+
+<p>For an overview of data protection laws in different countries, you can browse
+<a href="http://www.forrestertools.com/heatmap/">http://www.forrestertools.com/heatmap/</a> and
+<em>http://www.dlapiperdataprotection.com/#handbook/world-map-section</em>.</p>
+
+<p>It might require some careful thinking, but granting people rights to access
+data in which they are reflected is crucial, especially for organisations which
+collect sensitive data, such as witnesses of human rights violations and
+perpetrators.</p>
+
+<p><strong>CASE STUDY: Data protection laws</strong></p>
+
+<p>Organization X was a human rights organisation in sub-Saharan Africa collecting
+and publishing data about human rights abuses by the local government. The
+government was embarrassed by this and wanted to stop the organisation from
+functioning effectively. Rather than attack the organisation physically, which
+they knew would draw international attention, they decided to disrupt its work
+by tying them up in nefarious legal cases. For example, the organsation was
+severely punished for poorly protecting data, minor health and safety
+violations, and accounting malpractices. While the cases were all eventually
+thrown out, this caused harmful disruptions to the organisation’s work and
+caused them to spend their limited resources on lawyers’ fees. Adhering to
+relevant data protection laws may not prevent this kind of legal tactic to be
+used against you, especially if the law-makers are targeting you specifically,
+but it may limit their techniques.</p>
+
+<h2 id="encryption-technology-laws">Encryption technology laws</h2>
+
+<p>Local laws in a number of countries (such as Sudan, Yemen and Pakistan) place
+limits upon the nature of encryption software allowed for the communication and
+storage of data. System architecture and tool choice must incorporate these
+concerns. Other laws which affect the use of encryption include:</p>
+
+<ul>
+  <li>
+    <p>mandatory handing over of encrypted data if requested by government
+authorities</p>
+  </li>
+  <li>
+    <p>mandatory metadata collection by specific industries, eg. telecommunications
+(and potentially their subsequent sharing with government authorities)</p>
+  </li>
+  <li>
+    <p>laws requiring the weakening of encryption software, such as programmes for
+export: some countries (eg. Pakistan) won’t allow the use of programmes
+which contain certain levels of encryption. Other countries (like the US)
+try to control the distribution of programmes with high-strength
+cryptographic controls - this originated from countries not wanting to share
+their</p>
+  </li>
+  <li>
+    <p>high-strength cryptographic software with potential adversaries.</p>
+  </li>
+  <li>
+    <p>those which require individuals to disclose their passwords (such as the UK)
+upon government request. NGO registration laws</p>
+  </li>
+</ul>
+
+<p>An increasing trend in many countries has been the introduction of strong laws
+which regulate the presence, funding and/or activities of NGOs in their
+countries (for example, Russia, Ethiopia, Egypt, Hungary, Kenya and South
+Sudan). Projects initiated in the country must consider these when building data
+management infrastructure, and when thinking about different country presences.</p>
+
+<h2 id="jurisdictional-issues">Jurisdictional issues</h2>
+
+<p>Organisations should be aware of laws that would give governments access to
+information stored on servers hosted in their countries. For example, Boston
+College was forced to give interview information (tapes) to the Police Service
+of Northern Ireland after they were subpoenaed.
+Cite:<a href="http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article">http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article</a></p>
+
+<p>It is very difficult to protect digital information from subpoenas (for example,
+see this map on US extradition treaties
+<a href="http://qz.com/97428/map-how-to-stay-out-of-reach-of-us-extradition-treaties/">http://qz.com/97428/map-how-to-stay-out-of-reach-of-us-extradition-treaties/</a>)
+so it is important to adhere to a minimalist approach to collecting or storing
+sensitive digital data (or don’t store it all) - see section on Getting Data.</p>
+
+<p>Organisations must also be aware of cross-jurisdictional issues in relation to
+their data management. It is not unusual for data to be collected in a country
+office, transferred to a regional office in another country, then onwards to the
+organisation’s headquarters in a third country. Also, some states or regional
+groups place strict conditions on where their citizens’ data may be transferred
+to - for example, the EU/US Safe Harbour law.</p>
+
+<h2 id="copyright-and-patent">Copyright and Patent</h2>
+
+<p>Copyright and patent issues related to the collection, storage and dissemination
+of your data are important laws to consider. Ensuring you have the correct
+licensing for your projects and infrastructure can help reduce unexpected
+restrictions and costs further into your project. Open licensing such as
+Creative Commons options, and open source code such as MIT or BSD licenses
+provide tested and off-the-shelf solutions for your data, and open the door to
+your peers being able to verify your data, or mixing it with other datasets that
+you might not have collected yourself, but which would strengthen your project.
+(See section: Disseminating Data for more information on licensing and
+advantages of open licensing)</p>
+
+<h2 id="procedures-on-presentation-of-evidence">Procedures on presentation of evidence</h2>
+
+<p>If you intend on using your data in legal cases, you should understand the
+requirements used in court for the presenting of evidence. Approaches to digital
+data differ significantly in each jurisdiction. However, some standard basic
+requirements are that data management systems:</p>
+
+<ul>
+  <li>
+    <p>Allow for an auditable chain of custody (ie. make it possible to know who
+has had access to the data at all times)</p>
+  </li>
+  <li>
+    <p>Ensure the integrity and authenticity of the data. For example, a number of
+technical processes (such as hashing and forensic examination) allow a
+comparison between original and other versions. Authenticity can be enhanced
+through the collection of extra information such as metadata. However this
+must be balanced against the extra risk this may pose to collectors - as
+often it is not clearly understood by the people involved.</p>
+  </li>
+  <li>
+    <p>Ensure that data is verifiable. The data content itself in many cases should
+be verifiable. For example, the massive growth of online video posted to
+sites such as Youtube, Vimeo and LiveLeak has driven the development of
+methodologies to verify what is shown in the footage - is it showing what it
+says it is showing?</p>
+  </li>
+</ul>
+
+<h2 id="further-resources-2">Further resources</h2>
+
+<ul>
+  <li>
+    <p>NGO Law Monitor - <a href="http://www.icnl.org/research/monitor/">http://www.icnl.org/research/monitor/</a></p>
+  </li>
+  <li>
+    <p>Maps of Data Protection Laws - <a href="http://www.forrestertools.com/heatmap/">http://www.forrestertools.com/heatmap/</a>
+&amp;<em>http://www.dlapiperdataprotection.com/#handbook/world-map-section</em></p>
+  </li>
+  <li>
+    <p>Choosing an Open Source Licence for Code -
+<a href="http://choosealicense.com/">http://choosealicense.com</a></p>
+  </li>
+  <li>
+    <p>Creative Commons -
+<a href="https://creativecommons.org/">https://creativecommons.org</a></p>
+  </li>
+</ul>
+
+  </div>
+
+</article>
+
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+            </div>
+
+        </div>
+
+        
+<div class="browsech">
+	<div class="row">
+		<div class="col-xs-1"></div>
+
+		<div class="col-xs-10">
+	
+			<h5 class="browse">Browse Other Chapters</h5>
+		</div>
+		
+		<div class="col-xs-1"></div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="col-xs-1"></div>
+		
+		<div class="col-xs-10">
+
+					
+					
+						
+						<div class="eachch">
+						  <a href="/responsible-data-handbook/chapters/chapter-00-introduction.html" class="browselink">
+						  <img class="chapterthumb" alt="Introduction" src="/responsible-data-handbook/assets/img/chapter-0.png" />
+							
+						  
+
+						  		<h4 class="ch zerosmall"><img src="/responsible-data-handbook/assets/img/special-zero.png"/></h4>
+
+						  
+
+							</a>
+
+						</div>
+						
+					
+						
+						<div class="eachch">
+						  <a href="/responsible-data-handbook/chapters/chapter-01-designing-a-project.html" class="browselink">
+						  <img class="chapterthumb" alt="Designing a Project" src="/responsible-data-handbook/assets/img/chapter-1.png" />
+							
+						  
+						
+							<h4 class="ch">1</h4>
+						  
+						  
+
+							</a>
+
+						</div>
+						
+					
+						
+
+						<div class="eachch">
+						  <img class="chapterthumb" alt="Managing Data" src="/responsible-data-handbook/assets/img/chapter-2.png" />
+							
+						  	<div class="chcurrent">
+								
+		  						<img src="/responsible-data-handbook/assets/img/here.png" />
+							</div>
+						</div>
+
+						
+					
+						
+						<div class="eachch">
+						  <a href="/responsible-data-handbook/chapters/chapter-02a-getting-data.html" class="browselink">
+						  <img class="chapterthumb" alt="Getting Data" src="/responsible-data-handbook/assets/img/chapter-2.1.png" />
+							
+						  
+						
+							<h4 class="ch">2a</h4>
+						  
+						  
+
+							</a>
+
+						</div>
+						
+					
+						
+						<div class="eachch">
+						  <a href="/responsible-data-handbook/chapters/chapter-02b-understanding-data.html" class="browselink">
+						  <img class="chapterthumb" alt="Understanding Data" src="/responsible-data-handbook/assets/img/chapter-2.2.png" />
+							
+						  
+						
+							<h4 class="ch">2b</h4>
+						  
+						  
+
+							</a>
+
+						</div>
+						
+					
+						
+						<div class="eachch">
+						  <a href="/responsible-data-handbook/chapters/chapter-02c-sharing-data.html" class="browselink">
+						  <img class="chapterthumb" alt="Sharing Data" src="/responsible-data-handbook/assets/img/chapter-2.3.png" />
+							
+						  
+						
+							<h4 class="ch">2c</h4>
+						  
+						  
+
+							</a>
+
+						</div>
+						
+					
+						
+						<div class="eachch">
+						  <a href="/responsible-data-handbook/chapters/chapter-03-closing-a-project.html" class="browselink">
+						  <img class="chapterthumb" alt="Closing a Project" src="/responsible-data-handbook/assets/img/chapter-3.png" />
+							
+						  
+						
+							<h4 class="ch">3</h4>
+						  
+						  
+
+							</a>
+
+						</div>
+						
+					
+
+			</div>
+
+			<div class="col-xs-1"></div>
+
+		</div>
+
+	</div>
+
+
+      
+
+  
+    
+    </div>
+
+    <footer class="site-footer">
+  <div class="row">
+
+    <div class="col-xs-1"></div>
+
+    <div class="col-xs-10">
+
+      <div class="row">
+
+
+        <div class="col-md-6">
+            <img src="/responsible-data-handbook/assets/img/creativecommons_logo.png" />
+
+            <p>Licensed under Creative Commons Attribution-ShareAlike 4.0 International License. (CC-BY-SA 4.0)</p>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <img src="/responsible-data-handbook/assets/img/engineroom.png" />
+
+            <div class="datadesc">
+              <p>Responsible Data Reflection Stories, 2016. This publication is part series found at <a href="https://responsibledata.io" target="_blank">https://responsibledata.io</a>, produced by the engine room Responsible Data Program, 2016.</p>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-1"></div>
+
+
+    </div>
+
+</footer>
+
+
+  </div>
+  </body>
+
+</html>

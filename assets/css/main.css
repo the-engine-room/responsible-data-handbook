@@ -1385,12 +1385,12 @@ ul {
   -o-transition: display 1s ease;
   transition: display 1s ease; }
 #sidemenu .contentnav {
-  float: left;
-  max-width: 60%; }
+  float: left; }
   #sidemenu .contentnav ul {
     padding: 0 0 0 10px;
     float: left;
-    margin: 40px 0 0 0;
+    margin: 0;
+    width: 220px;
     list-style: none; }
     #sidemenu .contentnav ul li {
       list-style-type: none;
@@ -1628,6 +1628,7 @@ ul {
       border-bottom: 1px solid #1B1E1F;
       display: block; }
     .post .post-header #menusmall.mobile li a {
+      text-transform: uppercase;
       display: block;
       font-size: 0.86em;
       padding: 0.5em;
@@ -1875,104 +1876,64 @@ img.first {
   ** Slides 
 
 **/
-.slides {
-   /* @include media-query($on-laptop){
-
-        .grid-item-slides{
-            max-height: 250px;
-            padding: 10px 0;
-
-            img{
-                max-height: 200px;
-            }
-
-
-            a{
-                h6{
-                    font-size: 12px;
-                    width: 40px;
-                    padding: 0 25px 0 0;
-
-                }
-            }
-        }
-
-    }*/
-  /*
-      @include media-query($on-palm){
-  
-          .grid-item-slides{
-  
-  
-                  a{
-                      h6{
-  
-                          font-size: 12px;
-                          padding: 0 25px 0 0;
-  
-                      }
-                      
-  
-                  }
-      
-          }
-  
-      }
-      
-  */ }
-  .slides .curlholder {
-    width: 330px;
-    margin: 0 auto; }
-  .slides .fullbook {
-    margin-bottom: 50px; }
-  .slides .post-title {
-    font-size: 6vw;
-    margin: 50px 0 30px 0;
-    letter-spacing: -1px;
-    line-height: 1;
-    color: #cd1619;
-    text-align: center;
-    text-transform: uppercase; }
-  .slides .grid-item-slides {
-    height: 300px;
-    padding: 5px 10px 30px 10px;
-    margin: 0 10px; }
-    .slides .grid-item-slides img {
-      border: 2px solid #1B1E1F;
-      padding: 0;
-      margin: 10px 0; }
-    .slides .grid-item-slides a {
-      cursor: pointer;
-      float: left;
-      width: 100px;
-      padding: 0 25px 0 0;
-      color: #1B1E1F;
-      z-index: 10000; }
-      .slides .grid-item-slides a h6 {
-        font-size: 20px;
-        text-transform: uppercase; }
-      .slides .grid-item-slides a:hover {
-        color: #cd1619;
-        text-decoration: none; }
-    .slides .grid-item-slides a.dl {
+.slides .curlholder {
+  width: 330px;
+  margin: 0 auto; }
+.slides .fullbook {
+  margin-bottom: 50px; }
+.slides .post-title {
+  font-size: 6vw;
+  margin: 50px 0 30px 0;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: #cd1619;
+  text-align: center;
+  text-transform: uppercase; }
+.slides .grid-item-slides {
+  height: 300px;
+  padding: 5px 10px 30px 10px;
+  margin: 0 10px; }
+  .slides .grid-item-slides img {
+    border: 2px solid #1B1E1F;
+    padding: 0;
+    margin: 10px 0; }
+  .slides .grid-item-slides a {
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    padding: 0 25px 0 0;
+    color: #1B1E1F; }
+    .slides .grid-item-slides a h6 {
+      font-size: 20px;
+      text-transform: uppercase; }
+    .slides .grid-item-slides a:hover {
       color: #cd1619;
-      z-index: 10000; }
-      .slides .grid-item-slides a.dl:hover {
-        color: #1B1E1F; }
-  @media screen and (max-width: 1000px) {
-    .slides .grid-item-slides {
-      max-height: 250px;
-      padding: 10px 0 img;
-        padding-max-height: 200px; } }
-  @media screen and (max-width: 768px) {
-    .slides .grid-item-slides {
-      padding: 10px 0;
-      margin: 20px;
-      height: auto;
-      max-height: 100%; }
-      .slides .grid-item-slides img {
-        max-width: 90%; } }
+      text-decoration: none; }
+  .slides .grid-item-slides a.dl {
+    color: #cd1619; }
+    .slides .grid-item-slides a.dl:hover {
+      color: #1B1E1F; }
+@media screen and (max-width: 1000px) {
+  .slides .grid-item-slides {
+    max-height: 250px;
+    padding: 10px 0 img;
+      padding-max-height: 200px; } }
+@media screen and (max-width: 768px) {
+  .slides .fullbook {
+    margin-bottom: 0; }
+  .slides .grid-item-slides {
+    padding: 10px 0;
+    margin: 20px;
+    height: auto;
+    max-height: 100%; }
+    .slides .grid-item-slides img {
+      max-width: 90%; } }
 
+.slidepage #sidemenu .download {
+  padding: 40px 30px; }
+  .slidepage #sidemenu .download h6 {
+    line-height: 1em;
+    font-size: 19px; }
 @media screen and (max-width: 1000px) {
   .slidepage #sidemenu .title, .slidepage #sidemenu .download {
     width: 180px; } }
