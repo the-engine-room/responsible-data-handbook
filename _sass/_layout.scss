@@ -840,10 +840,10 @@
 
 /* index button row */
 .sliderow{
-    padding: 50px 0 0 0;
+    padding: 40px 0 0 0;
 }
 .handbookrow{
-    padding: 100px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .sliderow, .handbookrow{
@@ -886,7 +886,7 @@
 
 
     @include media-query($md-col-break){
-        padding: 50px 0 0 0;
+        padding: 10px 0 0 0;
         .button{
             padding: 20px;
             min-height: auto;
@@ -909,13 +909,6 @@
     }
 
 
-    @include media-query($on-palm) {
-        padding: 30px 0 0 0;
- 
-
-
-
-    }
 
 }
 
@@ -946,56 +939,13 @@
         float: left;
     }
 
-    .introduction{
 
-        padding: 5px 10px 50px 10px;
-        margin: 0 auto;
-        width: 80%;
-        img{
-            padding: 10px 0;
-            width: 100%;
-            margin: 0 auto;
-        }
-
-        a{
-
-
-            h6{   
-                text-transform: uppercase;
-                color: $black-color;
-                width: 100px;
-                font-size: 20px;
-                float: left;
-                padding: 0 120px 0 0;
-
-                 &:hover{
-                    color: $red-color;
-                    text-decoration: none;
-                }
-
-            }
-
-
-            h6.download{
-                color: $red-color;
-
-                &:hover{
-                    color: $black-color;
-                }
-            }
-
-
-        }
-
-    }
 
     .grid-item{
 
         height: 450px; 
-        width: 30%;
-        float: left;
+
         padding: 5px 10px 30px 10px;
-        margin: 0 10px;
 
         img{
             max-height: 400px;
@@ -1034,77 +984,36 @@
 
 }
 
-    @include media-query($on-laptop) {
+@include media-query($on-laptop) {
 
         .grid-item{
-            max-height: 400px;
+            max-height: 100%;
+            height: auto;
+            margin: 20px;
+
             img{
-                max-height: 360px;
+                max-height: 400px;
             }
 
         }
-        .grid-item, .introduction{ 
-        
-
-            a{
-                h6{
-                    font-size: 18px;
-                    padding: 0 25px 0 0;
-
-                }
-            }
-        }
 
 
-    }
 
-    @include media-query-landscape($on-laptop){
+}
+
+
+
+@include media-query-portrait($on-palm){
 
         .grid-item{
-            max-height: 320px;
-            img{
-                max-height: 300px;
-            }
+           img{
+            max-height: 100%;
+           }
 
         }
-
-        .grid-item, .introduction{ 
     
+}
 
-            a{
-                h6{
-                    font-size: 12px;
-                    width: 40px;
-                    padding: 0 25px 0 0;
-
-                }
-            }
-        }
-
-    }
-
-    @include media-query-portrait($on-palm){
-
-        .grid-item{
-            max-height: 200px;
-
-        }
-
-        .grid-item, .introduction{ 
-            
-
-
-            a{
-                h6{
-                    font-size: 12px;
-                    width: 40px;
-                    padding: 0 25px 0 0;
-
-                }
-            }
-        }
-
-    }
 /**
   ** Slides 
 

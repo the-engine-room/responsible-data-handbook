@@ -22,16 +22,19 @@
 		{% for p in post %}
 
 
-			<div class="col-sm-3 col-md-4 chapter grid-item">
-
-				  
-				  <a href="{{ p.url | prepend: site.baseurl}}"><img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}.png"/>
+			<div class="col-sm-4 chapter grid-item">
+				<div class="imgwrap">
+				  <img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}.png"/>
+				 </div>
+				 <div class="textwrap">
+				  <a href="{{ p.url | prepend: site.baseurl}}">
 
 				  <h6>read</h6>
 
 				  </a>
 				  
 				  <a href="{{ "/assets/pdf/" | prepend: site.baseurl }}{{ p.asset-link }}.pdf" target="_blank"><h6 class="download">download</h6></a>
+				</div>
 
 
 			</div>
