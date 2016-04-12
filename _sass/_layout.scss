@@ -809,16 +809,82 @@
 /* title */
 
 .homehead{
-    .title{
-        margin: 10px 0 50px 0;
-    }
-
-    @include media-query($on-palm) {
-        .title{
-            margin-bottom: 10px;
+    padding: 0 0 30px 0;
+    width: 800px;
+    margin: 0 auto;
+        .titleimg{
+            width: 300px;
+            margin: 0 auto;
         }
-    }
+        .titleimgtop{
+            max-width: 590px;
+            margin: 0 auto;
+        }
+        img.titlelow{
+            width: 300px;
+            margin: 0 auto;
+        }
 
+        h1{
+            color: $title-color;
+            text-transform: uppercase;
+            font-size: 5.5em;
+            padding: 0;
+            text-align: center;
+            line-height: 1em;
+            margin: 0 auto;
+        }
+        h2.lowertitle{
+            color: $title-color;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.62em;
+            line-height: 1em;
+            padding: 0;
+            margin: 0;
+        }
+
+        h2.subtitlefront{
+            color: $black-color;
+            text-align: center;
+            padding: 10px 0 0 0;
+            max-width: 590px;
+            font-size: 1.6em;
+            line-height: 1.2em;
+            margin: 0 auto;
+        }
+        .title{
+            margin: 10px 0 50px 0;
+        }
+
+        @include media-query($on-laptop){
+            width: 100%;
+            padding: 0;
+        }
+
+        @include media-query($on-palm) {
+            .titleimgtop{
+                width: 300px;
+            }
+            .titleimg{
+                width: 100px;
+                max-width: 100px;
+            }
+            h1{
+                font-size: 2.7em;
+            }
+            h2.lowertitle{
+                font-size: 0.8em;
+            }
+            h2.subtitlefront{
+                font-size: 0.8em;
+                width: 200px;
+            }
+            .title{
+                margin-bottom: 10px;
+            }
+        }
+    
 }
 
 /* Full download */
