@@ -765,13 +765,14 @@ the mechanisms of consent which are appropriate, and ensure that they are
 appropriately implemented. A consent policy should address the following
 components:
 
-Risk Assessment: The level of consent and protection built-in will depend on the
+####Risk Assessment: 
+The level of consent and protection built-in will depend on the
 risk assessment, including an assessment of urgency and data sensitivity. This
 may include some sort of threat modelling, or broader sense of assessing risks
 that may flow from wrongful or erroneous use or sharing of the data.
 
-Disclosure: On the basis of the risk assessment, determine how much information
-you need to disclose to participants or data subjects. Generally this should
+####Disclosure: 
+On the basis of the risk assessment, determine how much information you need to disclose to participants or data subjects. Generally this should
 include any potential risks or negative consequences that may follow from data
 collection and data use. It should also include detailed information about how
 data will be used, including time and use limits, future disclosure and

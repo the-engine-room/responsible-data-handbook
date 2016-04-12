@@ -334,7 +334,7 @@ the targeted employee reported it. The assumed intention of the attempt was to
 locate embarrassing information on the NGO to use as leverage, potentially
 embarrass their donors, bug their offices and place trojans on their computers.
 
-Lessons:
+####Lessons:
 
 -   Human beings are the biggest risk
 
@@ -343,7 +343,7 @@ Lessons:
 -   Even if local operations are secure, complacency in international offices
     may increase vulnerability
 
-Mitigation:
+####Mitigation:
 
 -   Strong vetting of staff is crucial
 
@@ -433,28 +433,22 @@ tools which balance the need to keep information secure, and also allowing
 effective collaboration in the field. A number of things which need to be
 considered in this area include:
 
--   Types of data that people are collecting, and where they are putting it.
+-   ####Types of data: 
+    What are people collecting, and where are they putting it?
 
--   Tool choice: suitability, usability, support, updates, cost, local vs
+-   ####Tool choice: 
+    Suitability, usability, support, updates, cost, local vs
     network, network vs online access, mobile vs desktop, open source vs
     proprietary.
 
--   Levels of verification for the data: how many people should be looking at
-    and checking the data?
+-   ####Levels of verification for the data: 
+    How many people should be looking at and checking the data?
 
--   Speed of internet connections for users accessing data: eg. if users are
-    collecting data on their mobile devices in the field, the mechanism chosen
-    for collaboration will need to be able to cope with receiving from such
-    devices. Depending on phone signal, this may mean collecting and sending
-    video from remote locations is not possible. This should be thought about
-    prior to committing to any technical infrastructure.
+-   ####Speed of internet connections for users accessing data: 
+    eg. if users are collecting data on their mobile devices in the field, the mechanism chosen for collaboration will need to be able to cope with receiving from such devices. Depending on phone signal, this may mean collecting and sending video from remote locations is not possible. This should be thought about prior to committing to any technical infrastructure.
 
--   Access points: Collaboration often requires remote access which can
-    occasionally decrease security, as it opens up a number of less easily
-    secured access points to a network. As such, tools and methods such as
-    forcing regular password changes, two factor authentication, network
-    logging, VPN only access, etc. are important to help mitigate such risks.
-    (see: [***Security Resources***]({{ "/chapters/chapter-03-closing-a-project.html#data-management-resources" | prepend: site.baseurl }}))
+-   ####Access points: 
+    Collaboration often requires remote access which can occasionally decrease security, as it opens up a number of less easily secured access points to a network. As such, tools and methods such as forcing regular password changes, two factor authentication, network logging, VPN only access, etc. are important to help mitigate such risks. (see: [***Security Resources***]({{ "/chapters/chapter-03-closing-a-project.html#data-management-resources" | prepend: site.baseurl }}))
 
 -   ####Layered access:
     Having appropriate access permissions is pivotal to

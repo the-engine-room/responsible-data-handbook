@@ -92,7 +92,8 @@ a set of rules and guidelines providing you with a framework that you can safely
 assume your colleagues, partners or co-workers, will follow when dealing with
 the data. See section [***Data consent, for your eyes only...***]({{ "/chapters/chapter-02-managing-data.html#for-your-eyes-only" | prepend: site.baseurl }}).
 
-**TOOLS**: collaborative tools, private Github repos, etc
+####TOOLS: 
+Collaborative tools, private Github repos, etc
 
 ###Controlled closed sharing
 
@@ -126,8 +127,8 @@ configure access permissions or check logs for suspicious activity. This will
 not help you prevent leakage, but will help you identify any proactively, which
 will in turn allow you to take measures for containing damage.
 
-**TOOLS**: Non-disclosure agreements, Memorandum of Understanding, collaborative
-software
+####TOOLS: 
+Non-disclosure agreements, Memorandum of Understanding, collaborative software
 
 ###The point of no return
 
@@ -156,7 +157,7 @@ go-ahead before data is published.
 If you are confident that the data is ready for sharing with the world, please
 proceed to the next chapter: **publishing data**.
 
-**TOOLS**: Risk mapping tool in development, from the engine room
+####TOOLS: Risk mapping tool in development, from the engine room
 
 ##Publishing Data
 
@@ -286,7 +287,7 @@ across the world - if you have a person tasked with publishing your
 organisation's data to IATI in your organisation, it might be worth sitting down
 with them to discuss exactly what is being published, and what is not.
 
-**TOOLS**: Document Cloud, AidStream, Github, Google Docs, CKAN, HURIDOCS
+####TOOLS: Document Cloud, AidStream, Github, Google Docs, CKAN, HURIDOCS
 
 ##Anonymising data
 
@@ -400,19 +401,22 @@ that. Some of the things you should think about are:
 These are some techniques that help in anonymising data, once the process above
 has yielded that it may be advisable to to do so. For more detailed descriptions of these techniques, their limitations and in which contexts they are most appropriate, see the anonymisation guide produced by the [UK Information Commissioner's Office](http://ico.org.uk/~/media/documents/library/Data_Protection/Practical_application/anonymisation-codev2.pdf).
 
--   Data masking: This describes supplying only part of a data set (e.g.. taking
+-   ####Data masking: 
+    This describes supplying only part of a data set (e.g.. taking
     out columns from a spreadsheet) or deleting these parts from the data set
     completely.
 
--   Pseudonimisation: This describes the exchange of values for codes - this
-    way, for example a name might be replaced with a number, but the same number
-    will show up in every instance where the name was.
+-   ####Pseudonimisation: 
+    This describes the exchange of values for codes - this
+    way, for example a name might be replaced with a number, but the same number will show up in every instance where the name was.
 
--   Aggregation: Instead of providing the raw data, this would aggregate
+-   ####Aggregation: 
+    Instead of providing the raw data, this would aggregate
     especially small amounts of information; rounding large numbers, or
     providing only small samples of larger data sets.
 
--   Derived data: This describes a process where the original intent is kept,
+-   ####Derived data: 
+    This describes a process where the original intent is kept,
     but the output changed. An example would be to provide the age of a person
     instead of the exact date of birth.
 
@@ -534,7 +538,7 @@ identification). In at least one case, an interviewee who had given testimony
 was re-victimized by subsequently getting detained by government forces and
 badly beaten.
 
-Lessons:
+####Lessons:
 
 -   Do not assume that the consent of the person you are documenting also means
     you do not need to check that they fully understand the risks and potential
