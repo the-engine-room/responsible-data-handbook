@@ -506,7 +506,7 @@ p strong, .chnum { font-family: "trattatelloregular", Georgia, Times, serif; }
 
 /** Lists
 **/
-ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
+ul { list-style: url("../img/hand-list.png"); padding: 0 0 0 10px; }
 
 /** Site header */
 .site-header { background-color: #1B1E1F; color: #fff; position: relative; z-index: 3; display: block; }
