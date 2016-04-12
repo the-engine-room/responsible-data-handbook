@@ -408,6 +408,21 @@
  */
 
 .post{
+    .fixedtop{
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 25px;
+    }
+
+    .fixedbottom{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 25px;
+
+    }
+
     .post-header {
         margin-top: $spacing-unit/2;
         margin-bottom: $spacing-unit;

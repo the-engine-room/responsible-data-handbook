@@ -410,7 +410,7 @@ in the organisation. While it is impossible to prove causality, a considerable
 increase in attacks and disruption of those NGOs’ work that had linkages with
 those particular donors was reported.
 
-Lessons:
+####Lessons:
 
 -   Be aware and prepared to actively disagree with your stakeholders, even if
     they are your funders

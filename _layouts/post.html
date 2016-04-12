@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="post">
+<article id="top" class="post">
 
   <header class="post-header">
   	<div class="numwrapper">
@@ -57,5 +57,7 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  <div class="fixedtop"><a href="#top"><img src="{{ "/assets/img/go-to-top-2.png" | prepend: site.baseurl }}" /></a></div>
+  <div class="fixedbottom"><a href="#chapters"><img src="{{ "/assets/img/browse-chapters-2.png" | prepend: site.baseurl }}" /></a></div>
 
 </article>
