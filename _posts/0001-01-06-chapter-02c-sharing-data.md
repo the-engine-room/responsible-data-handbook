@@ -34,7 +34,7 @@ Sharing can also have unintended consequences, however. Once data is published, 
 
 Given our inability to see into the future, it's especially important to think carefully about what kind of data gets shared, and the relationships, licenses and agreements that govern limited sharing. Apart from the ethical implications of unforeseen use by others, there may be practical considerations: for example, participants seeing that their data is used in a way they don't agree with, or that puts them in danger, might mean that they refuse to participate in subsequent research or development efforts, either with you or with other data-intensive projects generally. As you can imagine, this has much wider societal consequences, and deserves careful thought and work to avoid such a situation.
 
-Sometimes, technical measures to strip identifiers, redact sensitive information or otherwise "anonymise" data may be sufficient to mitigate against such potential harm. De-identification is problematic, however, andrarely works as a magic bullet.[ For a thorough discussion on this, see the section about **Anonymizing Data**.]
+Sometimes, technical measures to strip identifiers, redact sensitive information or otherwise "anonymise" data may be sufficient to mitigate against such potential harm. De-identification is problematic, however, andrarely works as a magic bullet.[ For a thorough discussion on this, see the section about [***Anonymising Data***](#anonymising-data).]
 
 The bottom line here is that you should carefully consider the implications of sharing (from the point of view of the people to whom the data relates, as well as the bigger picture), whether to share at all, and the licensing conditions or terms and tools that you can use to reduce the risk of harm, while still permitting beneficial outcomes.
 
@@ -51,13 +51,13 @@ Others argue that data subjects have rights associated with the **result** of an
 different ways of engaging with data subjects and participants, and the ways in which consent is operationalised.
 
 It will inevitably be up to individual projects to determine what kinds of data rights are appropriate in specific instances. It will be important that these decisions are made explicit when data is shared or published, and that
-appropriate licenses or agreements are applied. (See chapter: Power to the People)
+appropriate licenses or agreements are applied. (See chapter: [***Power to the People***]({{ "/chapters/chapter-02a-getting-data.html#power-to-the-people" | prepend: site.baseurl }}))
 
 ###Legal and contractual frameworks
 
 Legal systems often include some version of a *purpose limitation principle*, in which data collected for one purpose cannot be used for any other purpose without the consent of the data subject. This is often seen as a way of respecting boundaries and choices.
 
-Data sharing can often challenge this foundational principle. If, at the data collection stage, another common principle of data minimisation (collect no more than you need for that specified purpose) was also ignored, this problem is compounded. Having collected too much data is problematic, but potentially unproblematic, as long as the data is kept in-house. This is another reason you need to think carefully before you publish or share more widely however- see section Sharing Data.
+Data sharing can often challenge this foundational principle. If, at the data collection stage, another common principle of data minimisation (collect no more than you need for that specified purpose) was also ignored, this problem is compounded. Having collected too much data is problematic, but potentially unproblematic, as long as the data is kept in-house. This is another reason you need to think carefully before you publish or share more widely however.  See section [***Sharing Data***](#sharing-data).
 
 For sharing data with a limited set of actors, it is worth considering whether data sharing should be governed by explicit agreements such as MoUs, or even contracts. Agreements are imperfect solutions insofar as enforcing them is rarely simple, and any breach means that the data is already out of the bag, but they also have some advantages. Entering into agreements about the conditions, limitations and ethical guidelines that govern data sharing can impose some measure of control, and can also establish a shared set of expectations and reveal previously unforeseen risks. Highly explicit agreements about risk and responsibility can also be shared further down the chain of actors with whom data might be shared and reinforce awareness about a responsible data approach among actors not directly within your project's sphere of influence.
 
@@ -90,7 +90,7 @@ However, the wider you go, the less control you have. An important aspect of
 this level of sharing is the presence of an **organisational security policy**:
 a set of rules and guidelines providing you with a framework that you can safely
 assume your colleagues, partners or co-workers, will follow when dealing with
-the data. [See section **Data consent, for your eyes only...** ]
+the data. See section [***Data consent, for your eyes only...***]({{ "/chapters/chapter-02-managing-data.html#for-your-eyes-only" | prepend: site.baseurl }}).
 
 **TOOLS**: collaborative tools, private Github repos, etc
 
@@ -106,7 +106,7 @@ For example, the data could be shared with peers for external opinion, or even
 data aggregation, in case they are working on similar themes (beware of
 combining apples and pears when combining different data sets, however).
 
-**Data aggregation** is a crucial point of risk assessment: sometimes standalone data deemed safe becomes harmful when combined with other data sets, or data that you thought was anonymised becomes easily discernible once combined with other data, using triangulation techniques. (see section: anonymising data) Another reason for sharing externally is the advantage of getting different expertise. Sharing data with other organisations can help to recognise the gaps in your data set, making for a more resilient and more trustworthy data set. It is all too easy to unknowingly apply your own personal biases when collecting data (for example, within questions asked in surveys, or structuring of the data), and sharing it with people who weren't involved in early stages might help to identify these biases.
+**Data aggregation** is a crucial point of risk assessment: sometimes standalone data deemed safe becomes harmful when combined with other data sets, or data that you thought was anonymised becomes easily discernible once combined with other data, using triangulation techniques. (see section: [***anonymising data***](#anonymising-data)) Another reason for sharing externally is the advantage of getting different expertise. Sharing data with other organisations can help to recognise the gaps in your data set, making for a more resilient and more trustworthy data set. It is all too easy to unknowingly apply your own personal biases when collecting data (for example, within questions asked in surveys, or structuring of the data), and sharing it with people who weren't involved in early stages might help to identify these biases.
 
 One last aspect to mention here is the **sanity check**: sharing your data with
 unusual suspects will provide you with opinions that are outside of the echo

@@ -499,25 +499,26 @@
         margin-bottom: $spacing-unit;
 
         h2 {
-            font-size: 25px;
+            font-size: 30px;
+            padding: 20px 0;
             color: $red-color;
             font-variant: small-caps;
             margin-bottom: 0;
 
             @include media-query($on-laptop) {
-                font-size: 22px;
+                font-size: 25px;
             }
         }
 
         h3 {
-            font-size: 22px;
+            font-size: 25px;
             text-transform: capitalize;
             padding-left: 45px;
             font-variant: small-caps;
             margin-bottom: 0;
             background:  url("../img/curls-list-2.png") no-repeat left center;
             @include media-query($on-laptop) {
-                font-size: 18px;
+                font-size: 20px;
             }
         }
 

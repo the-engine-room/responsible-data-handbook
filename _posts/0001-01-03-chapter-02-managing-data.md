@@ -111,7 +111,7 @@ Some mitigation strategies:
 -   Only store the minimal amount of data necessary to complete the task.
 
 -   De-identify data by default (though this approach has its limitations, see
-    the chapter on anonymisation).
+    the [***chapter on anonymisation***]( {{ "/chapters/chapter-02c-sharing-data.html#anonymising-data" | prepend: site.baseurl }} )).
 
 -   Encrypt your data at all stages of its collection, usage, transmission and
     storage.
@@ -155,8 +155,7 @@ hacked website"](http://www.theguardian.com/world/2014/mar/07/abortion-service-w
 
 ###Further resources
 
--   [The Frontline SMS Users' Guide to Data Integrity]
-    (http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf)
+-   [The Frontline SMS Users' Guide to Data Integrity](http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf)
 
 -   [Deflect](https://deflect.ca/)
 
@@ -182,27 +181,30 @@ backup your data, no matter how or where it is stored.
 There are a few areas to take into consideration as you make decisions on
 storage and these could include:
 
--   Physical location: Where should data be stored given the type of data and
+-   ####Physical location: 
+    Where should data be stored given the type of data and
     the potential vulnerabilities? Within the country you're working in, or in
     another country, and what are the implications of both of these? (eg.
     differing legal jurisdictions, local internet regulations, especially with
     regards to storing sensitive data)
 
--   Digital location: Should data be stored on‐line or off‐line or both? Or is
-    it open data? (see: The Sharing Spectrum)
+-   ####Digital location: 
+    Should data be stored on‐line or off‐line or both? Or is
+    it open data? (see: [***The Sharing Spectrum***]({{ "/chapters/chapter-02c-sharing-data.html#sharing-data" | prepend: site.baseurl }}))
 
--   Ultimate ownership of storage: Consider pros/cons of third party data
-    storage vs local data storage (e.g. do you have local capacity for local
-    data storage; what is the desired uptime; etc.)
+-   ####Ultimate ownership of storage: 
+    Consider pros/cons of third party data storage vs local data storage (e.g. do you have local capacity for local data storage; what is the desired uptime; etc.)
 
--   Back ups: what level of data back‐ups are required? (you can never back up
+-   ####Back ups: 
+    What level of data back‐ups are required? (you can never back up
     too much!) Access: ensure storage method allows for the necessary levels of
-    access. (see: For Your Eyes Only)
+    access. (see: [***For Your Eyes Only***](#for-you-eyes-only))
 
--   Data lifecycle: what is the data lifecycle and who will manage it until the
-    end of the data's life? (if it ends!)
+-   ####Data lifecycle: 
+    What is the data lifecycle and who will manage it until the end of the data's life? (if it ends!)
 
--   Saving data: what is the data access / data saving policy, especially for
+-   ####Saving data: 
+    What is the data access / data saving policy, especially for
     sensitive data (e.g. if data must be downloaded locally it must be
     encrypted, etc.)
 
@@ -232,10 +234,10 @@ exposure still to confiscation
 
 ####Living in the cloud
 
-Advantages: decreased costs, increased resilience, easier sharing and
+Advantages: Decreased costs, increased resilience, easier sharing and
 collaboration, less downtime, better backup, specialist provider knowledge
 
-Disadvantages: increased legal uncertainty, no control over physical access,
+Disadvantages: Increased legal uncertainty, no control over physical access,
 nearly impossible to vet people with access to the servers, reliant on cloud
 company policies which may change
 
@@ -264,39 +266,34 @@ access to data often requires less technical skill than a cyber threat and can
 often be an easier strategy for a potential adversary.
 
 Imagine if your office or home were burned down or broken into today - what
-would you wish you had thought of in advance? Some things to think about include
-the following:
+would you wish you had thought of in advance? Some things to think about include the following:
 
--   Location of data: the physical security of locations where you store
+-   ####Location of data: 
+    The physical security of locations where you store
     physical data (such as paper) or physical media (such as laptops, USB
-    sticks, DVDs, SD Cards, hard-drives). Are they all in the same location, and
-    easy to find and gain access to?
+    sticks, DVDs, SD Cards, hard-drives). Are they all in the same location, and easy to find and gain access to?
 
--   Access to sensitive locations: who has access to your office, home and
-    working environment. Especially to areas of highest sensitivity such as
-    server rooms, research desks, consultation rooms, meeting rooms etc.
-    Consider using high-grade locks, CCTV, fences etc.
+-   ####Access to sensitive locations: 
+    Who has access to your office, home and working environment. Especially to areas of highest sensitivity such as server rooms, research desks, consultation rooms, meeting rooms etc. Consider using high-grade locks, CCTV, fences etc.
 
--   Installing appropriate fire safety controls
+-   ####Installing appropriate fire safety controls
 
--   External staff: vetting all staff and contractors such as cleaners or
+-   ####External staff: 
+    Vetting all staff and contractors such as cleaners or
     security guards
 
--   Using an inventory: creating and consistently updating an inventory, to
+-   ####Using an inventory:
+    Creating and consistently updating an inventory, to
     enable you to be able to identify any loss or theft of data.
 
--   Building a security incident registry: This should be filled out if any
-    member of staff physically sees anything suspicious or has an unusual
-    incident occurring with their IT equipment. It allows for monitoring and
-    identification of incident patterns which may otherwise have been missed.
-    For help in identifying suspicious digital incidents, see [Digital First Aid](http://digitaldefenders.org/digitalfirstaid/)
+-   ####Building a security incident registry: 
+    This should be filled out if any member of staff physically sees anything suspicious or has an unusual incident occurring with their IT equipment. It allows for monitoring and identification of incident patterns which may otherwise have been missed. For help in identifying suspicious digital incidents, see [Digital First Aid](http://digitaldefenders.org/digitalfirstaid/)
 
--   Getting rid of physical waste: regularly shredding and disposing of any
-    paper waste
+-   ####Getting rid of physical waste: 
+    Regularly shredding and disposing of any paper waste
 
--   Regularly changing security procedures: for example, changing keys, cards,
-    pin codes or other access control mechanisms, particularly following a
-    change of staff.
+-   ####Regularly changing security procedures: 
+    For example, changing keys, cards, pin codes or other access control mechanisms, particularly following a change of staff.
 
 ###Further resources
 
@@ -457,13 +454,12 @@ considered in this area include:
     secured access points to a network. As such, tools and methods such as
     forcing regular password changes, two factor authentication, network
     logging, VPN only access, etc. are important to help mitigate such risks.
-    (see: Security Resources)
+    (see: [***Security Resources***]({{ "/chapters/chapter-03-closing-a-project.html#data-management-resources" | prepend: site.baseurl }}))
 
 -   ####Layered access:
     Having appropriate access permissions is pivotal to
     ensuring that strategies for separating information will work. Note that it
-    can also be an option to only allow access when several people co-sign, that
-    is, certain data is only accessible when more than one person unlocks it.
+    can also be an option to only allow access when several people co-sign, that is, certain data is only accessible when more than one person unlocks it.
 
 ###But don't overdo it!
 
@@ -608,7 +604,7 @@ College was forced to give interview information (tapes) to the Police Service
 of Northern Ireland after they were subpoenaed.
 [Citation](http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article)
 
-It is very difficult to protect digital information from subpoenas (for example, see [this map on US extradition treaties](http://qz.com/97428/map-how-to-stay-out-of-reach-of-us-extradition-treaties/)) so it is important to adhere to a minimalist approach to collecting or storing sensitive digital data (or don't store it all) - see section on Getting Data.
+It is very difficult to protect digital information from subpoenas (for example, see [this map on US extradition treaties](http://qz.com/97428/map-how-to-stay-out-of-reach-of-us-extradition-treaties/)) so it is important to adhere to a minimalist approach to collecting or storing sensitive digital data (or don't store it all). See section on [***Getting Data***]({{ "/chapters/chapter-02a-getting-data.html" | prepend: site.baseurl }}).
 
 Organisations must also be aware of cross-jurisdictional issues in relation to
 their data management. It is not unusual for data to be collected in a country
@@ -627,8 +623,8 @@ Creative Commons options, and open source code such as MIT or BSD licenses
 provide tested and off-the-shelf solutions for your data, and open the door to
 your peers being able to verify your data, or mixing it with other datasets that
 you might not have collected yourself, but which would strengthen your project.
-(See section: Disseminating Data for more information on licensing and
-advantages of open licensing)
+(See section: [***Disseminating Data for more information on licensing and
+advantages of open licensing***]({{"/chapters/chapter-02c-sharing-data.html#publishing-data" | prepend: site.baseurl }}))
 
 ###Procedures on presentation of evidence
 

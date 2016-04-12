@@ -67,7 +67,7 @@ referred to for help.
 
 Designing the data collection process requires asking basic questions about
 roles, tools and timing. This section needs to be informed by the risk
-assessment conducted during project design (see Don't panic, plan.), but
+assessment conducted during project design (see [***Don't panic, plan***]( {{ "/chapters/chapter-01-designing-a-project.html#dont-panic-plan-assessing-risks-and-threats" | prepend: site.baseurl }} ).), but
 reviewed in detail here for your own project, to carefully consider responsible
 data challenges that might surface by the particulars of your data collection.
 To begin understanding what data collection methods will responsibly produce the data required by your project, review the following questions:
@@ -112,7 +112,7 @@ To begin understanding what data collection methods will responsibly produce the
 
 ###Defining challenge areas - an exercise
 
-####Step 1: Come up with a detailed data collection plan**
+####Step 1: Come up with a detailed data collection plan
 
 The questions above can be used to define specific challenge areas for your
 project. You might want to create a table to map your steps, adding specific
@@ -194,7 +194,8 @@ access to detailed assessment information on the subject. If referring a subject
 to another agency, that agency may receive a specific sub-set of information on
 the subject as to protect sensitive or non-relevant information.
 
-**TOOLS**: Create a Roles-Responsibilities-Functionality Map to help you identify
+####TOOLS: 
+Create a Roles-Responsibilities-Functionality Map to help you identify
 who should do what and when. Here is an example:
 
 ![Role Responsibilities](../assets/img/img-02a-02.png)
@@ -276,7 +277,7 @@ has access to the data stored on these devices.
 
 -   Ensure selected tools allow for your desired range of data access
     permissions: will you need people with various levels of permissions to
-    interact with specified sets of data? (see section: for your eyes only)
+    interact with specified sets of data? (see section: [***For your eyes only***]({{ "/chapters/chapter-02-managing-data.html#for-your-eyes-only" | prepend: site.baseurl }}))
 
 -   Establish a response plan for potential emergency technical challenges
     (phones breaking, no wifi, etc.) and have support ready to go.
@@ -592,7 +593,7 @@ and regulatory implications. For example, consent in the context of academic
 research may be different from that in a healthcare context. Also take note that
 consent has a particular meaning in a legal context, which can vary across
 jurisdictions and across sectors (for a discussion of legal jurisdictions and
-obligations, see the chapter in Managing Data).
+obligations, see [***the chapter in Managing Data***]( {{ "/chapters/chapter-02-managing-data.html#what-types-of-laws-and-procedures-apply-to-your-data-project" | prepend: site.baseurl }})).
 
 This section is a high-level primer on how to think about consent when your
 project involves the collection, use and sharing of data. In that sense, it has

@@ -54,7 +54,7 @@ Similarly, when working with digital data, you can:
 
 -   Verify you are using an exact copy of the original. For example, using [file verification techniques](http://en.wikipedia.org/wiki/File_verification)
 
-For more on data integrity, please see the Data Management section of A Home for Healthy Data.
+For more on data integrity, please see the Data Management section of [***A Home for Healthy Data***]({{ "/chapters/chapter-02-managing-data.html#a-home-for-healthy-data" | prepend: site.baseurl }}).
 
 Go back and ask: Reach out to a small sample of the surveyed population for more
 in-depth analysis. This requires that in your collection efforts you have the
@@ -118,7 +118,8 @@ cleaning data can mean a number of different things, including:
 
 -   structuring it so it can be used effectively for what you want it to do
 
-HUMAN RESOURCES: The ability to efficiently manage large data sets is a science,
+####Human Resources: 
+The ability to efficiently manage large data sets is a science,
 and people qualified to do so are aptly (albeit not creatively) called data
 scientists. This person should have enough spreadsheet savvy to easily merge,
 filter and pivot complex data. It might be that your best solution is to hire a
@@ -275,7 +276,7 @@ removing these is part the data analyst's standard toolkit. However, it is
 important to make sure you are only reducing data noise, not changing the data
 to fit your expected outcome.
 
-####Correlation vs causation.
+####Correlation vs causation
 Even if two variables might seem to be related, it
 doesn't mean that one caused the other. The classic example used here is the
 correlation between the rise of crime rates and ice cream consumption during

@@ -92,12 +92,11 @@ assessment framework. It is a useful process to help uncover specific threats to
 
 ###Assets
 
-These are the types of data that the project will create or use (for examples of different types of data, see the introductory chapter, Are you Working With
-Data?). What data is being created? Where does the data exist and how do you
+These are the types of data that the project will create or use (for examples of different types of data, see the introductory chapter, [***Are you Working With Data?***]({{ "/chapters/chapter-00-introduction.html#am-i-working-with-data" | prepend: site.baseurl }})). What data is being created? Where does the data exist and how do you
 interact with it? Map the types of data and the data flow. Does the data fall
 into clusters, such as public, internal, or confidential? If so, this already
 gives you a clue that different procedures may be needed for different types of
-data. (See section: The Sharing Spectrum)
+data. (See section: [***Sharing Data***]({{ "/chapters/chapter-02c-sharing-data.html" | prepend: site.baseurl }}))
 
 ###Risks
 
@@ -193,7 +192,7 @@ organisations that you do trust, too, as well as the role of such providers over
 This is a way of thinking of all of the various security threats or risks that
 are faced: digital information security, physical and operational security, and
 psycho-social well being required for good security implementation. All three of these should be considered within technology projects, not just digital
-security, and there are many strong tools and support organisations who can help conduct security assessments - see Further Resources for a list of organisations working in this space. On the topic of holistic security, Tactical Technology Collective have put together [a note with further discussion](https://tacticaltech.org/holistic-security).
+security, and there are many strong tools and support organisations who can help conduct security assessments. See [***Further Resources***]({{ "/chapters/chapter-03-closing-a-project.html#additional-resources" | prepend: site.baseurl }}) for a list of organisations working in this space. On the topic of holistic security, Tactical Technology Collective have put together [a note with further discussion](https://tacticaltech.org/holistic-security).
 
 ##Budgeting. Do we have a line item for that? Oops....
 

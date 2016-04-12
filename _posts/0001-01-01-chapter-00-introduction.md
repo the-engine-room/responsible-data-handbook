@@ -192,8 +192,7 @@ in, or even counting the number of countries in which your organisation is
 active. Some organisations working in the development sector have made data
 their main commodity or service - the [UN Global Pulse Labs](http://www.unglobalpulse.org/), for example, analyse big data to accelerate
 social innovation for sustainable development, and [Ushahidi](http://www.ushahidi.com/) have developed a number of data management
-platforms to allow people to map out what is happening in their area. . [See the
-section Am I working with data]
+platforms to allow people to map out what is happening in their area. . [See the section [***Am I working with data***](#am-i-working-with-data).]
 
 ###CASE STUDY: Refugee Camp Statistics
 
@@ -299,16 +298,16 @@ help projects enhance the good they aim to do, and to avoid inadvertent harm.
 
 At its base, understanding why responsible data is needed can be understood as a combination of empowerment and avoidance of harm:
 
-**Empowerment**: We use data and technology to produce and mobilise appropriate
+* ####Empowerment: 
+We use data and technology to produce and mobilise appropriate
 information, to ensure that policies take everyone into account, especially
 focusing upon marginalised communities, and place the person in question as
 central to the data universe rather than as a tangential bystander or even
 byproduct, empowering users to be active participants rather than passive data
 "subjects".
 
-**Harm avoidance**: We do all we can to ensure that we do no harm and that the
-way in which we use data and technology does not facilitate or exacerbate harm
-done by others.
+* ####Harm avoidance: 
+We do all we can to ensure that we do no harm and that the way in which we use data and technology does not facilitate or exacerbate harm done by others.
 
 These norms are important for practitioners in the international development
 space because of our close and active engagement with some of the world's most
