@@ -54,8 +54,8 @@ potential archive partners below).
 
 If you archive data yourself, you will need to consider the cost, time and
 skills that will be required to maintain the archival system. This is not for
-the faint of data-heart! See (and learn intimately) the section A **home for
-healthy data** and include data storage capacity into your long-term
+the faint of data-heart! [See (and learn intimately) the section A home for
+healthy data]() and include data storage capacity into your long-term
 organisational strategy.
 
 Alternatively, it might be useful to partner directly with an archive that will
