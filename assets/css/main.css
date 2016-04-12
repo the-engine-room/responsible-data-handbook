@@ -496,7 +496,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon > svg path { fill: #1B1E1F; }
 
 /** Fonts on persistent elements **/
-h2, .contentnav li a, h5, h3, .filter-group li, h6, h7, .mobilemenu li a { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; }
+h2, h4, .contentnav li a, h5, h3, .filter-group li, h6, h7, .mobilemenu li a { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; }
 
 h1, .post-header h3 { font-family: "alegreyabold", Georgia, Times, serif; }
 
@@ -611,8 +611,8 @@ ul { list-style: url("../img/curls-list-2.png"); padding: 0 0 0 10px; }
 @media screen and (max-width: 850px) { .post .post-content h2 { font-size: 22px; } }
 .post .post-content h3 { font-size: 22px; text-transform: capitalize; padding-left: 45px; font-variant: small-caps; margin-bottom: 0; background: url("../img/curls-list-2.png") no-repeat left center; }
 @media screen and (max-width: 850px) { .post .post-content h3 { font-size: 18px; } }
-.post .post-content h4 { font-size: 20px; text-transform: capitalize; color: #cd1619; font-style: bolder; font-variant: small-caps; margin-bottom: 0; }
-@media screen and (max-width: 850px) { .post .post-content h4 { font-size: 18px; } }
+.post .post-content h4 { font-size: 18px; text-transform: capitalize; color: #1B1E1F; font-style: bolder; margin-bottom: 0; }
+@media screen and (max-width: 850px) { .post .post-content h4 { font-size: 16px; } }
 .post .post-content img { padding: 50px; }
 .post .post-content p strong { color: #cd1619; font-weight: normal; }
 .post .post-content h2#content-summary + p:first-letter, .post .post-content h2#content-summary + h3 + p:first-letter { font-family: "gentium_basicbold", Helvetica, Arial, sans-serif; float: left; font-size: 75px; line-height: 60px; padding-top: 5px; padding-right: 4px; padding-left: 3px; }
