@@ -522,15 +522,15 @@
         }
 
         h4 {
-            font-size: 20px;
+            font-size: 18px;
             text-transform: capitalize;
-            color: $red-color;
+            color: $black-color;
             font-style: bolder;
-            font-variant: small-caps;
+            //font-variant: small-caps;
             margin-bottom: 0;
 
             @include media-query($on-laptop) {
-                font-size: 18px;
+                font-size: 16px;
             }
         }
 
