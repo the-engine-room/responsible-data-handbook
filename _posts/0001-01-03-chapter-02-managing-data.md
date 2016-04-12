@@ -14,16 +14,10 @@ nav:
 ---
 
 
-**Setting up the ‘Data Infrastructure’**
-========================================
 
-\<INSERT IMAGE FROM PG 25 OF PDF\>
+##A Home For Healthy Data
 
-A Home For Healthy Data
------------------------
-
-Give your data a safe space
----------------------------
+###Give your data a safe space
 
 Data occupies physical space, even if in our imagination the bits and bytes are
 ephemeral. We store data on hard drives, and these drives have a physical
@@ -39,13 +33,11 @@ cases). Location issues also bring with them legal implications, especially if
 we don't know in which country our data is being stored, and which laws govern
 digital property there.
 
-This section provides an overview of approaches you can implement to ensure your
-information is stored, managed and accessed in a responsible, secure and
+This section provides an overview of approaches you can implement to ensure your information is stored, managed and accessed in a responsible, secure and
 protected manner. To begin with, it's worth reviewing the general principles of
 data integrity, and how to manage risks surrounding data storage.
 
-Data integrity
---------------
+###Data integrity
 
 Data integrity is a term used to describe the validity, authenticity and
 security of information. It includes aspects of both information security and
@@ -90,8 +82,7 @@ of technical and human influences on data responsibility.
 -   Have you future-proofed your data by anticipating changes in institutional
     and contextual factors which could make the data difficult to access or use?
 
-Assessing and managing risks
-----------------------------
+###Assessing and managing risks
 
 A thorough discussion of risk assessments is included in the chapter on project
 design. When planning data storage, there are some specific risks and mitigation
@@ -127,7 +118,7 @@ Some mitigation strategies:
 
 -   Use secure tools (ideally open source tools which are more transparent) for
     communication (for a listing of secure tools, see
-    [https://www.prismbreak.org](https://www.prismbreak.org/))
+    [Prism Break](https://www.prismbreak.org/))
 
 -   Delete and destroy data safely when it has become insecure.
 
@@ -138,11 +129,9 @@ Some mitigation strategies:
     breach
 
 For more information on protecting your information in a physical space, see
-Tactical Tech's Security in a Box chapter on this topic
-<https://securityinabox.org/chapter-2>
+Tactical Tech's [Security in a Box chapter on this topic](https://securityinabox.org/chapter-2)
 
-Separate storage for sensitive data
------------------------------------
+###Separate storage for sensitive data
 
 You can store some information separately from the rest. For example, if you
 have a database with case files, you can replace the names with codes and create
@@ -151,7 +140,7 @@ store this spreadsheet on another, highly-protected computer. This method alone
 will in most cases not lead to true anonymisation because the case files are
 easily linkable to real persons.
 
-**CASE STUDY: Hacked and then fined!**
+####CASE STUDY: Hacked and then fined!
 
 In 2014, the UK Information Commissioner's Office (ICO) imposed a £200,000 fine
 on a charity called the British Pregnancy Advisory Service. The organisation's
@@ -161,25 +150,21 @@ service. The ICO determined that considering the sensitivity and risk of the
 information, the website did not have adequate security and left a vulnerability
 which could be exploited by the attacker. The organisation also breached the
 Data Protection Act by keeping data on callers for five years longer than was
-necessary. Reference: "Abortion service to appeal against £200,000 fine over
-hacked website"
-<http://www.theguardian.com/world/2014/mar/07/abortion-service-website-hacker-information-commissioner-fine>
+necessary. Reference: ["Abortion service to appeal against £200,000 fine over
+hacked website"](http://www.theguardian.com/world/2014/mar/07/abortion-service-website-hacker-information-commissioner-fine)
 
-Further resources
------------------
+###Further resources
 
--   The Frontline SMS Users' Guide to Data Integrity
-    <http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf>
+-   [The Frontline SMS Users' Guide to Data Integrity]
+    (http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf)
 
--   Deflect <https://deflect.ca/>
+-   [Deflect](https://deflect.ca/)
 
--   Cloudflare [https://www.cloudflare.com](https://www.cloudflare.com/)
+-   [Cloudflare](https://www.cloudflare.com/)
 
--   For a listing of secure tools, see
-    [https://www.prismbreak.org](https://www.prismbreak.org/)
+-   For a listing of secure tools, see [Prism Break](https://www.prismbreak.org/)
 
-**Dude, where's my data?**
-==========================
+##Dude, where's my data?
 
 There are many ways to store data that vary in terms of convenience and
 security. How you store your data should be measured against the particular
@@ -192,8 +177,7 @@ were somehow destroyed.
 Remember: no method of storing data is 100% safe, so it is essential that you
 backup your data, no matter how or where it is stored.
 
-Data storage
-------------
+###Data storage
 
 There are a few areas to take into consideration as you make decisions on
 storage and these could include:
@@ -222,12 +206,11 @@ storage and these could include:
     sensitive data (e.g. if data must be downloaded locally it must be
     encrypted, etc.)
 
-Pros and cons of storage options
---------------------------------
+###Pros and cons of storage options
 
 Some of the advantages and disadvantages of various approaches may be:
 
-### **Locally on your PC(s)**
+####Locally on your PC(s)
 
 Advantages: high security if encrypted, fast and always accessible, easier
 version control, greater legal clarity over ownership
@@ -238,7 +221,7 @@ for example, poor access except for people located near the machines, potential
 increase in time spent maintaining the system versus working with a specialist
 provider.
 
-### **On your own network**
+####On your own network
 
 Advantages: increased resilience, easier sharing and collaboration, better
 backup, greater legal clarity
@@ -247,7 +230,7 @@ Disadvantages: increased cost, greater skill needed for effective security,
 greater reliance on IT support team or third party contractor, potential
 exposure still to confiscation
 
-### **Living in the cloud**
+####Living in the cloud
 
 Advantages: decreased costs, increased resilience, easier sharing and
 collaboration, less downtime, better backup, specialist provider knowledge
@@ -306,8 +289,7 @@ the following:
     member of staff physically sees anything suspicious or has an unusual
     incident occurring with their IT equipment. It allows for monitoring and
     identification of incident patterns which may otherwise have been missed.
-    For help in identifying suspicious digital incidents, see
-    <http://digitaldefenders.org/digitalfirstaid/>
+    For help in identifying suspicious digital incidents, see [Digital First Aid](http://digitaldefenders.org/digitalfirstaid/)
 
 -   Getting rid of physical waste: regularly shredding and disposing of any
     paper waste
@@ -316,20 +298,15 @@ the following:
     pin codes or other access control mechanisms, particularly following a
     change of staff.
 
-Further resources
------------------
+###Further resources
 
--   On choosing a hosting provider, see
-    <https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting>
+-   [On choosing a hosting provider](https://learn.equalit.ie/wiki/Responsible_Data_Forum_on_Hosting)
 
--   On setting up a secure hosting provider, see
-    <https://learn.equalit.ie/wiki/Secure_hosting_guide>
+-   [On setting up a secure hosting provider](https://learn.equalit.ie/wiki/Secure_hosting_guide)
 
-**For your eyes only...?**
-==========================
+##For your eyes only...?
 
-Who can access the data?
-------------------------
+###Who can access the data?
 
 The person ultimately responsible for the data will need to have both physical
 and digital control over the data. Physical access control means having control
@@ -342,7 +319,7 @@ To work out what kinds of permissions and controls others in your team might
 need, mapping the types of users and what kind of access they will need is a
 useful exercise to undertake early in project planning.
 
-**CASE STUDY: “Human Trojans”**
+####CASE STUDY: “Human Trojans”
 
 Many NGOs work on areas that involve high stakes and powerful interests, such as
 when it comes to operations in natural resource issues (oil, diamonds, gas).
@@ -380,8 +357,7 @@ Mitigation:
 
 -   Think also about physical access control of offices
 
-Setting permissions
--------------------
+###Setting permissions
 
 A general security principle is to limit user access to only the minimum amount
 of data that they need to be able to do their work effectively - and only have
@@ -418,7 +394,7 @@ HUMAN RESOURCES: Bear in mind that if you are introducing people to a new set of
 tools or methods for accessing the data, they will likely require ongoing
 training sessions and follow up.
 
-**CASE STUDY: “Donor Data Danger”**
+####CASE STUDY: “Donor Data Danger”
 
 In a project involving sensitive human rights work, two of the donors involved
 insisted collecting a huge amount of data on operations, including names of
@@ -453,8 +429,7 @@ Lessons:
     within your organisation, but also in organisations you share your data
     with.
 
-Collaboration
--------------
+###Collaboration
 
 Controlling access effectively means selecting the right choice of methods and
 tools which balance the need to keep information secure, and also allowing
@@ -484,13 +459,13 @@ considered in this area include:
     logging, VPN only access, etc. are important to help mitigate such risks.
     (see: Security Resources)
 
--   **Layered access:** Having appropriate access permissions is pivotal to
+-   ####Layered access:
+    Having appropriate access permissions is pivotal to
     ensuring that strategies for separating information will work. Note that it
     can also be an option to only allow access when several people co-sign, that
     is, certain data is only accessible when more than one person unlocks it.
 
-But don't overdo it!
---------------------
+###But don't overdo it!
 
 It's important to make sure that there are rigorous controls on how data is
 accessed, but you don't want to lock it up so tight that you are unable to
@@ -522,12 +497,10 @@ making sure that it's available only for the right people at the right time.
     deal with such problems. If hosting on your own, fighting against malicious
     attacks (such as Deliberate Denial of Service) can be very expensive.
     However, services exist which specialise in absorbing such attacks and using
-    these is recommended best practice - such as Deflect (<https://deflect.ca/>)
-    and the commercial provider Cloudflare
-    ([https://www.cloudflare.com](https://www.cloudflare.com/))
+    these is recommended best practice - such as [Deflect](https://deflect.ca/)
+    and the commercial provider [Cloudflare](https://www.cloudflare.com/).
 
-**Legal Considerations**
-------------------------
+###Legal Considerations
 
 All steps of the data lifecycle are subject to legal requirements, and managing
 data securely requires understanding and meeting these requirements adequately.
@@ -543,11 +516,9 @@ in the US, Ireland, Belgium, Finland, Chile, Taiwan and Singapore; so, which
 country's laws affect your data? It's not always easy, but you need to
 understand the legal ramifications of where you store your data.
 
-**What types of laws and procedures apply to your data project?**
-=================================================================
+##What types of laws and procedures apply to your data project?
 
-Jurisdiction
-------------
+###Jurisdiction
 
 It can be challenging to understand how management of your data is affected by
 the laws of the countries in which the data is stored. Some common grounds for
@@ -567,8 +538,7 @@ applies, but often not, and other jurisdictional claims can supercede these. As
 a point of departure, it's worth assuming that all of these jurisdictions apply.
 Talk to your technical and legal team to determine which don't.
 
-Data protection laws
---------------------
+###Data protection laws
 
 A number of countries have strong data protection laws which place limits on the
 types of data which may be collected from individuals. They also often include
@@ -577,16 +547,14 @@ with mandatory reporting and monetary fines for breaches. Individuals about whom
 data is stored are often granted a number of rights, such as access to their
 information and the right to have their data correction and/or removed.
 
-For an overview of data protection laws in different countries, you can browse
-<http://www.forrestertools.com/heatmap/> and
-*http://www.dlapiperdataprotection.com/\#handbook/world-map-section*.
+For an overview of data protection laws in different countries, you can browse [here](http://www.forrestertools.com/heatmap/) and [here](http://www.dlapiperdataprotection.com/\#handbook/world-map-section).
 
 It might require some careful thinking, but granting people rights to access
 data in which they are reflected is crucial, especially for organisations which
 collect sensitive data, such as witnesses of human rights violations and
 perpetrators.
 
-**CASE STUDY: Data protection laws**
+####CASE STUDY: Data protection laws
 
 Organization X was a human rights organisation in sub-Saharan Africa collecting
 and publishing data about human rights abuses by the local government. The
@@ -602,8 +570,7 @@ relevant data protection laws may not prevent this kind of legal tactic to be
 used against you, especially if the law-makers are targeting you specifically,
 but it may limit their techniques.
 
-Encryption technology laws
---------------------------
+###Encryption technology laws
 
 Local laws in a number of countries (such as Sudan, Yemen and Pakistan) place
 limits upon the nature of encryption software allowed for the communication and
@@ -625,8 +592,7 @@ concerns. Other laws which affect the use of encryption include:
 
 -   high-strength cryptographic software with potential adversaries.
 
--   those which require individuals to disclose their passwords (such as the UK)
-    upon government request. NGO registration laws
+-   those which require individuals to disclose their passwords (such as the UK) upon government request. NGO registration laws
 
 An increasing trend in many countries has been the introduction of strong laws
 which regulate the presence, funding and/or activities of NGOs in their
@@ -634,20 +600,15 @@ countries (for example, Russia, Ethiopia, Egypt, Hungary, Kenya and South
 Sudan). Projects initiated in the country must consider these when building data
 management infrastructure, and when thinking about different country presences.
 
-Jurisdictional issues
----------------------
+###Jurisdictional issues
 
 Organisations should be aware of laws that would give governments access to
 information stored on servers hosted in their countries. For example, Boston
 College was forced to give interview information (tapes) to the Police Service
 of Northern Ireland after they were subpoenaed.
-Cite:<http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article>
+[Citation](http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article)
 
-It is very difficult to protect digital information from subpoenas (for example,
-see this map on US extradition treaties
-<http://qz.com/97428/map-how-to-stay-out-of-reach-of-us-extradition-treaties/>)
-so it is important to adhere to a minimalist approach to collecting or storing
-sensitive digital data (or don't store it all) - see section on Getting Data.
+It is very difficult to protect digital information from subpoenas (for example, see [this map on US extradition treaties](http://qz.com/97428/map-how-to-stay-out-of-reach-of-us-extradition-treaties/)) so it is important to adhere to a minimalist approach to collecting or storing sensitive digital data (or don't store it all) - see section on Getting Data.
 
 Organisations must also be aware of cross-jurisdictional issues in relation to
 their data management. It is not unusual for data to be collected in a country
@@ -656,8 +617,7 @@ organisation's headquarters in a third country. Also, some states or regional
 groups place strict conditions on where their citizens' data may be transferred
 to - for example, the EU/US Safe Harbour law.
 
-Copyright and Patent
---------------------
+###Copyright and Patent
 
 Copyright and patent issues related to the collection, storage and dissemination
 of your data are important laws to consider. Ensuring you have the correct
@@ -670,8 +630,7 @@ you might not have collected yourself, but which would strengthen your project.
 (See section: Disseminating Data for more information on licensing and
 advantages of open licensing)
 
-Procedures on presentation of evidence
---------------------------------------
+###Procedures on presentation of evidence
 
 If you intend on using your data in legal cases, you should understand the
 requirements used in court for the presenting of evidence. Approaches to digital
@@ -694,16 +653,12 @@ requirements are that data management systems:
     methodologies to verify what is shown in the footage - is it showing what it
     says it is showing?
 
-Further resources
------------------
+###Further resources
 
--   NGO Law Monitor - <http://www.icnl.org/research/monitor/>
+-   [NGO Law Monitor](http://www.icnl.org/research/monitor/)
 
--   Maps of Data Protection Laws - <http://www.forrestertools.com/heatmap/>
-    &*http://www.dlapiperdataprotection.com/\#handbook/world-map-section*
+-   Maps of Data Protection Laws are [here](http://www.forrestertools.com/heatmap/) and [here](http://www.dlapiperdataprotection.com/\#handbook/world-map-section)
 
--   Choosing an Open Source Licence for Code -
-    [http://choosealicense.com](http://choosealicense.com/)
+-   [Choosing an Open Source Licence for Code](http://choosealicense.com/)
 
--   Creative Commons -
-    [https://creativecommons.org](https://creativecommons.org/)
+-   [Creative Commons](https://creativecommons.org)

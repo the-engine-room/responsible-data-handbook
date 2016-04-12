@@ -1,6 +1,10 @@
 $(document).ready(function(){
+	/* add additional styling on bold */
 	$('.post p strong').before("**").after("**");
-	
+
+	/* add target = _blank attr to all links in markdown posts */
+	$('.post-content a').attr("target","_blank");
+
 	
 	$('#menuswitch').click(function(e) {
 		$(this).toggleClass('on');
@@ -45,7 +49,6 @@ $(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 200){
 		
 			$('#smallmenuswitch, .mobile').fadeIn("slow");
-			console.log("stop");
 
 
 		}else{

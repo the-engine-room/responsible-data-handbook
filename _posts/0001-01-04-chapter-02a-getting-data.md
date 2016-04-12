@@ -16,14 +16,7 @@ nav:
     - Consent
 ---
 
-\<INSERT IMAGE ON PG 50 OF PDF\>
-
-Getting Data: Collecting Data For Your Project
-
-\<INSERT IMAGE ON PG 51 ON PDF\>
-
-What's your question?
----------------------
+##What's your question?
 
 Any evidence-based project relies on the complex, nuanced and deeply important
 process of collecting data. This chapter will address considerations around data
@@ -62,29 +55,22 @@ on data collection techniques and methodology, fall outside the scope of this
 book. Never fear though - there are many sources on this issue that can be
 referred to for help.
 
-Further Resources
------------------
+###Further Resources
 
--   Data Quality: Do you trust your data? (an article Hjusein Tjurkmen, Mariyana
-    Hristova, Musala Soft)
-    <http://istabg.org/data-qualyti-do-you-trust-your-data>
+-   [Data Quality: Do you trust your data?](http://istabg.org/data-qualyti-do-you-trust-your-data) (an article by Hjusein Tjurkmen, Mariyana Hristova, Musala Soft)
 
--   See more at:
-    *http://schoolofdata.org/handbook/courses/finding-data/\#sthash.8o6YozUJ.dpuf*
+-   See more at [School of Data](http://schoolofdata.org/handbook/courses/finding-data/\#sthash.8o6YozUJ.dpuf).
 
-**Collecting New Data**
-=======================
+##Collecting New Data
 
-Designing a data collection process
------------------------------------
+###Designing a data collection process
 
 Designing the data collection process requires asking basic questions about
 roles, tools and timing. This section needs to be informed by the risk
 assessment conducted during project design (see Don't panic, plan.), but
 reviewed in detail here for your own project, to carefully consider responsible
 data challenges that might surface by the particulars of your data collection.
-To begin understanding what data collection methods will responsibly produce the
-data required by your project, review the following questions:
+To begin understanding what data collection methods will responsibly produce the data required by your project, review the following questions:
 
 -   What are you collecting and why are you collecting it? How does this relate
     to your research question? Have this clear from the beginning of your design
@@ -124,10 +110,9 @@ data required by your project, review the following questions:
     secure is the data centralisation process, and what additional risks may
     arise from centralisation?
 
-Defining challenge areas - an exercise
---------------------------------------
+###Defining challenge areas - an exercise
 
-### **Step 1: Come up with a detailed data collection plan**
+####Step 1: Come up with a detailed data collection plan**
 
 The questions above can be used to define specific challenge areas for your
 project. You might want to create a table to map your steps, adding specific
@@ -135,7 +120,7 @@ approaches and challenges that might arise for each. It would be best if done in
 a group, on a big sheet of paper. The table below shows examples of what
 specific approaches might involve.
 
-\<INSERT IMAGE FROM PG 54 OF PDF\>
+![Table 1](../assets/img/img-02a-00.png)
 
 ### **Step 2: Brainstorm risks and responses**
 
@@ -146,12 +131,11 @@ are planning to use to collect data? Write down any potential risks that occur
 to the team during discussion and note any potential responses that might help
 to manage those risks.
 
-\<INSERT IMAGE FROM PG 54 OF PDF\>
+![Table 2](../assets/img/img-02a-01.png)
 
-Deciding what data to collect
------------------------------
+###Deciding what data to collect
 
-### **Data minimums and unanticipated use**
+####Data minimums and unanticipated use
 
 When deciding what data to collect, consider the minimum amount of data
 necessary to reach the project goals in balance with the data you may want to
@@ -160,7 +144,7 @@ defined indicators, there may be an impulse to collect additional data outside
 of indicator tracking for operational or research purposes. It is important to
 refer back to your risk assessment to inform these decisions.
 
-### **Red lines - what not to collect, and what never to collect**
+####Red lines - what not to collect, and what never to collect
 
 Be clear about the information you will not collect due to relevance,
 sensitivities, and risk. Think about unanticipated uses of the data and
@@ -188,8 +172,7 @@ Depending on your risk assessment, this means you need to take appropriate
 measures to conceal your traces in the collection process, alter collection
 methods, or not collect the data at all.
 
-Live Data Processes
--------------------
+###Live Data Processes
 
 Some projects will use "live data", which is collected, accessed, reviewed, used
 and updated on a continual basis. Examples of such projects include service
@@ -199,7 +182,7 @@ especially challenging, as they compress the project data cycle, and force
 individual team members to adopt a variety of roles and responsibilities when
 relating to potentially sensitive data.
 
-### **Roles and responsibilities**
+####Roles and responsibilities
 
 The first step is to clearly define who should have access to exactly what data
 at which point. For example, during the registration process, you may have
@@ -211,12 +194,12 @@ access to detailed assessment information on the subject. If referring a subject
 to another agency, that agency may receive a specific sub-set of information on
 the subject as to protect sensitive or non-relevant information.
 
-TOOLS: Create a Roles-Responsibilities-Functionality Map to help you identify
+**TOOLS**: Create a Roles-Responsibilities-Functionality Map to help you identify
 who should do what and when. Here is an example:
 
-\<INSERT IMAGE FROM PDF PG 56\>
+![Role Responsibilities](../assets/img/img-02a-02.png)
 
-### **Access to data throughout the micro-cycle**
+####Access to data throughout the micro-cycle
 
 In addition to defining roles and permissions during the service delivery
 period, you should also define roles and responsibilities throughout the project
@@ -225,7 +208,7 @@ collection, data management (storing, cleaning, analysing), and internal data
 sharing. Do you have data administrators who will oversee the data workflow and
 support data access and flow according to the plan you've defined?
 
-### **Reference/storage/management**
+####Reference/storage/management
 
 Inevitably, data will be stored on multiple platforms throughout the data
 lifecycle. Consider the various tools used for data collection (mobile device,
@@ -234,8 +217,7 @@ database, paper, etc.), data cleaning/analysis (Excel spreadsheet, database,
 reporting platform, etc.) and ensure there is a safety and security plan for
 each of the various platforms used.
 
-Common ways of collecting data
-------------------------------
+###Common ways of collecting data
 
 There are many methods of collecting data, and each one comes with its own
 challenges. When choosing the data collection tools and processes you will use,
@@ -280,8 +262,7 @@ strong passwords. In addition to this, ensure there is a clear and secure way to
 process the data from the devices into the management system, and check who else
 has access to the data stored on these devices.
 
-Quick checklist for tools, security and training
-------------------------------------------------
+###Quick checklist for tools, security and training
 
 -   Consider the pros and cons of using open source tools for the project (cost,
     customisability, independent audit, support)
@@ -322,8 +303,7 @@ Quick checklist for tools, security and training
 Note that this checklist is likely not to be exhaustive, but covers frequently
 observed blind spots.
 
-**Working with existing data**
-------------------------------
+##Working with existing data
 
 Even if your project is not the one that actually collects and creates new data,
 there are a number of important issues to consider in terms of dealing with data
@@ -337,10 +317,9 @@ consider:
 
 3.  How it is presented
 
-**Evaluating Existing Data**
-----------------------------
+##Evaluating Existing Data
 
-### **Understanding the context**
+###Understanding the context
 
 While working with existing data, it is important to remember that data was
 collected by someone else for specific purposes and to address certain needs,
@@ -382,8 +361,7 @@ talking through the others with your team, is important.
     design and data collection process? Was there an informed consent process?
     Was the data validated by data subjects?
 
-**Managing Existing Data**
-==========================
+##Managing Existing Data
 
 Data should be usable as well as useful. Data will need to be machine readable
 for most types of analysis. Some datasets will not be in analysable formats,
@@ -410,16 +388,15 @@ existing data are:
 
 -   Does use of the data violate any terms of service?
 
-Who is hidden in the data?
---------------------------
+###Who is hidden in the data?
 
 All data reflects on people. Even when it is de-identified, anonymized or
 aggregated so that individuals are not immediately apparent, the possibility to
 re-identify individuals is always there, especially when combining that data
 with complementary sources of information. This is a phenomenon called the
-Mosaic effect: <http://e-pluribusunum.com/2013/05/20/open-data-mosaic-effect/>.
+[Mosaic effect](http://e-pluribusunum.com/2013/05/20/open-data-mosaic-effect/).
 
-**CASE STUDY: “I know what you watched last summer”**
+####CASE STUDY: “I know what you watched last summer”
 
 In 2006, the movie streaming company Netflix published 10 million movie rankings
 by 500,000 of its customers with the aim of developing a better way of ranking
@@ -430,8 +407,7 @@ with the public information available on the Internet Movie Database website –
 where users publicly enter movie rankings under their own names. By comparing
 the two datasets for a small sample of users, it thus became possible to
 de-anonymise many of the people and understand their movie choices. Reference:
-“Why 'Anonymous' Data Sometimes
-Isn't”:<http://archive.wired.com/politics/security/commentary/securitymatters/2007/12/securitymatters_1213>
+[“Why 'Anonymous' Data Sometimes Isn't”](http://archive.wired.com/politics/security/commentary/securitymatters/2007/12/securitymatters_1213)
 
 Even without identifying individuals, however, data about "things" or events can
 reflect the activities and habits of people and groups when combined with the
@@ -468,10 +444,9 @@ groups invisible and of misinterpreting what is visible. Thus this emerging
 ability to track movement in real time offers both the possibility of improved
 responses to conflict and forced migration, but also unprecedented power to
 surveil and control unwanted population movement."
-Source:<https://www.academia.edu/7502204/No_place_to_hide_The_ethics_and_analytics_of_tracking_mobility_using_mobile_phone_data>
+Source: [No Place to Hide: The Ethics and Analytics of Tracking Mobility](https://www.academia.edu/7502204/No_place_to_hide_The_ethics_and_analytics_of_tracking_mobility_using_mobile_phone_data)
 
-Presenting existing Data
-------------------------
+###Presenting existing Data
 
 When presenting existing data, it is critical to include information about the
 data's provenance and the context in which it was produced. This includes all of
@@ -485,17 +460,15 @@ presented is via the questions listed above, underneath 'Understanding the
 Context". You might want to present the answers to some of these questions
 together with your analysis of the data.
 
-Further Resources:
-------------------
+###Further Resources:
 
 Organizations that may be able to help you further on issues you may encounter:
 
--   Geeks without Bounds - [http://gwob.org](http://gwob.org/)
+-   [Geeks without Bounds](http://gwob.org/)
 
--   Datakind - [http://www.datakind.org](http://www.datakind.org/)
+-   [Datakind](http://www.datakind.org/)
 
-**Power to the people**
-=======================
+##Power to the people
 
 Sometimes, it is easy to get caught up in the technical aspects of collecting
 and managing data, and forget that we are working with information about human
@@ -504,8 +477,7 @@ inclusive in the data collection process, creating clear mechanisms for
 engagement and feedback, and always keeping in mind who is being described and
 who, ultimately, should have the last word.
 
-Representation
---------------
+###Representation
 
 Data is a very powerful tool in telling a narrative about peoples' lives and
 realities. We need to understand how these narratives may impact people's lives,
@@ -529,8 +501,7 @@ accuracy that fall into the realm of research methods and techniques of data
 collection and so fall outside of the scope of this book. Bear in mind also that
 "accuracy" is inherently subjective.
 
-Consent
--------
+##Consent
 
 The concept of consent is so central, it occupies a full chapter in this book,
 and we will only mention it briefly here. One of the first steps involved in
@@ -542,8 +513,7 @@ debates as to whether or not consent is always appropriate or achievable, and
 there are different levels of consent. Consent is a keystone to responsible
 data, and details on it are given in the relevant chapter.
 
-Ownership
----------
+###Ownership
 
 Who owns the actual data, and what does that mean for the people involved? Many
 detailed laws and regulations exist, governed by legal frameworks around
@@ -569,8 +539,7 @@ enforced? There are also important issues to address regarding the power
 dynamics that emerge during the use of and collection of data. These are
 discussed in greater detail in the chapter The world of data)
 
-Transparency
-------------
+###Transparency
 
 Transparency might seem to be the counterbalance to privacy and security; in
 reality the two concepts are perfectly compatible, and effectively two sides of
@@ -591,8 +560,7 @@ risks, or is the information for advocacy work where these identities need to be
 disclosed? What is the most responsible way to navigate this scenario?
 Ultimately, the responsibility of making this choice lies with you.
 
-**Consent**
-===========
+##Consent
 
 Informed consent is the mechanism through which people agree to provide
 information for research or data collection projects. Generally, consent has
@@ -647,8 +615,7 @@ A few words of caution:
     collect. This section focuses on mechanisms to receive consent once you have
     already worked out whether, when and how to collect data.
 
-Elements of Consent
--------------------
+###Elements of Consent
 
 Explaining further the essential elements of consent as mentioned above:
 
@@ -680,8 +647,7 @@ elements of consent:
 -   Waiver of rights: Consent should not compel the participant to waive any
     legal rights or releases from liability for negligence.
 
-What to disclose to participants/the data subject
--------------------------------------------------
+###What to disclose to participants/the data subject
 
 Consent has traditionally been regulated as part of the ethical review mechanism
 for academic research, and there is no authoritative description of consent
@@ -712,14 +678,12 @@ information to data subjects:
     interviewees of the Belfast Project in the early 2000s were irresponsibly
     promised that the information they shared would not be accessible until
     after their death. They were not appropriately informed of the risk that
-    this information could be accessed through legal channels. More information:
-    <http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article>
+    this information could be accessed through legal channels. More information: [Where Next After The Belfast Project](http://www.timeshighereducation.co.uk/features/oral-history-where-next-after-the-belfast-project/2013679.article)
 
 -   What opportunities data subjects will have to review and influence the data
     and its use over time, including opportunities to revoke consent.
 
-How to disclose information to the participant/data subject
------------------------------------------------------------
+###How to disclose information to the participant/data subject
 
 In order for people to be meaningfully informed, disclosure needs to be
 communicated in a way that is culturally, technically and socially appropriate.
@@ -764,8 +728,7 @@ yourself through these issues:
     made it easy and accessible so that the method of revocation does not in
     itself prove a barrier to exit?
 
-Consent in a Digital World
---------------------------
+###Consent in a Digital World
 
 Consent is fairly well understood in a traditional context. In a digital world
 that seems to offer infinite potential for information to be shared, adapted,
@@ -781,7 +744,7 @@ concerns.
 One of the most challenging areas in which to understand the necessity and the
 limits of informed consent is in regard to crowdsourced or user-generated data.
 
-### **Consent for Crowd Sourcing:**
+####Consent for Crowd Sourcing:
 
 -   Map potential risk areas for individuals/users in new and emerging
     crowd-sourced data technologies, information from which is used for advocacy
@@ -792,8 +755,7 @@ limits of informed consent is in regard to crowdsourced or user-generated data.
 -   Develop Best Practices guidance for organisations using crowdsourcing
     technology for human rights research and campaigning.
 
-Developing a consent policy
----------------------------
+###Developing a consent policy
 
 To ensure that your project has an appropriate and realistic approach to
 consent, it is worth spending some time developing a general consent policy for
@@ -844,8 +806,7 @@ shared back with the participant. If people reflected in the data feel as though
 such uses are inappropriate or put them at risk, do they have mechanisms through
 which to raise these concerns?
 
-Implementing and maintaining a consent policy
----------------------------------------------
+###Implementing and maintaining a consent policy
 
 The political and social contexts in which projects collect and maintain data
 rarely remain static. Regularly reviewing and implementing a consent policy over
@@ -853,8 +814,7 @@ time is an important measure to ensure that it remains appropriate. It is also
 an excellent way to maintain engagement and input from data subjects, to
 forecast problems with data validity or support for data collection projects.
 
-Is Consent Broken?
-------------------
+###Is Consent Broken?
 
 A final word of caution: research increasingly finding indicates that consent
 has its limitations. For example, behavioural economics shows how easy it is to
@@ -862,7 +822,7 @@ has its limitations. For example, behavioural economics shows how easy it is to
 faced when opt-ins or opt-outs.
 
 Legal scholars such as Daniel Solove have talked of the limits of leaving users
-to regulate their own privacy and manage consents (in his words,privacy
+to regulate their own privacy and manage consents (in his words, privacy
 self-management). In his article, Privacy Self-Management and the Consent
 Dilemma, he describes how consent is flawed for many reasons: due to bounded
 rationality, people cannot possibly understand what they are consenting to and
@@ -878,14 +838,9 @@ upfront at the point of consent, and the societal benefits that accrue from
 safeguarding privacy and anonymity should be not be waived through consent. In
 Solove's words,
 
-*"Privacy self-management takes refuge in consent. It attempts to be neutral
-about substance — whether certain forms of collecting, using, or disclosing
-personal data are good or bad — and instead focuses on whether people consent to
-various privacy practices. Consent legitimizes nearly any form of collection,
-use, or disclosure of personal data. Although privacy self-management is
-certainly a laudable and necessary component of any regulatory regime, I contend
-that it is being tasked with doing work beyond its capabilities. Privacy self-
-management does not provide people with meaningful control over their data."*
+>"Privacy self-management takes refuge in consent. It attempts to be neutral
+>about substance — whether certain forms of collecting, using, or disclosing
+>personal data are good or bad — and instead focuses on whether people consent to various privacy practices. Consent legitimizes nearly any form of collection, use, or disclosure of personal data. Although privacy self-management is certainly a laudable and necessary component of any regulatory regime, I contend that it is being tasked with doing work beyond its capabilities. Privacy self- management does not provide people with meaningful control over their data."
 
 This does not suggest that consent is not meaningful. It is, and should be
 sought by projects collecting or generating data on people or groups, especially
@@ -895,16 +850,13 @@ intended participants or beneficiaries. Projects should be wary, however, of
 relying wholly on consent to legitimize any sort of practice or wide use of data
 without regard for the people behind it.
 
-Further resources
------------------
+###Further resources
 
--   A checklist for evaluating policies on consent is available at
-    <https://docs.google.com/a/theengineroom.org/document/d/1PJxBAP1rFkjq9p7NuYcN_G5iomfCML-qiMTn5SPPHxE/edit>.
+-   A checklist for evaluating policies on consent is available [here]( https://docs.google.com/a/theengineroom.org/document/d/1PJxBAP1rFkjq9p7NuYcN_G5iomfCML-qiMTn5SPPHxE/edit).
 
 -   Solove, Daniel J., Privacy Self-Management and the Consent Dilemma (November
     4, 2012). 126 Harvard Law Review 1880 (2013); GWU Legal Studies Research
     Paper No. 2012-141; GWU Law School Public Law Research Paper No. 2012-141.
-    Available at SSRN:<http://ssrn.com/abstract=2171018>
+    [Available at SSRN](http://ssrn.com/abstract=2171018).
 
--   Launching an SMS code of conduct for Crisis Mapping:
-    <http://irevolution.net/2013/02/25/launching-sms-code-of-conduct/>
+-   [Launching an SMS code of conduct for Crisis Mapping](http://irevolution.net/2013/02/25/launching-sms-code-of-conduct/)

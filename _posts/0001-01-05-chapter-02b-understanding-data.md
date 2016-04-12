@@ -12,13 +12,7 @@ nav:
 ---
 
 
-**Cleaning, Preparing, and Verifying Data**
-===========================================
-
-\<INSERT IMAGE FROM PDF PG 73\>
-
-Verifying &#38; Cleaning Data
--------------------------
+##Verifying &#38; Cleaning Data
 
 In a perfect world your data would live in neat boxes, tagged, categorised and
 compiled, ready for perusal and analysis. Unfortunately, real life data
@@ -34,16 +28,14 @@ project involves collation and aggregation of already existing data sources,
 where we don't have complete knowledge of the methodology, or the data is
 provided in badly formatted files.
 
-Verifying Data
---------------
+###Verifying Data
 
 Why is this important in the responsible data perspective? Ensuring the data you
 have collected is properly verified is vital. Without verification, the results
 cannot be relied upon for decision-making processes, and you risk
 misrepresenting or doing harm to the populations you aim to help.
 
-Verifying data when you're close to the source
-----------------------------------------------
+####Verifying data when you're close to the source
 
 Integrity: Examine the raw data before doing anything to manipulate it. This
 usually includes making a complete backup of the original material, which is
@@ -58,14 +50,11 @@ scanned images, while keeping the originals secure elsewhere.
 
 Similarly, when working with digital data, you can:
 
--   Backup an exact copy. For example, using disk imaging software
-    (<http://en.wikipedia.org/wiki/Disk_image>)
+-   Backup an exact copy. For example, [using disk imaging software](http://en.wikipedia.org/wiki/Disk_image)
 
--   Verify you are using an exact copy of the original. For example, using file
-    verification techniques (<http://en.wikipedia.org/wiki/File_verification>)
+-   Verify you are using an exact copy of the original. For example, using [file verification techniques](http://en.wikipedia.org/wiki/File_verification)
 
-For more on data integrity, please see the Data Management section of A Home for
-Healthy Data.
+For more on data integrity, please see the Data Management section of A Home for Healthy Data.
 
 Go back and ask: Reach out to a small sample of the surveyed population for more
 in-depth analysis. This requires that in your collection efforts you have the
@@ -81,8 +70,7 @@ number feels right. Another example, if you see some odd data patterns, you may
 be able to trace that data back to the original collector to ask them to explain
 how that data came about.
 
-Verifying data without the source
----------------------------------
+####Verifying data without the source
 
 There are times where you are verifying data where you don't have access to the
 data collector/originator.
@@ -100,12 +88,11 @@ footage with other images like satellite photos, maps, regular photos? Is it
 possible to match identifying information such as building signage with other
 information on the area? Is the activity viewed or heard in the data validated
 by other information sources such other reports, social media, newspapers etc.
-For further techniques, see The Verification
-Handbook[http://verificationhandbook.com](http://verificationhandbook.com/) and
-the Citizen Evidence Lab <http://citizenevidence.org/>
+For further techniques, see [The Verification
+Handbook](http://verificationhandbook.com/) and
+the [Citizen Evidence Lab](http://citizenevidence.org/).
 
-Cleaning Data
--------------
+###Cleaning Data
 
 Before moving further, we need to clean the data and prepare it for use by
 aggregating, filtering, reconciling and standardising our data and metadata.
@@ -163,20 +150,19 @@ cleanup lies. This is a hassle-free, accessible first step for you to understand
 more about your data on a very general level, as having a clearer overview is
 useful to understanding how to move forward.
 
-For more advanced data cleanup, Open Refine <http://openrefine.org/> offers
+For more advanced data cleanup, [Open Refine](http://openrefine.org/) offers
 powerful ways to combine, compare and reconcile your data. Open Refine lets you
 combine and aggregate slightly differing types of data using algorithms that
 assist with "fuzzy" comparisons of not-quite-equal information. It also lets you
 execute faceted search on your data: a search combining multiple different
 filters and data points as facets.
 
-For more in-depth information about data cleanup, visit "A gentle introduction
-to cleaning data"<http://schoolofdata.org/handbook/courses/data-cleaning/>, as
-well as "A gentle introduction to exploring and understanding your
-data"<http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/>
+For more in-depth information about data cleanup, visit ["A gentle introduction
+to cleaning data"](http://schoolofdata.org/handbook/courses/data-cleaning/), as
+well as ["A gentle introduction to exploring and understanding your
+data"](http://schoolofdata.org/handbook/courses/gentle-introduction-exploring-and-understanding-data/).
 
-Preparation: describing your data
----------------------------------
+###Preparation: describing your data
 
 A complementary aspect of data cleanup is making sure the information that has
 been collected is fully and exhaustively described. Describing information means
@@ -193,8 +179,7 @@ during the preparation phase. Some might be automatic, like pulling metadata
 manual work, like categorising by theme, type of response, etc - any information
 that might be helpful in the analysis phase.
 
-Formats and standards
----------------------
+###Formats and standards
 
 Data can be described in many ways, and saved in a myriad of different file
 formats. It is smart to adopt common standards and file formats for the data, so
@@ -209,11 +194,9 @@ purposes. Having the data live in a proprietary file format like .xls might mean
 that one day the company that owns it stops supporting it, the data set becomes
 unusable, and the knowledge is lost.
 
-**Managing Bias &#38; Assumptions**
-===============================
+##Managing Bias &#38; Assumptions
 
-Can I trust what my data set is telling me?
--------------------------------------------
+###Can I trust what my data set is telling me?
 
 At this phase, you have already collected your data, cleaned it up, described it
 and standardised its formats and inputs (if you haven't, you might want to have
@@ -242,8 +225,7 @@ This chapter explores the following questions:
 
 -   What is causation, and when can I talk about it?
 
-Making sure your data isn't biased
-----------------------------------
+###Making sure your data isn't biased
 
 All data, no matter how it is collected, will contain a certain amount of bias.
 It is your task to analyse what those biases might be, to minimise them to the
@@ -293,15 +275,15 @@ removing these is part the data analyst's standard toolkit. However, it is
 important to make sure you are only reducing data noise, not changing the data
 to fit your expected outcome.
 
-**Correlation vs causation.** Even if two variables might seem to be related, it
+####Correlation vs causation.
+Even if two variables might seem to be related, it
 doesn't mean that one caused the other. The classic example used here is the
 correlation between the rise of crime rates and ice cream consumption during
 summer months in the US. The two variables are correlated, but neither causes
 the other - both are, in fact, linked causally to temperature, but not to each
 other.
 
-**Why throwing away some of the results might actually improve the accuracy of
-your data**
+###Why throwing away some of the results might actually improve the accuracy of your data
 
 If your data is derived from a sample population, you might have inadvertently
 picked one or two individuals that are way off the charts with some of the
@@ -317,12 +299,11 @@ outliers might also derive from measurement errors, or a typo.
 Removing such data actually makes the remaining data more meaningful (and less
 noisy), and provides a more concrete and realistic data set.
 
-**Compare with other data and analysis:** Are there similar, comparable data
-collection efforts from other countries or groups? There are a number of
-resources online which can be useful data sources. For example, the IATI
-Registry ([http://www.iatiregistry.org](http://www.iatiregistry.org/)).
+####Compare with other data and analysis:
+Are there similar, comparable data collection efforts from other countries or groups? There are a number of resources online which can be useful data sources. For example, the [IATI Registry](http://www.iatiregistry.org/).
 
-**Go back and ask:** reach out to a small sample of the surveyed population for
+####Go back and ask:
+Reach out to a small sample of the surveyed population for
 a more in-depth analysis. This requires that in your collection efforts you have
 the ability to take and securely store data on the people you survey in order to
 be able to contact them again in future (as long as it is safe to do so). If the
@@ -330,7 +311,5 @@ initial group was part of a small qualitative research project, maybe you can
 scale up through a more quantitative questionnaire to support your first
 research.
 
-**Connect with experts in the field for opinion:** Experts working in the field
-you are doing research on might provide a valuable resource in knowing what your
-results actually mean, and whether there are gaps or blind spots in your
-research that you should address before starting the analysis.
+####Connect with experts in the field for opinion:
+Experts working in the field you are doing research on might provide a valuable resource in knowing what your results actually mean, and whether there are gaps or blind spots in your research that you should address before starting the analysis.

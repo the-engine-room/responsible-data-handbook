@@ -14,142 +14,54 @@ nav:
 ---
 
 
-\< INSERT IMAGE FROM PDF PG 81\>
+###When to share, when to publish
 
-When to share, when to publish
-------------------------------
+Once data is collected, it can be released in a variety of ways, from closed networks within an organisation, to platform-dependent sharing between peer organisations, to publishing with closed licenses, to publishing with fully open licenses. It's often tempting to think that making data available to the widest possible audience is the best way to maximize that data's impact.
 
->   Once data is collected, it can be released in a variety of ways, from closed
->   networks within an organisation, to platform-dependent sharing between peer
->   organisations, to publishing with closed licenses, to publishing with fully
->   open licenses. It's often tempting to think that making data available to
->   the widest possible audience is the best way to maximize that data's impact.
->   This approach can also be motivated by the desire to do justice to all the
->   hard work put into collecting, cleaning, verifying and analysing. However,
->   it's worth carefully considering the various forms that sharing can take.
+This approach can also be motivated by the desire to do justice to all the hard work put into collecting, cleaning, verifying and analysing. However, it's worth carefully considering the various forms that sharing can take.
 
->   Models for sharing can differ both qualitatively and quantitatively, and
->   there are various levels of sharing that you can adopt. Sharing may be an
->   optional or a mandatory activity, depending on the source of funding or
->   sponsorship, the nature of the organization, the type of data involved and
->   other factors. It can include information about the original exercise and
->   purpose for which the data was collected, but can always be repurposed by
->   others, sometimes for purposes contrary to the project that first shares.
+Models for sharing can differ both qualitatively and quantitatively, and there are various levels of sharing that you can adopt. Sharing may be an optional or a mandatory activity, depending on the source of funding or sponsorship, the nature of the organization, the type of data involved and other factors. It can include information about the original exercise and purpose for which the data was collected, but can always be repurposed by others, sometimes for purposes contrary to the project that first shares.
 
-Benefits and limitations of sharing
------------------------------------
+###Benefits and limitations of sharing
 
->   There are many obvious benefits to sharing data. Doing so can maximize the
->   impact of data (or conclusions drawn from it), inform collaboration, provide
->   stronger evidence for advocacy, increase efficiency of service delivery
->   among a wider audience than just within your project, or play a role in
->   decision making within other projects, to name just a few potential
->   benefits.
+There are many obvious benefits to sharing data. Doing so can maximize the impact of data (or conclusions drawn from it), inform collaboration, provide stronger evidence for advocacy, increase efficiency of service delivery among a wider audience than just within your project, or play a role in decision making within other projects, to name just a few potential benefits.
 
->   Publishing your data can also allow people who might not have otherwise been
->   well-informed enough about your project, to have a say - for example, those
->   who are reflected in the data. Without the data being made 'open' and
->   accessible to them, their information channels about what is happening in
->   their communities might be severely limited: put otherwise, providing them
->   with proactive access to information is a crucial step towards empowering
->   them to make their opinions known.
+Publishing your data can also allow people who might not have otherwise been well-informed enough about your project, to have a say - for example, those who are reflected in the data. Without the data being made 'open' and accessible to them, their information channels about what is happening in their communities might be severely limited: put otherwise, providing them with proactive access to information is a crucial step towards empowering them to make their opinions known.
 
->   Sharing, in the sense of publishing open data, is also an increasing trend.
->   The open data and open government movements, as part of pushes for better
->   transparency and accountability, as well as recent interest in shared
->   measurement for project evaluation, are just some examples of how the
->   international norm for sharing data has gained powerful traction in recent
->   years.
+Sharing, in the sense of publishing open data, is also an increasing trend. The open data and open government movements, as part of pushes for better transparency and accountability, as well as recent interest in shared measurement for project evaluation, are just some examples of how the international norm for sharing data has gained powerful traction in recent years.
 
->   Sharing can also have unintended consequences, however. Once data is
->   published, it's impossible to anticipate how it might be shared further, and
->   once it's out in the open, there's no telling how it will be adopted,
->   re-purposed and re-used for any number of purposes. These might be positive
->   purposes, finding uses for your data that you had never imagined yourself.
->   But, some of these purposes might be malicious or run counter to your
->   project's strategic objectives, and others might call into question the
->   premises on which your project work was conducted. Still others might expose
->   your data to new audiences and new risks.
+Sharing can also have unintended consequences, however. Once data is published, it's impossible to anticipate how it might be shared further, and once it's out in the open, there's no telling how it will be adopted, re-purposed and re-used for any number of purposes. These might be positive purposes, finding uses for your data that you had never imagined yourself. But, some of these purposes might be malicious or run counter to your project's strategic objectives, and others might call into question the premises on which your project work was conducted. Still others might expose your data to new audiences and new risks.
 
->   Given our inability to see into the future, it's especially important to
->   think carefully about what kind of data gets shared, and the relationships,
->   licenses and agreements that govern limited sharing. Apart from the ethical
->   implications of unforeseen use by others, there may be practical
->   considerations: for example, participants seeing that their data is used in
->   a way they don't agree with, or that puts them in danger, might mean that
->   they refuse to participate in subsequent research or development efforts,
->   either with you or with other data-intensive projects generally. As you can
->   imagine, this has much wider societal consequences, and deserves careful
->   thought and work to avoid such a situation.
+Given our inability to see into the future, it's especially important to think carefully about what kind of data gets shared, and the relationships, licenses and agreements that govern limited sharing. Apart from the ethical implications of unforeseen use by others, there may be practical considerations: for example, participants seeing that their data is used in a way they don't agree with, or that puts them in danger, might mean that they refuse to participate in subsequent research or development efforts, either with you or with other data-intensive projects generally. As you can imagine, this has much wider societal consequences, and deserves careful thought and work to avoid such a situation.
 
->   Sometimes, technical measures to strip identifiers, redact sensitive
->   information or otherwise "anonymise" data may be sufficient to mitigate
->   against such potential harm. De-identification is problematic, however, and
->   rarely works as a magic bullet.[ For a thorough discussion on this, see the
->   section about **Anonymizing Data**.]
+Sometimes, technical measures to strip identifiers, redact sensitive information or otherwise "anonymise" data may be sufficient to mitigate against such potential harm. De-identification is problematic, however, andrarely works as a magic bullet.[ For a thorough discussion on this, see the section about **Anonymizing Data**.]
 
->   The bottom line here is that you should carefully consider the implications
->   of sharing (from the point of view of the people to whom the data relates,
->   as well as the bigger picture), whether to share at all, and the licensing
->   conditions or terms and tools that you can use to reduce the risk of harm,
->   while still permitting beneficial outcomes.
+The bottom line here is that you should carefully consider the implications of sharing (from the point of view of the people to whom the data relates, as well as the bigger picture), whether to share at all, and the licensing conditions or terms and tools that you can use to reduce the risk of harm, while still permitting beneficial outcomes.
 
-Whose data is it anyway?
-------------------------
 
->   Many will argue that data should belong to the people who have provided it
->   through reporting, answering surveys or simply by using devices and media
->   that generate a data trail. This implies that data subjects have a right to
->   be informed and consulted about how their data is used, and to require that
->   their explicit consent be obtained for specified purposes and be refreshed
->   for each new purpose beyond the scope of the original consent. However, this
->   norm is difficult to operationalise in many situations: for example, among
->   communities with low levels of data literacy, or in particularly rural and
->   hard to reach areas.
 
->   Others argue that data subjects have rights associated with the **result**
->   of analyses conducted on the data, in addition to those associated with the
->   raw data itself. These sorts of secondary data rights may suggest entirely
->   different ways of engaging with data subjects and participants, and the ways
->   in which consent is operationalised.
 
->   It will inevitably be up to individual projects to determine what kinds of
->   data rights are appropriate in specific instances. It will be important that
->   these decisions are made explicit when data is shared or published, and that
->   appropriate licenses or agreements are applied. (See chapter: Power to the
->   People)
+###Whose data is it anyway?
 
-Legal and contractual frameworks
---------------------------------
+Many will argue that data should belong to the people who have provided it through reporting, answering surveys or simply by using devices and media that generate a data trail. This implies that data subjects have a right to
+be informed and consulted about how their data is used, and to require that their explicit consent be obtained for specified purposes and be refreshed for each new purpose beyond the scope of the original consent. However, this
+norm is difficult to operationalise in many situations: for example, among communities with low levels of data literacy, or in particularly rural and hard to reach areas.
 
->   Legal systems often include some version of a *purpose limitation
->   principle*, in which data collected for one purpose cannot be used for any
->   other purpose without the consent of the data subject. This is often seen as
->   a way of respecting boundaries and choices.
+Others argue that data subjects have rights associated with the **result** of analyses conducted on the data, in addition to those associated with the raw data itself. These sorts of secondary data rights may suggest entirely
+different ways of engaging with data subjects and participants, and the ways in which consent is operationalised.
 
->   Data sharing can often challenge this foundational principle. If, at the
->   data collection stage, another common principle of data minimisation
->   (collect no more than you need for that specified purpose) was also ignored,
->   this problem is compounded. Having collected too much data is problematic,
->   but potentially unproblematic, as long as the data is kept in-house. This is
->   another reason you need to think carefully before you publish or share more
->   widely however- see section Sharing Data.
+It will inevitably be up to individual projects to determine what kinds of data rights are appropriate in specific instances. It will be important that these decisions are made explicit when data is shared or published, and that
+appropriate licenses or agreements are applied. (See chapter: Power to the People)
 
->   For sharing data with a limited set of actors, it is worth considering
->   whether data sharing should be governed by explicit agreements such as MoUs,
->   or even contracts. Agreements are imperfect solutions insofar as enforcing
->   them is rarely simple, and any breach means that the data is already out of
->   the bag, but they also have some advantages. Entering into agreements about
->   the conditions, limitations and ethical guidelines that govern data sharing
->   can impose some measure of control, and can also establish a shared set of
->   expectations and reveal previously unforeseen risks. Highly explicit
->   agreements about risk and responsibility can also be shared further down the
->   chain of actors with whom data might be shared and reinforce awareness about
->   a responsible data approach among actors not directly within your project's
->   sphere of influence.
+###Legal and contractual frameworks
 
-**Sharing Data**
-================
+Legal systems often include some version of a *purpose limitation principle*, in which data collected for one purpose cannot be used for any other purpose without the consent of the data subject. This is often seen as a way of respecting boundaries and choices.
+
+Data sharing can often challenge this foundational principle. If, at the data collection stage, another common principle of data minimisation (collect no more than you need for that specified purpose) was also ignored, this problem is compounded. Having collected too much data is problematic, but potentially unproblematic, as long as the data is kept in-house. This is another reason you need to think carefully before you publish or share more widely however- see section Sharing Data.
+
+For sharing data with a limited set of actors, it is worth considering whether data sharing should be governed by explicit agreements such as MoUs, or even contracts. Agreements are imperfect solutions insofar as enforcing them is rarely simple, and any breach means that the data is already out of the bag, but they also have some advantages. Entering into agreements about the conditions, limitations and ethical guidelines that govern data sharing can impose some measure of control, and can also establish a shared set of expectations and reveal previously unforeseen risks. Highly explicit agreements about risk and responsibility can also be shared further down the chain of actors with whom data might be shared and reinforce awareness about a responsible data approach among actors not directly within your project's sphere of influence.
+
+##Sharing Data
 
 After considering the points in the previous chapter, you may have come to the
 conclusion that your data can be responsibly released into the wild, at some
@@ -157,8 +69,7 @@ level. The next sections are designed to help you think about the different
 groups you can share with, and the appropriate checks and balances you should
 consider for each level of dissemination.
 
-Sharing internally (within your organisation)
----------------------------------------------
+###Sharing internally (within your organisation)
 
 Perhaps the data that you have collected will be of particular interest to your
 colleagues, who might be working on similar issues, or within the same country
@@ -181,10 +92,9 @@ a set of rules and guidelines providing you with a framework that you can safely
 assume your colleagues, partners or co-workers, will follow when dealing with
 the data. [See section **Data consent, for your eyes only...** ]
 
-TOOLS: collaborative tools, private Github repos, etc
+**TOOLS**: collaborative tools, private Github repos, etc
 
-Controlled closed sharing
--------------------------
+###Controlled closed sharing
 
 Another sharing option might be to share the data with people outside of your
 own organisation, but to retain some level of control. It's worth bearing in
@@ -196,17 +106,7 @@ For example, the data could be shared with peers for external opinion, or even
 data aggregation, in case they are working on similar themes (beware of
 combining apples and pears when combining different data sets, however).
 
-**Data aggregation** is a crucial point of risk assessment: sometimes standalone
-data deemed safe becomes harmful when combined with other data sets, or data
-that you thought was anonymised becomes easily discernible once combined with
-other data, using triangulation techniques. (see section: anonymising data)
-Another reason for sharing externally is the advantage of getting different
-expertise. Sharing data with other organisations can help to recognise the gaps
-in your data set, making for a more resilient and more trustworthy data set. It
-is all too easy to unknowingly apply your own personal biases when collecting
-data (for example, within questions asked in surveys, or structuring of the
-data), and sharing it with people who weren't involved in early stages might
-help to identify these biases.
+**Data aggregation** is a crucial point of risk assessment: sometimes standalone data deemed safe becomes harmful when combined with other data sets, or data that you thought was anonymised becomes easily discernible once combined with other data, using triangulation techniques. (see section: anonymising data) Another reason for sharing externally is the advantage of getting different expertise. Sharing data with other organisations can help to recognise the gaps in your data set, making for a more resilient and more trustworthy data set. It is all too easy to unknowingly apply your own personal biases when collecting data (for example, within questions asked in surveys, or structuring of the data), and sharing it with people who weren't involved in early stages might help to identify these biases.
 
 One last aspect to mention here is the **sanity check**: sharing your data with
 unusual suspects will provide you with opinions that are outside of the echo
@@ -226,11 +126,10 @@ configure access permissions or check logs for suspicious activity. This will
 not help you prevent leakage, but will help you identify any proactively, which
 will in turn allow you to take measures for containing damage.
 
-TOOLS: Non-disclosure agreements, Memorandum of Understanding, collaborative
+**TOOLS**: Non-disclosure agreements, Memorandum of Understanding, collaborative
 software
 
-The point of no return
-----------------------
+###The point of no return
 
 So you want to **publish** your data - at this point, you're most likely talking
 about a smaller, more controlled portion of your data, which you have carefully
@@ -257,21 +156,19 @@ go-ahead before data is published.
 If you are confident that the data is ready for sharing with the world, please
 proceed to the next chapter: **publishing data**.
 
-TOOLS: Risk mapping tool in development, from the engine room
+**TOOLS**: Risk mapping tool in development, from the engine room
 
-**Publishing Data**
-===================
+##Publishing Data
 
 So you want to publish your data - here we'll take a look at various options for
 formats, platforms to use, licensing and whether or not to make the data 'open'.
 
-Open vs Closed
---------------
+###Open vs Closed
 
 You might have heard of the buzz around 'open data' - but what does this
 actually mean?
 
-According to the Open Definition (<http://opendefinition.org/):> open data can
+According to the [Open Definition](http://opendefinition.org/): open data can
 be **freely used, modified, and shared** by **anyone** for **any purpose**
 
 This means that **published data**, or **online** data is not necessarily **open
@@ -298,13 +195,13 @@ There are many benefits to open data:
     problems, and reveal patterns that might not have been obvious in isolated
     data sets.
 
->   However, making data 'open' also allows potentially malicious actors to use
->   the data for their purposes: this is really important to bear in mind. As
->   the saying goes - the best thing to do with your data will be thought of by
->   someone else... but this also means that, potentially, the worst thing to do
->   with your data will also be thought of by someone else.
+However, making data 'open' also allows potentially malicious actors to use
+the data for their purposes: this is really important to bear in mind. As
+the saying goes - the best thing to do with your data will be thought of by
+someone else... but this also means that, potentially, the worst thing to do
+with your data will also be thought of by someone else.
 
-CASE STUDY: School attendance
+####CASE STUDY: School attendance
 
 In Country X, there was a region where, in certain schools, the school
 attendance of girls aged between 12-15 was unexpectedly low. The Ministry of
@@ -318,8 +215,7 @@ this led to a big drop off in their attendance after they had missed so much
 school so regularly. The Ministry of Health installed proper sanitary facilities
 in the schools, and the girl's attendance returned to normal levels.
 
-Licensing
----------
+###Licensing
 
 Regardless of whether you choose to make your data 'open' or not, there are a
 number of different licenses that you can use for your data. Some aren't
@@ -344,23 +240,15 @@ identify uses of it that you might not have thought of. Keeping tabs on your
 data also means you are maintaining some level of accountability to the data
 owners.
 
-**Types of licenses** Broadly speaking, there are two main fields of license you
-can choose from: Creative Commons Licenses, and the Open Data Commons licenses
-(<http://opendatacommons.org/licenses/odbl/>). Creative Commons Licenses are
+####Types of licenses
+Broadly speaking, there are two main fields of license you can choose from: Creative Commons Licenses, and the [Open Data Commons licenses](http://opendatacommons.org/licenses/odbl/). Creative Commons Licenses are
 more commonly used for content rather than raw data - for example, photos, text,
-reports. They have a nice online 'License Chooser' which will help you pick the
-right one for you: <https://creativecommons.org/choose/>. The Open Data Commons
-licenses were specifically created for databases, so might be more relevant
-here. There are two basic options: Public Domain Dedication License, or PDDL,
-which puts all of your material in the public domain (ie. for anyone to use), or
-the Share-Alike (plus Attribution) option, the Open Database License (ODbL).
-Here's a set of Frequently Asked Questions about the Open Data Commons licenses
-(http://opendatacommons.org/faq/licenses/\#General) and here is some more
-information on Open Data Licensing (
-[http://opendefinition.org/guide/data/.](http://opendefinition.org/guide/data/))
+reports. They have a nice online ['License Chooser']( https://creativecommons.org/choose/) which will help you pick the right one for you. The Open Data Commons licenses were specifically created for databases, so might be more relevant here. There are two basic options: Public Domain Dedication License, or PDDL, which puts all of your material in the public domain (ie. for anyone to use), or the Share-Alike (plus Attribution) option, the Open Database License (ODbL).
 
-Publishing to the IATI standard
--------------------------------
+Here's a set of [Frequently Asked Questions about the Open Data Commons licenses](http://opendatacommons.org/faq/licenses/\#General) and here is some more
+information on [Open Data Licensing](http://opendefinition.org/guide/data/).
+
+###Publishing to the IATI standard
 
 The International Aid Transparency Initiative (IATI) represents a tremendous
 push for open and transparent data in the international development sector.
@@ -368,7 +256,7 @@ Initially created as a process through which donors and partner governments
 could publish their aid flow data, it has quickly become a data standard through
 which a number of organisations (donors, large and small NGOs, recipient
 countries and governments) can put their data online in an interoperable way.
-(More about IATI here: <http://www.aidtransparency.net/about>) .
+(More about IATI [here](http://www.aidtransparency.net/about).)
 
 There are a number of reasons that organisations should be enthusiastic about
 publishing to IATI. It's an important moment for transparency and
@@ -385,25 +273,9 @@ seen as 'troublemaking' by the government in power at the time, providing them
 (or anyone) with details on where exactly the projects are taking place might
 put project implementers in danger.
 
-CASE STUDY
+####CASE STUDY
 
-In an effort to increase transparency and reduce corruption, the government of a
-small African country is thinking about making it mandatory for all NGOs working
-in the country to publish to IATI. This would include project documents, details
-of financial budgeting and spending, and potentially geocoded data of where
-project activities are taking place, too. By employing a 'publish by default'
-strategy, they want to show to international donors that they are truly
-committed to rooting out financial corruption in the country. However, the
-government also has some restrictive human rights policies in place - and also
-has a history of political instability, meaning that those in positions of power
-change frequently. Activities that are deemed 'suitable' by NGOs within this
-political climate could change suddenly, leaving those NGOs and their
-constituents in danger by publishing their activities to IATI. The government
-uses the argument that organisations can ask for exemptions if they don't feel
-comfortable publishing their activities, but in many of these cases, asking for
-an exemption not to publish might be interpreted as a signal to government that
-they are engaging in "unlawful" activities. So here, publish by default has some
-hidden, potentially dangerous consequences.
+>In an effort to increase transparency and reduce corruption, the government of a small African country is thinking about making it mandatory for all NGOs working in the country to publish to IATI. This would include project documents, details of financial budgeting and spending, and potentially geocoded data of where project activities are taking place, too. By employing a 'publish by default' strategy, they want to show to international donors that they are truly committed to rooting out financial corruption in the country. However, the government also has some restrictive human rights policies in place - and also has a history of political instability, meaning that those in positions of power change frequently. Activities that are deemed 'suitable' by NGOs within this political climate could change suddenly, leaving those NGOs and their constituents in danger by publishing their activities to IATI. The government uses the argument that organisations can ask for exemptions if they don't feel comfortable publishing their activities, but in many of these cases, asking for an exemption not to publish might be interpreted as a signal to government that they are engaging in "unlawful" activities. So here, publish by default has some hidden, potentially dangerous consequences.
 
 While increasing transparency and encouraging accountability around aid
 activities is clearly a good move, it is crucial to bear in mind the potential
@@ -414,10 +286,9 @@ across the world - if you have a person tasked with publishing your
 organisation's data to IATI in your organisation, it might be worth sitting down
 with them to discuss exactly what is being published, and what is not.
 
-TOOLS: Document Cloud, AidStream, Github, Google Docs, CKAN, HURIDOCS
+**TOOLS**: Document Cloud, AidStream, Github, Google Docs, CKAN, HURIDOCS
 
-**Anonymising data**
-====================
+##Anonymising data
 
 Data can have real consequences for real people, and often these consequences
 are as unintended as they are harmful. This is regularly the case when
@@ -448,8 +319,7 @@ and err on the side of caution.
 
 Once the data is published, there is no turning back.
 
-What data should be de-identified?
-----------------------------------
+###What data should be de-identified?
 
 The short answer is, any and all data that has any potential to identify a
 person. But it is still important to conduct a thorough risk assessment of the
@@ -479,11 +349,9 @@ release. Once the data is out, it's too late. Consider the following:
 -   Does the data impact or have the potential to impact on an individual,
     whether in a personal, family, business or professional capacity?
 
->   If the answer is "yes" or even "maybe" to any of these, you need to
->   anonymize!
+*If the answer is "yes" or even "maybe" to any of these, you need to anonymize!*
 
-Common types of personally identifiable data
---------------------------------------------
+###Common types of personally identifiable data
 
 Information that at first glance seems not-identifiable may become so,
 especially when combined with other data and subjected to powerful algorithmic
@@ -504,8 +372,7 @@ evaluate for your context.
 
 -   Geo-location of login
 
-Thinking about risk
--------------------
+###Thinking about risk
 
 Once you have done your data sensitivity assessment, you need to do a risk
 assessment of the context. This gives you an idea of how dangerous the data
@@ -528,15 +395,10 @@ that. Some of the things you should think about are:
 -   What technical and version control methods are you going to use? (For
     example, to ensure you release the correct anonymised version of your data)
 
-Anonymisation Techniques
-------------------------
+###Anonymisation Techniques
 
 These are some techniques that help in anonymising data, once the process above
-has yielded that it may be advisable to to do so. For more detailed descriptions
-of these techniques, their limitations and in which contexts they are most
-appropriate, see the anonymisation guide produced by the UK Information
-Commissioner's Office
-(<http://ico.org.uk/~/media/documents/library/Data_Protection/Practical_application/anonymisation-codev2.pdf>).
+has yielded that it may be advisable to to do so. For more detailed descriptions of these techniques, their limitations and in which contexts they are most appropriate, see the anonymisation guide produced by the [UK Information Commissioner's Office](http://ico.org.uk/~/media/documents/library/Data_Protection/Practical_application/anonymisation-codev2.pdf).
 
 -   Data masking: This describes supplying only part of a data set (e.g.. taking
     out columns from a spreadsheet) or deleting these parts from the data set
@@ -554,7 +416,7 @@ Commissioner's Office
     but the output changed. An example would be to provide the age of a person
     instead of the exact date of birth.
 
->   CASE STUDY: New York Taxis
+####CASE STUDY: New York Taxis
 
 In 2014, New York City released data under a Freedom of Information Request on
 192 million taxi trips and fares made the year before. It held data on items
@@ -582,13 +444,12 @@ were working and in what areas they worked. In some cases, it was also possible
 to infer journeys made by members of the public, in particular celebrities, or
 visitors of strip clubs.
 
-Sources: On Taxis and Rainbows: Lessons from NYC’s improperly anonymized taxi
-logs <https://medium.com/@vijayp/of-taxis-and-rainbows-f6bc289679a1> NYC Taxi
+Sources: [On Taxis and Rainbows: Lessons from NYC’s improperly anonymized taxi
+logs](https://medium.com/@vijayp/of-taxis-and-rainbows-f6bc289679a1), [NYC Taxi
 Data Blunder Reveals Which Celebs Don't Tip—And Who Frequents Strip
-Clubs<http://www.fastcompany.com/3036573/fast-feed/nyc-taxi-data-blunder-reveals-which-celebs-dont-tip-and-who-frequents-strip-clubs>
+Clubs](http://www.fastcompany.com/3036573/fast-feed/nyc-taxi-data-blunder-reveals-which-celebs-dont-tip-and-who-frequents-strip-clubs).
 
-Get Help
---------
+###Get Help
 
 It can be helpful during this process to create an expert group of advisors who
 have experience with your project and with releasing data in a safe manner.
@@ -606,19 +467,15 @@ data sets are still not secured properly (physically or digitally), now is the
 time to ensure you do this. After release, you may find it becomes harder to do
 this, especially if adversaries are technically adept.
 
-Further Resources
------------------
+###Further Resources
 
 -   The UK Anonymisation Network provides consultation and training for NGOs.
 
--   Anonymisation guide produced by the UK Information Commissioner's Office
-    (<https://ico.org.uk/media/1061/anonymisation-code.pdf>).
+-   [Anonymisation guide produced by the UK Information Commissioner's Office](https://ico.org.uk/media/1061/anonymisation-code.pdf).
 
-**Presenting data**
-===================
+##Presenting data
 
-Power and the visual
---------------------
+###Power and the visual
 
 There are many ways of presenting data: from infographics to narrative reports,
 case studies and long form investigative articles, to graffiti or conceptual
@@ -638,11 +495,9 @@ or on purpose, is an issue of great importance. Publishing your data is often
 the last mile, and can be the culmination of the whole project. Digging deep
 into visual wizardry is outside of the scope of this book; however we warmly
 suggest reading up on the subject before going public. A very good starting
-point is Mushon Zer Aviv's short essay "How to lie with data visualisation":
-<https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis>
+point is Mushon Zer Aviv's short essay ["How to lie with data visualisation"](https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis).
 
-Power and representation
-------------------------
+###Power and representation
 
 In most initiatives dealing with development, vulnerability and marginalisation
 are critical issues for the people we work with. As with other elements
@@ -656,7 +511,7 @@ they are not being omitted, trivialised, judged or romanticised. Be intentional
 in how they are represented and what this means for your participants and
 beyond.
 
-CASE STUDY: “I know where your school is”
+####CASE STUDY: “I know where your school is”
 
 A local NGO was involved in investigating and documenting human rights
 activities. They used the results to pressure their own government. One of their
@@ -694,27 +549,22 @@ Lessons:
     sure that when they think they will not be recognisable, they really are
     not!)
 
->   Mitigation:
+####Mitigation:
 
 -   Consider potential risk of the use of information you collect
 
 -   Make sure to consult the people who actually understand the context and what
     sensitivity means in it
 
-Further Resources:
-------------------
+###Further Resources:
 
--   TacticalTech's Visualising Information for Advocacy guide:
-    [http://visualisingadvocacy.org](http://visualisingadvocacy.org/)
+-   TacticalTech's [Visualising Information for Advocacy guide](http://visualisingadvocacy.org/)
 
--   School of Data’s Visualising Data course:
-    [http://schoolofdata.org](http://schoolofdata.org/)
+-   School of Data’s [Visualising Data course](http://schoolofdata.org/)
 
--   Mushon Zer Aviv's short essay "How to lie with data visualisation":
-    <https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis>
+-   Mushon Zer Aviv's short essay ["How to lie with data visualisation"](https://visualisingadvocacy.org/blog/disinformation-visualization-how-lie-datavis)
 
-**Project Closure - What Happens to the Data?**
------------------------------------------------
+###Project Closure - What Happens to the Data?
 
 Projects end for many reasons. Funding cycles may close. Project goals might be
 achieved. Even if a project has not ended, the data lifecycle may end during a
@@ -735,11 +585,9 @@ by the risk assessment.** Usually, this will encompass the following:
 -   Disposing with (parts of) the data or archiving it, either internally or
     externally
 
->   Where possible, decisions about data sharing, archiving or disposing should
->   be informed or driven by participants depending on project type.
+*Where possible, decisions about data sharing, archiving or disposing should be informed or driven by participants depending on project type.*
 
-**What data do I have and where is it?**
-----------------------------------------
+###What data do I have and where is it?
 
 Think thoroughly about what types of data live where, in order to plan for
 proper project closure.
@@ -756,7 +604,7 @@ You may have gone through a data cleaning process to responsibly share and
 publish your data, but raw data and metadata may still exist on personal laptops
 or mobile devices.
 
-**Tips on hosted data**
+####Tips on hosted data
 
 If you are using third-party applications for data collection or storage, your
 data is likely hosted by an external provider. It will be important to work with
@@ -772,8 +620,7 @@ Data archiving and disposing is not always a simple process. It will be
 important to plan the time, resources and budget necessary to responsibly
 protect your data through the end of the lifecycle.
 
-**What if I want to keep the data forever?**
---------------------------------------------
+###What if I want to keep the data forever?
 
 A good principle developed from the information security community is to only
 have the data you need for the time when you need it. You may be tempted to keep
@@ -783,8 +630,7 @@ will be possible to use the information to harm someone or some group in the
 future. If it is important to keep the data forever, you must plan for resources
 to continually update and support safe data management practices for the data.
 
-**Disposing of data**
----------------------
+###Disposing of data
 
 The key to disposing of your information is knowing where your data is in order
 to delete all of it (see above on 'what data do I have and where is my data').
