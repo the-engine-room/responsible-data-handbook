@@ -3,13 +3,13 @@
  */
 .site-header {
     background-color: $black-color;
-    color: #fff; 
-    position: relative; 
-    z-index: 3; 
+    color: #fff;
+    position: relative;
+    z-index: 3;
     display: block;
-    .icon-arrow-down:before { 
+    .icon-arrow-down:before {
         content: "\e005"; }
-    
+
     [class*="icon-"] { font-family: 'ThemeIcons'; speak: none; font-style: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 
@@ -25,8 +25,8 @@
 
     #logo{
 
-        text-align: right; 
-        -ms-touch-action: none; 
+        text-align: right;
+        -ms-touch-action: none;
         display: table-cell;
         vertical-align: middle;
         height: 4em;
@@ -48,7 +48,7 @@
                 height: 80px;
 
             }
-        }  
+        }
     }
     }
 
@@ -62,15 +62,15 @@
                 -webkit-margin-after: 0.86em;
                 -webkit-margin-start: 0px;
                 -webkit-margin-end: 0px;
-                -webkit-padding-start: 85px;    
-    
+                -webkit-padding-start: 85px;
+
 
             li{
                 display: inline-block;
 
                 a{
-                    font-size: 0.86em; 
-                    color: #fff; 
+                    font-size: 0.86em;
+                    color: #fff;
                     text-decoration: none;
                     text-transform: uppercase;
                     padding: 0.75em 1.5em;
@@ -79,18 +79,21 @@
                         -ms-transition: all 0.2s ease;
                         -o-transition: all 0.2s ease;
                         transition: all 0.2s ease;
-                    display: inline-block; 
+                    display: inline-block;
 
                 &:hover{
                     background-color: #090909;
 
                 }
                 }
+                a.current{
+                    color: $highlight-nav;
+                }
             }
         }
     }
-  
-      
+
+
 
     @media(max-width: 1010px) {
         .container{
@@ -126,18 +129,18 @@
         .container{
             width: 100%;
         }
-      
+
         #logo{
             display: table;
             width: 100%;
             text-align: inherit;
 
            #menuswitch { position: absolute; top: 50%; right: 0; width: 5em; height: 6em; margin-top: -3em; cursor: pointer; text-align: center; display: table; }
-            
+
             #menuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
-            
+
             #menuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; -webkit-transition: transform 0.3s ease; -moz-transition: transform 0.3s ease; -ms-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; }
-            
+
             #menuswitch.on:before { top: 15%; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
         }
 
@@ -246,7 +249,7 @@
             list-style: none;
 
 
-            
+
             li{
                 list-style-type: none;
                 padding: 5px 0 5px 0;
@@ -262,8 +265,8 @@
                 }
             }
         }
-        
-        
+
+
     }
 
     .curls{
@@ -455,7 +458,7 @@
                     width: 50px;
                 }
 
- 
+
             }
 
             .numholder{
@@ -482,10 +485,10 @@
 
         }
 
-        .icon-arrow-down:before { 
-            content: "\e005"; 
+        .icon-arrow-down:before {
+            content: "\e005";
         }
-    
+
         [class*="icon-"] { font-family: 'ThemeIcons'; speak: none; font-style: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 
@@ -563,13 +566,13 @@
 
         h2#content-summary + p:first-letter, h2#content-summary + h3 + p:first-letter{
                 font-family: $bold-font-family;
-                float: left; 
-                font-size: 75px; 
-                line-height: 60px; 
-                padding-top: 5px; 
-                padding-right: 4px; 
+                float: left;
+                font-size: 75px;
+                line-height: 60px;
+                padding-top: 5px;
+                padding-right: 4px;
                 padding-left: 3px;
-            
+
         }
 
 
@@ -592,7 +595,7 @@
     @include media-query($on-laptop) {
 
 
-   
+
         .post-title{
             font-size: 7.5vw;
             padding: 20px 0;
@@ -631,7 +634,7 @@
 
             #menusmall.mobile { display: block; height: auto; border: 2px solid $red-color; background-color: rgba(250,250,250, 0.9)}
             #menusmall.mobile li { border-bottom: 1px solid $black-color; display: block; }
-            #menusmall.mobile li a { text-transform: uppercase; display: block; font-size: 0.86em; padding: 0.5em; color: $black-color; 
+            #menusmall.mobile li a { text-transform: uppercase; display: block; font-size: 0.86em; padding: 0.5em; color: $black-color;
                 &:hover{
                     text-decoration: none;
                     color: $red-color;
@@ -644,18 +647,18 @@
 
 
             #smallmenuswitch { position: fixed; top: 50px; left: 20px; width: 2em; height: 2em; margin-top: -3em; cursor: pointer; text-align: center; display: table; background-color: rgba(250,250,250,0.8); border: 2px solid $red-color;}
-                
+
             #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; }
-                
+
             #smallmenuswitch:before { text-align: center; font-size: 1.11em; display: table-cell; vertical-align: middle; -webkit-transition: transform 0.3s ease; -moz-transition: transform 0.3s ease; -ms-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; }
-                
+
             #smallmenuswitch.on:before { top: 15%; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
             }
-    
+
     }
 
 
-    
+
     @include media-query-landscape($on-palm){
 
         .post-header{
@@ -675,7 +678,7 @@
                     top: -25px;
                 }
                .chnum{
-                  
+
                     font-size: 1.5em;
                     img{
                         width: 30px;
@@ -689,7 +692,7 @@
     }
 
     @include media-query-portrait($on-palm) {
-       
+
 
         .post-header{
              .curlholder{
@@ -708,7 +711,7 @@
                     top: -10px;
                 }
                .chnum{
-                  
+
                     font-size: 1.5em;
                     img{
                         margin-top: -10px;
@@ -720,7 +723,7 @@
             }
         }
 
-        
+
 
 
     }
@@ -780,7 +783,7 @@
                 width: 50px;
 
             }
-    
+
         }
 
         h4.zerosmall{
@@ -818,7 +821,7 @@
 }
 
 /**
-* Index 
+* Index
 **/
 
 
@@ -900,7 +903,7 @@
                 margin-bottom: 10px;
             }
         }
-    
+
 }
 
 /* Full download */
@@ -941,7 +944,7 @@
                 letter-spacing: 0.07em;
                 border-bottom: 4px solid $red-color;
             }
-            a{ 
+            a{
                 padding: 0;
 
                 h6{
@@ -956,7 +959,7 @@
                     text-transform:uppercase;
 
                 }
-            
+
                 &:hover{
                     color: $red-color;
                     text-decoration: none;
@@ -970,7 +973,7 @@
 
 
             }
-            
+
 
 
     @include media-query($md-col-break){
@@ -992,7 +995,7 @@
         }
 
 
-        
+
 
     }
 
@@ -1000,7 +1003,7 @@
 
 }
 
-/* index chapter grid */ 
+/* index chapter grid */
 
     .sidecurls{
        width: 80px;
@@ -1031,7 +1034,7 @@
 
     .grid-item{
 
-        height: 450px; 
+        height: 450px;
 
         padding: 5px 10px 30px 10px;
 
@@ -1043,7 +1046,7 @@
         a{
 
 
-            h6{   
+            h6{
                 text-transform: uppercase;
                 color: $black-color;
                 width: 100px;
@@ -1099,11 +1102,11 @@
            }
 
         }
-    
+
 }
 
 /**
-  ** Slides 
+  ** Slides
 
 **/
 
@@ -1132,9 +1135,9 @@
 
 
 
-  
+
         .grid-item-slides{
-            height: 300px; 
+            height: 300px;
             padding: 5px 10px 30px 10px;
             margin: 0 10px;
 
@@ -1143,12 +1146,12 @@
             padding: 0;
             margin: 10px 0;
         }
-    
-    
 
 
-            a{   
-        
+
+
+            a{
+
                     cursor: pointer;
                     float: left;
                     width: 100px;
@@ -1167,24 +1170,24 @@
                         color: $red-color;
                         text-decoration: none;
                     }
-               
+
 
             }
 
 
             a.dl{
-  
+
                     color: $red-color;
 
                     &:hover{
                         color: $black-color;
                     }
-            
+
             }
 
 
     }
-    
+
     @include media-query($slide-page-break){
         .grid-item-slides{
             max-height: 250px;
@@ -1240,4 +1243,3 @@
         }
     }
 }
-
