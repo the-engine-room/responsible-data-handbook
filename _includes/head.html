@@ -30,5 +30,19 @@
 <meta property="og:description"        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:image"              content="{% if page.layout == 'default' %}https://responsibledata.io/wp-content/uploads/2014/03/featured-handbook-1.jpg{% else %}{{ "/assets/img/" | prepend: site.baseurl  }}{{ page.asset-link }}-map.png{% endif %}" />
 
-
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//www.theengineroom.org/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//www.theengineroom.org/piwik/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </head>
