@@ -4,6 +4,8 @@
 
 This is the source code for the [Engine Room's](https://www.theengineroom.org/) Responsible Data Handbook. It is developed using Jekyll and GH-pages. At the close of development, the handbook will live within the [Responsible Data](https://responsibledata.io) infrastructure. 
 
+The handbook lives at [responsibledata.io/resources/handbook](https://responsibledata.io/resources/handbook).
+
 ##Development
 
 Build the site as follows: 
