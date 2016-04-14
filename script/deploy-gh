@@ -7,7 +7,7 @@ bundle exec jekyll build
 mkdir -p  /home/travis/build/the-engine-room/responsible-data-handbook/noncompiled
 git clone https://github.com/the-engine-room/responsible-data-handbook.git /home/travis/build/the-engine-room/responsible-data-handbook/noncompiled
 # make empty .travis.yml file
-nano /home/travis/build/the-engine-room/responsible-data-handbook/_site/.travis.yml
+touch /home/travis/build/the-engine-room/responsible-data-handbook/_site/.travis.yml
 # copy .travis.yml to compiled site folder
 cp /home/travis/build/the-engine-room/responsible-data-handbook/noncompiled/.travis.yml /home/travis/build/the-engine-room/responsible-data-handbook/_site/.travis.yml
 
