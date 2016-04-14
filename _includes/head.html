@@ -26,9 +26,9 @@
 
 <meta property="og:url"                content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:type"               content="article" />
-<meta property="og:title"              content="{{ site.title }} | {% if page.title %}{{ page.title }}{% else %}{% endif %}" />
+<meta property="og:title"              content="{{ site.title }}{% if page.title %} | {{ page.title }}{% else %}{% endif %}" />
 <meta property="og:description"        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-<meta property="og:image"              content="{{ "/assets/img/" | prepend: site.baseurl  }}{{ page.asset-link }}-map.png" />
+<meta property="og:image"              content="{% if page.layout == 'default' %}https://responsibledata.io/wp-content/uploads/2014/03/featured-handbook-1.jpg{% else %}{{ "/assets/img/" | prepend: site.baseurl  }}{{ page.asset-link }}-map.png{% endif %}" />
 
 
 </head>
