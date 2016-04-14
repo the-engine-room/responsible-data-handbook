@@ -16,7 +16,7 @@ cd /home/travis/build/the-engine-room/responsible-data-handbook/_site
 git init
 git config user.email "mayarichman@gmail.com"
 git config user.name "mayarichman"
-# add, commit and push changes to master
+# add, commit and push changes to gh-pages
 git add -A .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force --quiet "https://mayarichman:${GH_TOKEN}@github.com/the-engine-room/responsible-data-handbook.git" master:master > /dev/null 2>&1
+git push --force --quiet "https://mayarichman:${GH_TOKEN}@github.com/the-engine-room/responsible-data-handbook.git" gh=pages:gh-pages > /dev/null 2>&1
