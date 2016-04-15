@@ -345,7 +345,7 @@
     .col-xs-10{
         border-top: 20px solid black;
 
-        .col-md-6{
+        .col-md-4{
             margin: 20px 0 0 0;
             padding: 20px 0 0 0;
         }
@@ -353,14 +353,15 @@
     }
 
     img{
-        width: 20%;
+        width: 30%;
         float: left;
     }
 
     p{
-        padding: 0 10px 30px 30px ;
-        width: 80%;
+        padding: 0 30px 30px 30px;
+        width: 70%;
         float: left;
+        font: 500 14px/1.7 "latolight", Helvetica, Arial, sans-serif;
     }
 
     a{
