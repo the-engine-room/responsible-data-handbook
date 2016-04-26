@@ -6,9 +6,10 @@ categories: chapters
 num: 0
 ch: 0
 asset-link: introduction-00
-nav: 
+google-link: https://docs.google.com/presentation/d/1sSaBulW4iKaHHzcO43T24n-HRf8CuNnDu2cM6RCvTDI/edit#slide=id.p3
+nav:
     - About this book
-    - Am I working with data? 
+    - Am I working with data?
     - The world of data&#58; opportunities and risks
     - Why responsible data?
     - Misconceptions and common myths
@@ -298,7 +299,7 @@ help projects enhance the good they aim to do, and to avoid inadvertent harm.
 
 At its base, understanding why responsible data is needed can be understood as a combination of empowerment and avoidance of harm:
 
-* ####Empowerment: 
+* ####Empowerment:
 We use data and technology to produce and mobilise appropriate
 information, to ensure that policies take everyone into account, especially
 focusing upon marginalised communities, and place the person in question as
@@ -306,7 +307,7 @@ central to the data universe rather than as a tangential bystander or even
 byproduct, empowering users to be active participants rather than passive data
 "subjects".
 
-* ####Harm avoidance: 
+* ####Harm avoidance:
 We do all we can to ensure that we do no harm and that the way in which we use data and technology does not facilitate or exacerbate harm done by others.
 
 These norms are important for practitioners in the international development

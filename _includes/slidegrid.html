@@ -8,18 +8,18 @@
 
 		{% for p in post %}
 
-		 {% assign loopindex = forloop.index | modulo: 4 %}		
+		 {% assign loopindex = forloop.index | modulo: 4 %}
 
 
 
 			<div class="col-sm-5 chapter grid-item-slides">
 				<img class="img" title="{{ p.title }}" src="{{ "/assets/img/chapter-" | prepend: site.baseurl }}{{ p.num }}-slides.png"/>
 
-				  <a href="{{ "/assets/slides/" | prepend: site.baseurl }}{{ p.asset-link }}-slides.pdf" target="_blank"><h6>pdf</h6></a>
+				  <a class="dl" href="{{ "/assets/slides/" | prepend: site.baseurl }}{{ p.asset-link }}-slides.pdf" target="_blank"><h6>pdf</h6></a>
 
-				 <a class="dl" href="{{ "/assets/slides/" | prepend: site.baseurl }}{{ p.asset-link }}-slides.pptx" target="_blank"> <h6>
-				  powerpoint</h6></a>
+				 <a class="dl" href="{{ "/assets/slides/" | prepend: site.baseurl }}{{ p.asset-link }}-slides.pptx" target="_blank"><h6>ppt</h6></a>
 
+          <a class="dl" href="{{ p.google-link }}" target="_blank"><h6>google slides</h6></a>
 
 			</div>
 
@@ -34,5 +34,3 @@
 
 
     </div>
-
-

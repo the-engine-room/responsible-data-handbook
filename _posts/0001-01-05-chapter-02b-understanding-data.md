@@ -6,9 +6,10 @@ categories: chapters
 num: 2.2
 ch: 2b
 asset-link: understanding-data-02b
-nav: 
+google-link: https://drive.google.com/open?id=1GKlf3KA-1Usmu7caTnyRGMDJLGgqeLqxmIDrMqUoAS4
+nav:
     - Verifying & cleaning data
-    - Managing bias & assumptions 
+    - Managing bias & assumptions
 ---
 
 
@@ -118,7 +119,7 @@ cleaning data can mean a number of different things, including:
 
 -   structuring it so it can be used effectively for what you want it to do
 
-####Human Resources: 
+####Human Resources:
 The ability to efficiently manage large data sets is a science,
 and people qualified to do so are aptly (albeit not creatively) called data
 scientists. This person should have enough spreadsheet savvy to easily merge,

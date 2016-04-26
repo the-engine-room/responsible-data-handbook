@@ -6,7 +6,8 @@ categories: chapters
 num: 3
 ch: 3
 asset-link: closing-a-project-03
-nav: 
+google-link: https://drive.google.com/open?id=14Sqr-2vJ1-hACClEUKp3PaZKn31FJf0U-s7qPtarWHM
+nav:
     - Archiving data
     - Additional resources
     - Project design resources
@@ -82,11 +83,11 @@ help you in the public interest, such as:
 
 ###Organizations to reach out to for urgent support
 
-####HIVOS Digital Defenders Emergency Response and Grants 
+####HIVOS Digital Defenders Emergency Response and Grants
 If you are a human rights defender, journalist, blogger, activist, NGO or media organisation and you need immediate help to mitigate a digital emergency, check in with [Digital Defenders](http://digitaldefenders.org). If you think something is wrong with your computer, phone or accounts (email, social media, website or other) please get in contact with them. See also: [Digital First Aid Kit](http://digitaldefenders.org/digitalfirstaid)
 
-####freeDimensional 
-[Distress Services](http://freedimensional.org/services/distress-services/) are intended for activists and culture workers in situations of distress as a result of their professional work. 
+####freeDimensional
+[Distress Services](http://freedimensional.org/services/distress-services/) are intended for activists and culture workers in situations of distress as a result of their professional work.
 
 ####Frontline Defenders
  Front Line seeks to provide 24 hour support to human rights defenders at immediate risk. If there is a crisis you can [contact Front Line at any hour on the emergency hotline](http://www.frontlinedefenders.org/emergency).
@@ -96,7 +97,7 @@ If you are a human rights defender, journalist, blogger, activist, NGO or media 
 [Urgent Action Fund](http://urgentactionfund.org/apply-for-a-grant/apply-for-an-evacuation-grant/) supports women activists who are being threatened because of their work defending human rights. The Evacuation Grant is a specific type of Rapid Response Grant, designed for those in urgent need of relocation funding because of threats, persecution and/or an extreme security situation.
 
 ####Online Directory of Urgent Responses for WHRDs
-This [Online Directory](http://urgent-responses.awid.org/) was produced by the Association for Women in Development and the WHRD International Coalition in 2011. It outlines the diverse urgent responses for human rights defenders that exist and, where available, those that are specific to WHRDs. 
+This [Online Directory](http://urgent-responses.awid.org/) was produced by the Association for Women in Development and the WHRD International Coalition in 2011. It outlines the diverse urgent responses for human rights defenders that exist and, where available, those that are specific to WHRDs.
 
 ##Project Design Resources
 
@@ -183,7 +184,7 @@ information on the ever-challenging video verification process](http://blog.stor
 
 * [Truth in the Age of Social Media (The Nieman Lab report)](http://nieman.harvard.edu/reports/issue/100072/Summer-2012.aspx)
 
-* [Citizen Evidence Lab tools](http://citizenevidence.org/) for speedy checks on YouTube videos as well as for more advanced assessment 
+* [Citizen Evidence Lab tools](http://citizenevidence.org/) for speedy checks on YouTube videos as well as for more advanced assessment
 
 * [Authenticating Open Source Video (WITNESS)](http://www.mediafire.com/view/cd7b76ydpe22khn/AuthenticatingOpenSourceVideo_2013.pdf)
 
@@ -235,7 +236,7 @@ Predictive Privacy Harms](http://lsr.nellco.org/cgi/viewcontent.cgi?article=1434
 * [ICRC Professional Standards for Protection Work](https://www.icrc.org/eng/assets/files/other/icrc-002-0999.pdf): These standards are
 addressed to all humanitarian and human rights actors engaged in protection work in favour of communities and persons at risk in armed conflict and other
 situations of violence. Chapter 6 page 37 is on ‘Managing sensitive protection
-information’ 
+information’
 
 * [IOM Data Protection Manual](http://publications.iom.int/bookstore/index.php?main_page=product_info&cP]ath=47&products_id=759): The manual is comprised of three parts: the first part outlines the IOM data protection principles as informed by relevant international standards; the second part includes comprehensive guidelines on each principle, consideration boxes and practical examples; and the third part provides generic templates and checklists to ensure that data protection is taken into account when collecting and processing personal data
 

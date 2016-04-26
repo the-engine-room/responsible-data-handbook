@@ -6,11 +6,12 @@ categories: chapters
 num: 2
 ch: 2
 asset-link: managing-data-02
-nav: 
+google-link: https://drive.google.com/open?id=1-pNm5CET6oYCecsWFctMipgJldQFsZc4_W-cP73-sCo
+nav:
     - A home for healthy data
-    - Dude, where's my data? 
+    - Dude, where's my data?
     - For your eyes only...?
-    - What types of laws and procedures apply to your data project? 
+    - What types of laws and procedures apply to your data project?
 ---
 
 
@@ -181,29 +182,29 @@ backup your data, no matter how or where it is stored.
 There are a few areas to take into consideration as you make decisions on
 storage and these could include:
 
--   ####Physical location: 
+-   ####Physical location:
     Where should data be stored given the type of data and
     the potential vulnerabilities? Within the country you're working in, or in
     another country, and what are the implications of both of these? (eg.
     differing legal jurisdictions, local internet regulations, especially with
     regards to storing sensitive data)
 
--   ####Digital location: 
+-   ####Digital location:
     Should data be stored on‐line or off‐line or both? Or is
     it open data? (see: [***The Sharing Spectrum***]({{ "/chapters/chapter-02c-sharing-data.html#sharing-data" | prepend: site.baseurl }}))
 
--   ####Ultimate ownership of storage: 
+-   ####Ultimate ownership of storage:
     Consider pros/cons of third party data storage vs local data storage (e.g. do you have local capacity for local data storage; what is the desired uptime; etc.)
 
--   ####Back ups: 
+-   ####Back ups:
     What level of data back‐ups are required? (you can never back up
     too much!) Access: ensure storage method allows for the necessary levels of
     access. (see: [***For Your Eyes Only***](#for-you-eyes-only))
 
--   ####Data lifecycle: 
+-   ####Data lifecycle:
     What is the data lifecycle and who will manage it until the end of the data's life? (if it ends!)
 
--   ####Saving data: 
+-   ####Saving data:
     What is the data access / data saving policy, especially for
     sensitive data (e.g. if data must be downloaded locally it must be
     encrypted, etc.)
@@ -268,17 +269,17 @@ often be an easier strategy for a potential adversary.
 Imagine if your office or home were burned down or broken into today - what
 would you wish you had thought of in advance? Some things to think about include the following:
 
--   ####Location of data: 
+-   ####Location of data:
     The physical security of locations where you store
     physical data (such as paper) or physical media (such as laptops, USB
     sticks, DVDs, SD Cards, hard-drives). Are they all in the same location, and easy to find and gain access to?
 
--   ####Access to sensitive locations: 
+-   ####Access to sensitive locations:
     Who has access to your office, home and working environment. Especially to areas of highest sensitivity such as server rooms, research desks, consultation rooms, meeting rooms etc. Consider using high-grade locks, CCTV, fences etc.
 
 -   ####Installing appropriate fire safety controls
 
--   ####External staff: 
+-   ####External staff:
     Vetting all staff and contractors such as cleaners or
     security guards
 
@@ -286,13 +287,13 @@ would you wish you had thought of in advance? Some things to think about include
     Creating and consistently updating an inventory, to
     enable you to be able to identify any loss or theft of data.
 
--   ####Building a security incident registry: 
+-   ####Building a security incident registry:
     This should be filled out if any member of staff physically sees anything suspicious or has an unusual incident occurring with their IT equipment. It allows for monitoring and identification of incident patterns which may otherwise have been missed. For help in identifying suspicious digital incidents, see [Digital First Aid](http://digitaldefenders.org/digitalfirstaid/)
 
--   ####Getting rid of physical waste: 
+-   ####Getting rid of physical waste:
     Regularly shredding and disposing of any paper waste
 
--   ####Regularly changing security procedures: 
+-   ####Regularly changing security procedures:
     For example, changing keys, cards, pin codes or other access control mechanisms, particularly following a change of staff.
 
 ###Further resources
@@ -433,21 +434,21 @@ tools which balance the need to keep information secure, and also allowing
 effective collaboration in the field. A number of things which need to be
 considered in this area include:
 
--   ####Types of data: 
+-   ####Types of data:
     What are people collecting, and where are they putting it?
 
--   ####Tool choice: 
+-   ####Tool choice:
     Suitability, usability, support, updates, cost, local vs
     network, network vs online access, mobile vs desktop, open source vs
     proprietary.
 
--   ####Levels of verification for the data: 
+-   ####Levels of verification for the data:
     How many people should be looking at and checking the data?
 
--   ####Speed of internet connections for users accessing data: 
+-   ####Speed of internet connections for users accessing data:
     eg. if users are collecting data on their mobile devices in the field, the mechanism chosen for collaboration will need to be able to cope with receiving from such devices. Depending on phone signal, this may mean collecting and sending video from remote locations is not possible. This should be thought about prior to committing to any technical infrastructure.
 
--   ####Access points: 
+-   ####Access points:
     Collaboration often requires remote access which can occasionally decrease security, as it opens up a number of less easily secured access points to a network. As such, tools and methods such as forcing regular password changes, two factor authentication, network logging, VPN only access, etc. are important to help mitigate such risks. (see: [***Security Resources***]({{ "/chapters/chapter-03-closing-a-project.html#data-management-resources" | prepend: site.baseurl }}))
 
 -   ####Layered access:

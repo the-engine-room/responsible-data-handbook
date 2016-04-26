@@ -6,8 +6,9 @@ categories: chapters
 num: 2.1
 ch: 2a
 asset-link: getting-data-02a
-nav: 
-    - What's your question? 
+google-link: https://drive.google.com/open?id=1W3UAcNSRX4dck8OrfhBV-9mA0bvdV2h8_dRRkmNyYK0
+nav:
+    - What's your question?
     - Collecting new data
     - Working with existing data
     - Evaluating existing data
@@ -194,7 +195,7 @@ access to detailed assessment information on the subject. If referring a subject
 to another agency, that agency may receive a specific sub-set of information on
 the subject as to protect sensitive or non-relevant information.
 
-####TOOLS: 
+####TOOLS:
 Create a Roles-Responsibilities-Functionality Map to help you identify
 who should do what and when. Here is an example:
 
@@ -765,13 +766,13 @@ the mechanisms of consent which are appropriate, and ensure that they are
 appropriately implemented. A consent policy should address the following
 components:
 
-####Risk Assessment: 
+####Risk Assessment:
 The level of consent and protection built-in will depend on the
 risk assessment, including an assessment of urgency and data sensitivity. This
 may include some sort of threat modelling, or broader sense of assessing risks
 that may flow from wrongful or erroneous use or sharing of the data.
 
-####Disclosure: 
+####Disclosure:
 On the basis of the risk assessment, determine how much information you need to disclose to participants or data subjects. Generally this should
 include any potential risks or negative consequences that may follow from data
 collection and data use. It should also include detailed information about how
