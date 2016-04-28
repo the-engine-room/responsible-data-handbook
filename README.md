@@ -10,7 +10,7 @@ The handbook lives at [responsibledata.io/resources/handbook](https://responsibl
 
 Build the site as follows: 
 
-On OSx: 
+On OSX: 
 
 1. [install rvm](https://rvm.io/rvm/install)
 
