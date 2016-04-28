@@ -1,29 +1,24 @@
 language: ruby
 rvm:
 - 2.1
-
-# make scripts executable
 before_script:
- - chmod +x ./script/deploy-gh
-
-#deploy:
-#  skip_cleanup: true
-#  provider: script
-
-script: ./script/deploy-gh
-
-# branch whitelist, only for GitHub Pages
+- chmod +x ./script/deploy-gh
+script: "./script/deploy-gh"
 branches:
   only:
-  - master     # test the gh-pages branch
+  - master
+
+cache:
+  bundler: true
+  directories:
+    - $HOME/.rvm
 
 env:
   global:
-    - GH_USERNAME=mayarichman
-    - GH_OWNER=the-engine-room
-    - GH_REPO=responsible-data-handbook
-    - GH_REF=github.com/the-engine-room/responsible-data-handbook.git
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-    - secure: aJAsBwB+Mikq2vlfNB1c5BZNi2TafAUiOexsfvjE1pvpLxOPze86SePzR4e15qWO1BNFSztiX9gbgXGJZXMfmxS+eMCLRIALxMjrvbEdzCma5BEvGZEjyfC1Y1r4alwufZ931YGvejOON0X5M8ThaOWVgb+EItDDBN0TFrsIlgEU3x++oTe7HcwSkc4J+MJ/L+/D9ColwKwlA0RDqGNBMjSLHmJEic833/IvGcgeIfihfFYwTfP+lpAiO5HKegsxHTRP6GdKrZSRBOPSu7kpmq6x8Ju5t+2BrotDbzz51Vp+6D7lHZr71AVL2Kf29um3lov/Ivki39iy5yN4sz8vJmosFMhyD+GiecSfkKMQsZ832nyErqhLZa9kIG1+6ql6acvSOMkDpLLzkBhjC89PCCUtruzuMKjfqXaXD14qfoa9JXaePk4eolEsQUuVJIvRiEJLVVSjznmMdXQnOIU3hro3S9xUKllosaJ1+n+Vckh5n5Q7CGWX1Zb0Ze8l956lfPzXQhGDtcqHnHDgwHbpzfBlSjryLQ4+NoYnqQGGXRsB0gTRmGpdlpJ48xDVW+mirf0eMHxpYQpYI0KgrvQB1DPoJieTTqs4XCZKjwWU1cs2Be206lDSNbxI2bw0fHODhm1uhL/VwlnETrYxSqftPZcLDqmw6jqntD/eHCFdvEw=
-
-sudo: false # route your build to the container-based infrastructure for a faster build
+  - GH_USERNAME=mayarichman
+  - GH_OWNER=the-engine-room
+  - GH_REPO=responsible-data-handbook
+  - GH_REF=github.com/the-engine-room/responsible-data-handbook.git
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: jCjzDb8EPzXfE3FDNKyipCmBMjttyn4MM0Q+EB2cWBSmuqyNuoBmP1IZpFgkq+NqonMzhVBZOhwpdNz3mIA+/FAlj337FvZn6+mwDl/wfDBq9ioJ9S7UvpnXgInzwgHxBDeOSaatTskvENuxkNNIaTXHKqHzSfkPcaEtB4RO3CjVdmjhjHIEjqZfUe7E/loyvfXkvEZTZ+yC3SOl38CD/0NtxeCBiJkFRzOKfJMVnqmU0R9zC/hxMvPytdKqKoRLJOQyNOUauv8aienAKxeIpPvlF2vc+Hv/YN/kLEp2fbvTBhNRICZVwFsEXTyU8Vz7cL1v8/UsVy7UvQIJBJ97eg3vQYbO0KOvogC2EMh5vuWW0k5E5s1NfflphmL8MR7zTQJdueadyhAxCA+eTaNSO4Iy0/h2mytPDSZo5EvtvIAJ0ejFBpX3ttX/LKINDWED5OYXKK3wSA2AN6X3bZBEfCNr7uyhF8oWw26nGpEgLuyfys9fI5WWMhLbFW7T7lYxlrQbztzsdZku6izKvtThPwF5rsbXg4BTxWn6AeExsX7WlQ6h46/jDlv1LmNm64IABK/qwWThOdDHgbylJSLArP9Z1yZDIKnRFGTGlGvqn6w5vMYZROGKMC2I1Q1AJWGMMiWiKU7hhPBkDp8jKJAVy+hgTigQZc9RabxhWPwXxZs=
+sudo: false
