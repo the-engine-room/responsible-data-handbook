@@ -5,7 +5,7 @@ $(document).ready(function(){
 	/* add target = _blank attr to all links in markdown posts */
 	$('.post-content a').attr("target","_blank");
 
-	
+
 	$('#menuswitch').click(function(e) {
 		$(this).toggleClass('on');
 		$('#menu').toggleClass('mobile');
@@ -40,12 +40,12 @@ $(window).bind('scroll', function () {
 	    }
 
 	    if ((window.innerHeight + window.scrollY + 520) >= document.body.offsetHeight){
-	    	$('.postrow #sidemenu').fadeOut('fast');
-	    	$('.fixedbottom').fadeOut('fast');
+				$('.postrow #sidemenu, .slidepage #sidemenu').fadeOut('fast');
+				$('.fixedbottom').fadeOut('fast');
 
 	    }else{
-	    	$('.postrow #sidemenu').fadeIn('fast');
-	    	$('.fixedbottom').fadeIn('fast');
+				$('.postrow #sidemenu, .slidepage #sidemenu').fadeIn('fast');
+				$('.fixedbottom').fadeIn('fast');
 
 	    }
 	}else{
@@ -73,4 +73,3 @@ $(window).bind('scroll', function () {
 
 	}
 });
-
