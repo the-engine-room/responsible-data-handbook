@@ -75,8 +75,7 @@ Malavika Jayaram (Berkman Center for Internet & Society, Harvard), Maliha Khan
 (Oxfam US), Tania Lee (International Rescue Committee), Zara Rahman (Open
 Knowledge), Crystal Simeoni (Hivos), Friedhelm Weinberg (Huridocs), Christopher
 Wilson (the engine room), facilitated by Barbara Rühling of BookSprints.net.
-Design by Federico Pinci with a thank you to Henrik van Leeuwen and Julien
-Taquet for their early contributions.
+Design by Federico Pinci with a thank you to Shubha Bala, Henrik van Leeuwen, Katherin Machalek, Jennifer Schulte, Norman Shamas and Julien Taquet for their early contributions.
 
 ![Am I working with data?](../assets/img/img-00-01.png)
 
