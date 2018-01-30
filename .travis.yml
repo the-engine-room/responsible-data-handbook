@@ -3,22 +3,20 @@ rvm:
 - 2.1
 before_script:
 - chmod +x ./script/deploy-gh
-script: "./script/deploy-gh"
+script: ./script/deploy-gh
 branches:
   only:
   - master
-
 cache:
   bundler: true
   directories:
-    - $HOME/.rvm
-
+  - $HOME/.rvm
 env:
   global:
-  - GH_USERNAME=mayarichman
+  - GH_USERNAME=theengineroom-engineers
   - GH_OWNER=the-engine-room
   - GH_REPO=responsible-data-handbook
   - GH_REF=github.com/the-engine-room/responsible-data-handbook.git
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - secure: jCjzDb8EPzXfE3FDNKyipCmBMjttyn4MM0Q+EB2cWBSmuqyNuoBmP1IZpFgkq+NqonMzhVBZOhwpdNz3mIA+/FAlj337FvZn6+mwDl/wfDBq9ioJ9S7UvpnXgInzwgHxBDeOSaatTskvENuxkNNIaTXHKqHzSfkPcaEtB4RO3CjVdmjhjHIEjqZfUe7E/loyvfXkvEZTZ+yC3SOl38CD/0NtxeCBiJkFRzOKfJMVnqmU0R9zC/hxMvPytdKqKoRLJOQyNOUauv8aienAKxeIpPvlF2vc+Hv/YN/kLEp2fbvTBhNRICZVwFsEXTyU8Vz7cL1v8/UsVy7UvQIJBJ97eg3vQYbO0KOvogC2EMh5vuWW0k5E5s1NfflphmL8MR7zTQJdueadyhAxCA+eTaNSO4Iy0/h2mytPDSZo5EvtvIAJ0ejFBpX3ttX/LKINDWED5OYXKK3wSA2AN6X3bZBEfCNr7uyhF8oWw26nGpEgLuyfys9fI5WWMhLbFW7T7lYxlrQbztzsdZku6izKvtThPwF5rsbXg4BTxWn6AeExsX7WlQ6h46/jDlv1LmNm64IABK/qwWThOdDHgbylJSLArP9Z1yZDIKnRFGTGlGvqn6w5vMYZROGKMC2I1Q1AJWGMMiWiKU7hhPBkDp8jKJAVy+hgTigQZc9RabxhWPwXxZs=
+  - secure: eu4Rzgo73rgkFdSyF09xNU0/r3tKkNIBgLlGIofQ3Dp4azQJThaQB90XR6ZCUAod5kyEF422g4Rb+a24djQ0P+34xuwMzU34AtV8NLWR664OSJdAYbPbIMYyn4cW5eq3w64RuE7lm2H3oig830mFRgOvtVH1rKLKzj8R6sLAgTlrelUjBpnc2Fp1iYzvuZZao0uLvRZjrb36j0NzvUlTisVbqI+C2gyrDwJqWCuDnkWcjelFvueQOGg+Du/0bzUleOlr2KeVO67PZjC4mGCg3oWNCoR9HRlmYZEXHB/CVo5rIqoiAlAFU0VAu7bb07SvaD8zaX7KLf1H6aITKHzvCEMjdug3yiHumVG4LPhCecsbFPc1f9BaJ/00YD9rQRsGF2t6rEDSgvkrRRTCqjN2JGsFmGMacnh50NgQYwWgTtusCE02FiRs3zf2UgZNE5ME2xdE34K04tXMDjd/dAF1/lABtkjodMYEarcovtf448GksVIOxzipEtCn87yHVVUMz42SSOWApTfAFDGSx78tGRIhuXNVu11gqyiIrPDgS/AopT6nYq05qYK8UmcZ0+qh1Tc/9e0b2RQIUemVcZ2a2/PCWk16iT81h2VB1ZjpbAKP0j2W9aEgQYKJLs+wpyNcjqFrn+11Wgf1gLnhgoxOBq2m0I6k1dk8Qiv8yWurW50=
 sudo: false

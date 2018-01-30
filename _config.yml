@@ -6,19 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Responsible Data Handbook 
+title: Responsible Data Handbook
 email: contact@responsibledata.io
-description: A primer on why Responsible Data is a relevant concern for international development work. 
+description: A primer on why Responsible Data is a relevant concern for international development work.
 
 
 baseurl: "https://the-engine-room.github.io/responsible-data-handbook" # the subpath of your site, e.g. /blog
-#url: "https://responsibledata.io/" # the base hostname & protocol for your site	
 twitter_username: engnroom
 github_username:  the-engine-room
 
 # Build settings
 markdown: kramdown
-kramdown: 
+kramdown:
   parse_block_html: true
 
 #Permalink dictates url slugs, changing styles of slugs in _posts folder to not use "date" constructoin
