@@ -156,7 +156,7 @@ hacked website"](http://www.theguardian.com/world/2014/mar/07/abortion-service-w
 
 ###Further resources
 
--   [The Frontline SMS Users' Guide to Data Integrity](http://www.frontlinesms.com/wp-content/uploads/2011/08/frontlinesms_userguide.pdf)
+-   [The Frontline SMS Users' Guide to Data Integrity](https://static1.squarespace.com/static/56e1a99907eaa0941d037b0a/56e1aa9e06dcb7bbf42a70ce/56e1aab506dcb7bbf42a750f/1457629877708/frontlinesms_userguide.pdf?format=original)
 
 -   [Deflect](https://deflect.ca/)
 
