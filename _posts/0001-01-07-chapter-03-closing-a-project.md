@@ -106,7 +106,7 @@ This [Online Directory](http://urgent-responses.awid.org/) was produced by the A
 
 * [Security in a Box](https://securityinabox.org/)
 
-* [Privacy Analyzer (Privacy.net](https://privacy.net/analyzer/)
+* [Privacy Analyzer (Privacy.net)](https://privacy.net/analyzer/)
 
 * [Dialing Down Risks: Mobile Privacy and Information Security in Global
 Development Projects (New America Foundation)](http://newamerica.net/publications/policy/dialing_down_risks_mobile_privacy_and_information_security_in_global_development)
